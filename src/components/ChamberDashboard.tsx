@@ -91,14 +91,18 @@ function LazyChamberCard({ chamber }: { chamber: Chamber }) {
             })}
           </div>
         ) : (
-          // Skeleton pills — one per item, varying widths to mimic real text lengths
+          // Skeleton pills — mathematically identical dimensions to prevent ANY layout shift on scroll
           <div className="flex flex-wrap gap-2">
-            {Array.from({ length: chamber.items.length }).map((_, i) => (
-              <Skeleton
-                key={i}
-                className="h-8 rounded-lg"
-                style={{ width: `${64 + (i % 5) * 16}px` }}
-              />
+            {chamber.items.map(item => (
+              <div
+                key={item.name}
+                className="flex items-center gap-2 border border-transparent rounded-lg p-1.5 pr-3 bg-muted/10 animate-pulse pointer-events-none"
+              >
+                <div className="w-6 h-6 rounded bg-muted/20" />
+                <span className="text-xs whitespace-nowrap text-transparent bg-muted/20 rounded select-none">
+                  {item.name}
+                </span>
+              </div>
             ))}
           </div>
         )}

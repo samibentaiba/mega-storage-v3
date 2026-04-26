@@ -162,31 +162,45 @@ export function SearchDashboard({ data }: SearchDashboardProps) {
   if (!mounted) {
     return (
       <div className="flex flex-col items-center justify-center p-4 overflow-x-hidden w-full">
-        <div className="relative flex flex-col items-center w-[392px] scale-[0.85] sm:scale-[1.25] md:scale-[1.5] lg:scale-[1.75] xl:scale-[2] origin-top mb-[-40px] sm:mb-[100px] md:mb-[200px] lg:mb-[300px] xl:mb-[400px]">
-          {/* Skeleton tabs row */}
-          <div className="flex w-[392px] items-end gap-1 -mb-px">
+        <div className="relative flex flex-col items-center w-[392px] transform scale-[0.85] sm:scale-[1.25] md:scale-[1.5] lg:scale-[1.75] xl:scale-[2] origin-top mb-[-40px] sm:mb-[100px] md:mb-[200px] lg:mb-[300px] xl:mb-[400px]">
+          
+          {/* Skeleton Top Tabs */}
+          <div className="flex w-[392px] items-end z-10 relative">
             {Array.from({ length: 6 }).map((_, i) => (
-              <Skeleton key={i} className="w-[54px] h-[30px] rounded-b-none" />
+              <div key={i} className="mc-tab-top" />
             ))}
+            <div className="flex-1" />
+            <div className="mc-tab-top active" />
           </div>
-          {/* Skeleton main window */}
-          <div className="mc-window w-[392px] h-[272px] flex flex-col items-center pt-[16px] pb-[16px]">
+
+          {/* Skeleton Main Window */}
+          <div className="mc-window w-[392px] h-[272px] flex flex-col items-center pt-[16px] pb-[16px] z-20">
             <div className="flex justify-between items-end w-[356px] h-[24px] mb-[12px]">
-              <Skeleton className="w-28 h-4" />
-              <Skeleton className="w-[180px] h-[24px]" />
+              <h2 className="text-[#373737] font-bold text-[16px] leading-none select-none tracking-tight animate-pulse" style={{ fontFamily: "monospace" }}>
+                Loading...
+              </h2>
+              <div className="mc-search-input w-[180px] h-[24px] opacity-50" />
             </div>
-            <div className="grid grid-cols-9 gap-[2px] w-[356px]">
-              {Array.from({ length: 45 }).map((_, i) => (
-                <Skeleton key={i} className="w-[36px] h-[36px] rounded-none" />
-              ))}
+            
+            <div className="relative w-[356px] h-[180px] flex gap-[4px] animate-pulse">
+              <div className="grid grid-cols-9 gap-[2px] w-[324px] h-[180px] grid-rows-5">
+                {Array.from({ length: 45 }).map((_, i) => (
+                  <div key={`empty-${i}`} className="mc-slot" />
+                ))}
+              </div>
+              <div className="mc-scrollbar flex flex-col items-center">
+                <div className="mc-scrollbar-thumb" style={{ top: "0px" }} />
+              </div>
             </div>
           </div>
-          {/* Skeleton bottom tabs */}
-          <div className="flex w-[392px] items-end gap-1 -mt-px">
-            {Array.from({ length: 6 }).map((_, i) => (
-              <Skeleton key={i} className="w-[54px] h-[30px] rounded-t-none" />
+
+          {/* Skeleton Bottom Tabs */}
+          <div className="flex w-[392px] items-start z-10 relative mt-[-2px]">
+            {Array.from({ length: 7 }).map((_, i) => (
+              <div key={i} className="mc-tab-bottom" />
             ))}
           </div>
+
         </div>
       </div>
     );
