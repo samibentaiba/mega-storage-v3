@@ -8,9 +8,11 @@ interface ItemSlotProps {
   name: string;
   wiki_url?: string;
   chamberName: string;
+  chamberId?: number | null;
+  chamberItemCount?: number | null;
 }
 
-export function ItemSlot({ name, wiki_url, chamberName }: ItemSlotProps) {
+export function ItemSlot({ name, wiki_url, chamberName, chamberId, chamberItemCount }: ItemSlotProps) {
   const wikiName = name
     .replace(/\s*\(.*?\)\s*/g, ' ')
     .trim()
@@ -54,7 +56,14 @@ export function ItemSlot({ name, wiki_url, chamberName }: ItemSlotProps) {
           </div>
           <div className="flex items-start gap-1.5 text-[#55FFFF] text-[10px] font-medium italic">
             <MapPin className="w-3 h-3 mt-0.5 shrink-0" />
-            <span>Stored in: {chamberName}</span>
+            <div className="flex flex-col">
+              <span>Stored in: {chamberName}</span>
+              {chamberId !== null && chamberId !== undefined && (
+                <span className="text-[#AAAAAA] mt-0.5">
+                  Chamber {chamberId}/22 • {chamberItemCount} items total
+                </span>
+              )}
+            </div>
           </div>
           {wiki_url && (
             <div className="mt-1 text-[9px] text-[#AAAAAA] italic text-center border-t border-white/10 pt-1">
@@ -66,3 +75,5 @@ export function ItemSlot({ name, wiki_url, chamberName }: ItemSlotProps) {
     </TooltipProvider>
   )
 }
+
+ItemSlot.displayName = "ItemSlot";

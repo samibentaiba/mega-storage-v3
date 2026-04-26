@@ -32,7 +32,7 @@
   --card-foreground: oklch(98.5% 0 0);
   --popover: oklch(14.5% 0 0);
   --popover-foreground: oklch(98.5% 0 0);
-  --primary: oklch(70% 0.15 150); /* Neon Emerald */
+  --primary: oklch(70% 0.15 150);
   --primary-foreground: oklch(20% 0.05 150);
   --secondary: oklch(25% 0.02 0);
   --secondary-foreground: oklch(98.5% 0 0);
@@ -48,17 +48,11 @@
   --radius: 0.5rem;
 }
 
-/* Minecraft Ore Accents */
-.accent-diamond { --primary: oklch(75% 0.12 210); --ring: oklch(75% 0.12 210); }
-.accent-gold { --primary: oklch(80% 0.15 85); --ring: oklch(80% 0.15 85); }
-.accent-emerald { --primary: oklch(70% 0.15 150); --ring: oklch(70% 0.15 150); }
-.accent-redstone { --primary: oklch(60% 0.15 25); --ring: oklch(60% 0.15 25); }
-
 @layer base {
   * {
     @apply border-border;
   }
-  /* Minecraft Specific Styles */
+  
   body {
     @apply bg-[#1D1D1D] text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
@@ -72,19 +66,100 @@
 
   .mc-window {
     background-color: #C6C6C6;
-    border: 3px solid;
-    border-color: #FFFFFF #555555 #555555 #FFFFFF;
-    outline: 3px solid #000000;
+    box-shadow: 
+      inset 2px 2px 0px 0px #FFFFFF,
+      inset -2px -2px 0px 0px #555555;
+    border: 2px solid #000000;
     position: relative;
     z-index: 10;
     image-rendering: pixelated;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+  }
+
+  .mc-tab-top {
+    background-color: #8B8B8B;
+    box-shadow: 
+      inset 2px 2px 0px 0px #FFFFFF,
+      inset -2px 0px 0px 0px #555555;
+    border: 2px solid #000000;
+    border-bottom: none;
+    width: 56px;
+    height: 56px;
+    position: relative;
+    z-index: 5;
+    margin-bottom: 0px; 
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    cursor: pointer;
+    image-rendering: pixelated;
+  }
+
+  .mc-tab-top.active {
+    background-color: #C6C6C6;
+    height: 64px;
+    z-index: 20;
+    margin-bottom: -2px; /* Pull down to overlap window's black border */
+    box-shadow: 
+      inset 2px 2px 0px 0px #FFFFFF,
+      inset -2px 0px 0px 0px #555555;
+  }
+
+  /* Cover window's top white shadow */
+  .mc-tab-top.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; 
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #C6C6C6;
+    z-index: 25;
+  }
+
+  .mc-tab-bottom {
+    background-color: #8B8B8B;
+    box-shadow: 
+      inset 2px 0px 0px 0px #FFFFFF,
+      inset -2px -2px 0px 0px #555555;
+    border: 2px solid #000000;
+    border-top: none;
+    width: 56px;
+    height: 56px;
+    position: relative;
+    z-index: 5;
+    margin-top: 0px; 
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+    image-rendering: pixelated;
+  }
+
+  .mc-tab-bottom.active {
+    background-color: #C6C6C6;
+    height: 64px;
+    z-index: 20;
+    margin-top: -2px; /* Overlap window's black bottom border */
+    box-shadow: 
+      inset 2px 0px 0px 0px #FFFFFF,
+      inset -2px -2px 0px 0px #555555;
+  }
+
+  /* Cover window's bottom dark shadow */
+  .mc-tab-bottom.active::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #C6C6C6;
+    z-index: 25;
   }
 
   .mc-slot {
     background-color: #8B8B8B;
-    border: 2px solid;
-    border-color: #373737 #FFFFFF #FFFFFF #373737;
+    box-shadow: 
+      inset 2px 2px 0px 0px #373737,
+      inset -2px -2px 0px 0px #FFFFFF;
     width: 36px;
     height: 36px;
     display: flex;
@@ -93,88 +168,22 @@
     position: relative;
     image-rendering: pixelated;
   }
-
+  
   .mc-slot:hover::after {
     content: '';
     position: absolute;
-    inset: 0px;
+    inset: 2px;
     background-color: rgba(255, 255, 255, 0.4);
     z-index: 20;
     pointer-events: none;
   }
 
-  .mc-tab-top {
-    background-color: #8B8B8B;
-    border: 3px solid;
-    border-color: #FFFFFF #555555 #C6C6C6 #FFFFFF;
-    outline: 3px solid #000000;
-    position: relative;
-    z-index: 5;
-    margin-bottom: -3px; /* Pull down to overlap border */
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    width: 34px;
-    height: 34px;
-    transition: all 0.1s ease-out;
-  }
-
-  .mc-tab-top.active {
-    background-color: #C6C6C6;
-    border-bottom: none;
-    z-index: 25;
-    height: 42px;
-    margin-bottom: -3px;
-  }
-
-  /* Specific pseudo element to hide the bottom outline when active */
-  .mc-tab-top.active::after {
-    content: '';
-    position: absolute;
-    bottom: -3px;
-    left: 0;
-    right: 0;
-    height: 6px;
-    background-color: #C6C6C6;
-    z-index: 26;
-  }
-
-  .mc-tab-bottom {
-    background-color: #8B8B8B;
-    border: 3px solid;
-    border-color: #C6C6C6 #555555 #555555 #FFFFFF;
-    outline: 3px solid #000000;
-    position: relative;
-    z-index: 5;
-    margin-top: -3px;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-    width: 34px;
-    height: 34px;
-    transition: all 0.1s ease-out;
-  }
-
-  .mc-tab-bottom.active {
-    background-color: #C6C6C6;
-    border-top: none;
-    z-index: 25;
-    height: 42px;
-  }
-
-  .mc-tab-bottom.active::after {
-    content: '';
-    position: absolute;
-    top: -3px;
-    left: 0;
-    right: 0;
-    height: 6px;
-    background-color: #C6C6C6;
-    z-index: 26;
-  }
-
   .mc-search-input {
     background-color: #000000;
-    border: 2px solid;
-    border-color: #555555 #FFFFFF #FFFFFF #555555;
+    border: 2px solid #000000;
+    box-shadow: 
+      inset 2px 2px 0px 0px #555555,
+      inset -2px -2px 0px 0px #FFFFFF;
     color: #FFFFFF;
     outline: none;
     font-family: monospace;
@@ -183,23 +192,24 @@
   }
 
   .mc-scrollbar-track {
-    background-color: #2D2D2D;
-    border: 2px solid;
-    border-color: #111111 #555555 #555555 #111111;
+    background-color: #373737;
+    box-shadow: 
+      inset 2px 2px 0px 0px #111111,
+      inset -2px -2px 0px 0px #555555;
     width: 24px;
-    display: flex;
-    justify-content: center;
-    padding-top: 2px;
+    position: relative;
   }
 
   .mc-scrollbar-thumb {
     background-color: #C6C6C6;
-    border: 2px solid;
-    border-color: #FFFFFF #555555 #555555 #FFFFFF;
-    width: 18px;
+    box-shadow: 
+      inset 2px 2px 0px 0px #FFFFFF,
+      inset -2px -2px 0px 0px #555555;
+    border: 2px solid #000000;
+    width: 20px;
     height: 30px;
+    position: absolute;
+    left: 2px;
     image-rendering: pixelated;
   }
 }
-
-

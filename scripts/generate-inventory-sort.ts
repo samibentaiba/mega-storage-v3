@@ -123,7 +123,9 @@ async function run() {
         name: item.name,
         wiki_url: item.wiki_url,
         stackable,
-        chamber: stackable ? chamber.name : 'Copper Golem Non-stockable Bottom chamber (CGNSB)'
+        chamber: stackable ? chamber.name : 'Copper Golem Non-stockable Bottom chamber (CGNSB)',
+        chamberId: stackable ? chamber.id : null,
+        chamberItemCount: stackable ? chamber.items.length : null
       });
     }
   }

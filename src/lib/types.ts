@@ -18,5 +18,7 @@ export interface CreativeCategory {
     wiki_url: string;
     stackable: boolean;
     chamber: string;
+    chamberId: number | null;
+    chamberItemCount: number | null;
   }[];
 }

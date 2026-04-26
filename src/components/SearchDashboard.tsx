@@ -25,6 +25,8 @@ export function SearchDashboard({ data }: SearchDashboardProps) {
         wiki_url: item.wiki_url,
         stackable: item.stackable,
         chamberName: item.chamber,
+        chamberId: item.chamberId,
+        chamberItemCount: item.chamberItemCount,
         categoryName: category.name,
       }))
     );
@@ -84,25 +86,23 @@ export function SearchDashboard({ data }: SearchDashboardProps) {
       case "Food & Drinks": iconName = "Golden_Apple"; break;
       case "Ingredients": iconName = "Iron_Ingot"; break;
       case "Spawn Eggs": iconName = "Pig_Spawn_Egg"; break;
-      case "Operator Utilities": iconName = "Command_Block"; break;
       case "search": iconName = "Compass"; break;
-      case "hotbars": iconName = "Bookshelf"; break;
       case "survival": iconName = "Chest"; break;
-      case "all": iconName = "Chest"; break;
     }
 
     const extension = (iconName === "Compass" || iconName === "Clock") ? "gif" : "png";
     const iconUrl = `https://minecraft.wiki/images/Invicon_${iconName}.${extension}`;
 
     return (
-      <div className="flex items-center justify-center w-full h-full">
+      <div className="flex items-center justify-center w-full h-full pb-1">
         <img 
           src={iconUrl} 
           alt={iconName}
-          className="w-5 h-5 object-contain pixelated"
+          className="w-8 h-8 object-contain pixelated"
           onError={(e) => {
-            if (iconName === "Chest") {
-               e.currentTarget.src = "https://minecraft.wiki/images/Invicon_Chest_JE4_BE2.png";
+            // Hotfix for redstone dust which is sometimes named differently
+            if (iconName === "Redstone_Dust") {
+               e.currentTarget.src = "https://minecraft.wiki/images/Invicon_Redstone.png";
             }
           }}
         />
@@ -110,12 +110,11 @@ export function SearchDashboard({ data }: SearchDashboardProps) {
     );
   }
 
-  // Exact 14 tabs
-  const topTabs = ["Building Blocks", "Colored Blocks", "Natural Blocks", "Functional Blocks", "Redstone Blocks", "Tools & Utilities"]; 
-  const bottomTabs = ["Combat", "Food & Drinks", "Ingredients", "Spawn Eggs", "Operator Utilities", "hotbars", "survival"];
+  // Exact Minecraft 1.21 tabs layout
+  const topTabs = ["Building Blocks", "Colored Blocks", "Natural Blocks", "Functional Blocks", "Redstone Blocks"]; 
+  const bottomTabs = ["Tools & Utilities", "Combat", "Food & Drinks", "Ingredients", "Spawn Eggs"];
 
   const currentChamberName = activeTab === "search" ? "Search Items" 
-    : activeTab === "hotbars" ? "Saved Hotbars"
     : activeTab === "survival" ? "Survival Inventory"
     : activeTab === "all" ? "All Items"
     : activeTab;
@@ -132,6 +131,8 @@ export function SearchDashboard({ data }: SearchDashboardProps) {
             name={item.name}
             wiki_url={item.wiki_url}
             chamberName={item.chamberName}
+            chamberId={item.chamberId}
+            chamberItemCount={item.chamberItemCount}
           />
         );
       } else {
@@ -150,19 +151,18 @@ export function SearchDashboard({ data }: SearchDashboardProps) {
       <div className="relative flex flex-col items-center w-[392px]">
         
         {/* Top Tabs */}
-        <div className="flex justify-between w-[392px] px-[8px] h-[56px] items-end z-10">
-          <div className="flex">
-            {topTabs.map(tabId => (
-              <button
-                key={tabId}
-                onClick={() => setActiveTab(tabId as any)}
-                className={cn("mc-tab-top flex items-center justify-center cursor-pointer", activeTab === tabId && "active")}
-                title={data.find(c => c.id === tabId)?.name}
-              >
-                {getIconForTab(tabId)}
-              </button>
-            ))}
-          </div>
+        <div className="flex w-[392px] items-end z-10 relative">
+          {topTabs.map(tabId => (
+            <button
+              key={tabId}
+              onClick={() => setActiveTab(tabId)}
+              className={cn("mc-tab-top flex items-center justify-center cursor-pointer", activeTab === tabId && "active")}
+              title={tabId}
+            >
+              {getIconForTab(tabId)}
+            </button>
+          ))}
+          <div className="flex-1" />
           <button
             onClick={() => setActiveTab("search")}
             className={cn("mc-tab-top flex items-center justify-center cursor-pointer", activeTab === "search" && "active")}
@@ -173,9 +173,9 @@ export function SearchDashboard({ data }: SearchDashboardProps) {
         </div>
 
         {/* Main Window */}
-        <div className="mc-window w-[392px] h-[400px] flex flex-col items-center pt-[16px] pb-[16px] z-20">
-          <div className="flex justify-between items-end w-[360px] h-[24px] mb-[8px]">
-            <h2 className="text-[#373737] font-bold text-[16px] leading-none select-none" style={{ fontFamily: "monospace" }}>
+        <div className="mc-window w-[392px] h-[272px] flex flex-col items-center pt-[16px] pb-[16px] z-20">
+          <div className="flex justify-between items-end w-[356px] h-[24px] mb-[12px]">
+            <h2 className="text-[#373737] font-bold text-[16px] leading-none select-none tracking-tight" style={{ fontFamily: "monospace" }}>
               {currentChamberName}
             </h2>
             {activeTab === "search" && (
@@ -183,12 +183,12 @@ export function SearchDashboard({ data }: SearchDashboardProps) {
                 autoFocus
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="mc-search-input w-[140px] h-[24px] px-[4px]"
+                className="mc-search-input w-[180px] h-[24px] px-[6px] py-[2px]"
               />
             )}
           </div>
 
-          <div className="flex justify-between w-[360px]">
+          <div className="flex justify-between w-[356px]">
             <div className="grid grid-cols-9 gap-0 w-[324px] h-[180px]" onWheel={handleWheel}>
               {renderSlots()}
             </div>
@@ -198,42 +198,32 @@ export function SearchDashboard({ data }: SearchDashboardProps) {
               onMouseDown={handleScrollDrag}
             >
               <div 
-                className="mc-scrollbar-thumb absolute left-0 right-0 mx-auto" 
+                className="mc-scrollbar-thumb" 
                 style={{ top: `${scrollThumbTop + 2}px` }}
               />
-            </div>
-          </div>
-
-          {/* Hotbar (Empty for now) */}
-          <div className="absolute bottom-[16px] w-[360px] flex justify-start">
-            <div className="flex gap-0 w-[324px]">
-               {Array.from({ length: 9 }).map((_, i) => (
-                  <div key={`hotbar-${i}`} className="mc-slot" />
-               ))}
             </div>
           </div>
         </div>
 
         {/* Bottom Tabs */}
-        <div className="flex justify-between w-[392px] px-[8px] h-[56px] items-start z-10">
-          <div className="flex">
-            {bottomTabs.map(tabId => (
-              <button
-                key={tabId}
-                onClick={() => setActiveTab(tabId as any)}
-                className={cn("mc-tab-bottom flex items-center justify-center cursor-pointer", activeTab === tabId && "active")}
-                title={data.find(c => c.id === tabId)?.name}
-              >
-                {getIconForTab(tabId)}
-              </button>
-            ))}
-          </div>
+        <div className="flex w-[392px] items-start z-10 relative">
+          {bottomTabs.map(tabId => (
+            <button
+              key={tabId}
+              onClick={() => setActiveTab(tabId)}
+              className={cn("mc-tab-bottom flex items-center justify-center cursor-pointer", activeTab === tabId && "active")}
+              title={tabId}
+            >
+              <div className="mt-2">{getIconForTab(tabId)}</div>
+            </button>
+          ))}
+          <div className="flex-1" />
           <button
-            onClick={() => setActiveTab("all")}
-            className={cn("mc-tab-bottom flex items-center justify-center cursor-pointer", activeTab === "all" && "active")}
-            title="All Items"
+            onClick={() => setActiveTab("survival")}
+            className={cn("mc-tab-bottom flex items-center justify-center cursor-pointer", activeTab === "survival" && "active")}
+            title="Survival Inventory"
           >
-            {getIconForTab("all")}
+            <div className="mt-2">{getIconForTab("survival")}</div>
           </button>
         </div>
       </div>
