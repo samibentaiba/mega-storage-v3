@@ -112,24 +112,36 @@ function LazyChamberCard({ chamber }: { chamber: Chamber }) {
 }
 
 // ─── Chamber Dashboard ─────────────────────────────────────────────────────────
-export function ChamberDashboard({ data }: { data: Chamber[] }) {
+export function ChamberDashboard() {
   const [search, setSearch] = React.useState("")
   const debouncedSearch = useDebounce(search, 250)
+  const [filteredChambers, setFilteredChambers] = React.useState<Chamber[]>([])
+  const [loading, setLoading] = React.useState(true)
 
-  const filteredChambers = React.useMemo(() => {
-    if (!debouncedSearch) return data
-    const lower = debouncedSearch.toLowerCase()
+  React.useEffect(() => {
+    let isMounted = true
+    setLoading(true)
 
-    return data.map(chamber => {
-      if (chamber.name.toLowerCase().includes(lower) || chamber.id.toString() === lower) {
-        return chamber
-      }
-      const matchingItems = chamber.items.filter(item =>
-        item.name.toLowerCase().includes(lower)
-      )
-      return matchingItems.length > 0 ? { ...chamber, items: matchingItems } : null
-    }).filter(Boolean) as Chamber[]
-  }, [data, debouncedSearch])
+    const params = new URLSearchParams()
+    if (debouncedSearch) {
+      params.set("search", debouncedSearch)
+    }
+
+    fetch(`/api/chambers?${params.toString()}`)
+      .then(res => res.json())
+      .then(data => {
+        if (isMounted) {
+          setFilteredChambers(data)
+          setLoading(false)
+        }
+      })
+      .catch(err => {
+        console.error("Failed to fetch chambers", err)
+        if (isMounted) setLoading(false)
+      })
+
+    return () => { isMounted = false }
+  }, [debouncedSearch])
 
   return (
     <div className="w-full max-w-6xl mx-auto px-4 flex flex-col gap-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
@@ -145,10 +157,16 @@ export function ChamberDashboard({ data }: { data: Chamber[] }) {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-4">
-        {filteredChambers.map(chamber => (
-          <LazyChamberCard key={chamber.id} chamber={chamber} />
-        ))}
-        {filteredChambers.length === 0 && (
+        {loading ? (
+          Array.from({ length: 4 }).map((_, i) => (
+            <div key={i} className="bg-[#1a1a1a] border border-muted/20 rounded-xl h-[134px] animate-pulse" />
+          ))
+        ) : (
+          filteredChambers.map(chamber => (
+            <LazyChamberCard key={chamber.id} chamber={chamber} />
+          ))
+        )}
+        {!loading && filteredChambers.length === 0 && (
           <div className="col-span-full py-20 text-center flex flex-col items-center gap-4 text-muted-foreground">
             <Search className="w-12 h-12 opacity-20" />
             <p className="text-lg">No chambers or items found matching &ldquo;{debouncedSearch}&rdquo;</p>

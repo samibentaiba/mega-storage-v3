@@ -26,8 +26,6 @@ export function ItemSlot({ name, wiki_url, chamberName, chamberId, chamberItemCo
         <img 
           src={iconUrl} 
           alt={name}
-          loading="lazy"
-          decoding="async"
           className="w-7 h-7 object-contain pixelated"
           onError={(e) => {
             // Fallback if the Invicon doesn't exist

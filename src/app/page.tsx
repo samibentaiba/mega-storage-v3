@@ -1,14 +1,8 @@
 import * as React from "react";
 import { DashboardContainer } from "@/components/DashboardContainer";
-import inventorySort from "@/data/inventory-sort.json";
-import storageSystem from "@/data/storage-system.json";
-import { CreativeCategory, Chamber } from "@/lib/types";
 import { Database } from "lucide-react";
 
 export default function Home() {
-  const categories = inventorySort.categories as CreativeCategory[];
-  const chambers = storageSystem as Chamber[];
-
   return (
     <div className="min-h-screen bg-background selection:bg-primary/30">
       <header className="relative py-12 px-6 overflow-hidden border-b border-muted/20">
@@ -27,7 +21,7 @@ export default function Home() {
       </header>
 
       <main className="pt-8">
-        <DashboardContainer categories={categories} chambers={chambers} />
+        <DashboardContainer />
       </main>
 
       <footer className="py-8 border-t border-muted/20 mt-12 text-center text-sm text-muted-foreground bg-muted/5 relative z-10">
