@@ -75,5 +75,3 @@ export function ItemSlot({ name, wiki_url, chamberName, chamberId, chamberItemCo
     </TooltipProvider>
   )
 }
-
-ItemSlot.displayName = "ItemSlot";

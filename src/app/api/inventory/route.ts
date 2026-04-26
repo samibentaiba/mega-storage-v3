@@ -28,8 +28,8 @@ export async function GET(request: Request) {
   // Filter by search query
   if (tab === "search") {
     if (!search) {
-      // Return empty array to prevent massive payloads before user types anything
-      return NextResponse.json([])
+      // In Minecraft, the search tab displays all items when the search box is empty.
+      return NextResponse.json(allItems)
     }
     const items = allItems.filter(item => item.name.toLowerCase().includes(search.toLowerCase()))
     return NextResponse.json(items)
