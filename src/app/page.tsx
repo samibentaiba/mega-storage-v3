@@ -1,16 +1,17 @@
 import * as React from "react";
-import { SearchDashboard } from "@/components/SearchDashboard";
+import { DashboardContainer } from "@/components/DashboardContainer";
 import inventorySort from "@/data/inventory-sort.json";
-import { CreativeCategory } from "@/lib/types";
+import storageSystem from "@/data/storage-system.json";
+import { CreativeCategory, Chamber } from "@/lib/types";
 import { Database } from "lucide-react";
 
 export default function Home() {
   const categories = inventorySort.categories as CreativeCategory[];
+  const chambers = storageSystem as Chamber[];
 
   return (
     <div className="min-h-screen bg-background selection:bg-primary/30">
       <header className="relative py-12 px-6 overflow-hidden border-b border-muted/20">
-        {/* Subtle grid pattern background */}
         <div className="absolute inset-0 z-0 opacity-[0.03] pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]" />
         
         <div className="max-w-7xl mx-auto relative z-10 flex flex-col items-center text-center gap-4">
@@ -25,11 +26,10 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="pb-20">
-        <SearchDashboard data={categories} />
+      <main className="pt-8">
+        <DashboardContainer categories={categories} chambers={chambers} />
       </main>
 
     </div>
   );
 }
-
