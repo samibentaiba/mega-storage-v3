@@ -50,23 +50,23 @@ export function ItemSlot({ name, wiki_url, chamberName, chamberId, chamberItemCo
             {renderIcon()}
           </a>
         </TooltipTrigger>
-        <TooltipContent side="top" className="bg-[#1D1D1D] border-2 border-[#555] text-white p-2 flex flex-col gap-1 max-w-[200px]">
-          <div className="text-[#FF55FF] font-bold text-sm tracking-wide">
+        <TooltipContent side="top" className="bg-[#1D1D1D] border-2 border-[#555] text-white p-3 flex flex-col gap-1.5 max-w-[300px] shadow-xl z-50">
+          <div className="text-[#FF55FF] font-bold text-lg tracking-wide">
             {name}
           </div>
-          <div className="flex items-start gap-1.5 text-[#55FFFF] text-[10px] font-medium italic">
-            <MapPin className="w-3 h-3 mt-0.5 shrink-0" />
+          <div className="flex items-start gap-2 text-[#55FFFF] text-sm font-medium italic">
+            <MapPin className="w-4 h-4 mt-0.5 shrink-0" />
             <div className="flex flex-col">
               <span>Stored in: {chamberName}</span>
               {chamberId !== null && chamberId !== undefined && (
-                <span className="text-[#AAAAAA] mt-0.5">
+                <span className="text-[#AAAAAA] mt-1">
                   Chamber {chamberId}/22 • {chamberItemCount} items total
                 </span>
               )}
             </div>
           </div>
           {wiki_url && (
-            <div className="mt-1 text-[9px] text-[#AAAAAA] italic text-center border-t border-white/10 pt-1">
+             <div className="mt-2 text-xs text-[#AAAAAA] italic text-center border-t border-white/10 pt-2">
               Click to view Wiki profile
             </div>
           )}

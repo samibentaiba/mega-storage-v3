@@ -38,11 +38,15 @@ export default function Home() {
           </a>
           .
         </p>
-        <p className="mt-1">
+        <div className="flex items-center justify-center gap-4 flex-wrap mt-2">
           <a href="https://burlimonster.com/gaming/best-minecraft-mega-storage-world-download/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground hover:underline transition-colors">
-            Download the original storage world
+            Download original storage world
           </a>
-        </p>
+          <span className="opacity-50">•</span>
+          <a href="https://github.com/samibentaiba/mega-storage-v3" target="_blank" rel="noopener noreferrer" className="hover:text-foreground hover:underline transition-colors font-medium text-foreground">
+            Contribute on GitHub
+          </a>
+        </div>
       </footer>
     </div>
   );
