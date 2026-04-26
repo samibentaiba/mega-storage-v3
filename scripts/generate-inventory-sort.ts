@@ -104,6 +104,7 @@ async function run() {
   const processedItems = new Set();
 
   for (const chamber of storageData) {
+    let stackableIndex = 0;
     for (const item of chamber.items) {
       if (processedItems.has(item.name)) continue;
       processedItems.add(item.name);
@@ -119,13 +120,24 @@ async function run() {
         }
       }
       
+      let chamberSide = null;
+      let chamberPosition = null;
+      
+      if (stackable) {
+        chamberSide = stackableIndex < 31 ? 'left' : 'right';
+        chamberPosition = (stackableIndex % 31) + 1;
+        stackableIndex++;
+      }
+      
       cat!.items.push({
         name: item.name,
         wiki_url: item.wiki_url,
         stackable,
         chamber: stackable ? chamber.name : 'Copper Golem Non-stockable Bottom chamber (CGNSB)',
         chamberId: stackable ? chamber.id : null,
-        chamberItemCount: stackable ? chamber.items.length : null
+        chamberItemCount: stackable ? chamber.items.length : null,
+        chamberSide,
+        chamberPosition
       });
     }
   }

@@ -143,6 +143,8 @@ export function SearchDashboard() {
             chamberName={item.chamberName}
             chamberId={item.chamberId}
             chamberItemCount={item.chamberItemCount}
+            chamberSide={item.chamberSide}
+            chamberPosition={item.chamberPosition}
           />
         );
       } else {

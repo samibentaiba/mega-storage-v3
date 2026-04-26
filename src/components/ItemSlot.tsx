@@ -10,9 +10,11 @@ interface ItemSlotProps {
   chamberName: string;
   chamberId?: number | null;
   chamberItemCount?: number | null;
+  chamberSide?: 'left' | 'right' | null;
+  chamberPosition?: number | null;
 }
 
-export function ItemSlot({ name, wiki_url, chamberName, chamberId, chamberItemCount }: ItemSlotProps) {
+export function ItemSlot({ name, wiki_url, chamberName, chamberId, chamberItemCount, chamberSide, chamberPosition }: ItemSlotProps) {
   const wikiName = name
     .replace(/\s*\(.*?\)\s*/g, ' ')
     .trim()
@@ -61,6 +63,11 @@ export function ItemSlot({ name, wiki_url, chamberName, chamberId, chamberItemCo
               {chamberId !== null && chamberId !== undefined && (
                 <span className="text-[#AAAAAA] mt-1">
                   Chamber {chamberId}/22 • {chamberItemCount} items total
+                </span>
+              )}
+              {chamberSide && chamberPosition !== null && chamberPosition !== undefined && (
+                <span className="text-[#AAAAAA] mt-1">
+                  Side: <span className="text-white">{chamberSide === 'left' ? 'Left' : 'Right'}</span> • Position: <span className="text-white">{chamberPosition}</span>
                 </span>
               )}
             </div>

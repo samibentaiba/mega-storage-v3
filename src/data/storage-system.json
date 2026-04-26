@@ -272,6 +272,22 @@
     "name": "Drops & Mob Loot",
     "active item": 64,
     "items": [
+""      {
+        "name": "Firework Rocket",
+        "wiki_url": "https://minecraft.wiki/w/Firework_Rocket"
+      },
+      {
+        "name": "Bottle o' Enchanting",
+        "wiki_url": "https://minecraft.wiki/w/Bottle_o'_Enchanting"
+      },
+      {
+        "name": "Stick",
+        "wiki_url": "https://minecraft.wiki/w/Stick"
+      },
+      {
+        "name": "String",
+        "wiki_url": "https://minecraft.wiki/w/String"
+      },
       {
         "name": "Rotten Flesh",
         "wiki_url": "https://minecraft.wiki/w/Rotten_Flesh"

@@ -15,6 +15,8 @@ export async function GET(request: Request) {
       chamberName: item.chamber,
       chamberId: item.chamberId,
       chamberItemCount: item.chamberItemCount,
+      chamberSide: item.chamberSide,
+      chamberPosition: item.chamberPosition,
       categoryName: category.name,
     }))
   )
