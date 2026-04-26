@@ -30,6 +30,20 @@ export default function Home() {
         <DashboardContainer categories={categories} chambers={chambers} />
       </main>
 
+      <footer className="py-8 border-t border-muted/20 mt-12 text-center text-sm text-muted-foreground bg-muted/5 relative z-10">
+        <p>
+          Companion dashboard for the Minecraft Mega Storage machine created by{" "}
+          <a href="https://www.youtube.com/@Burlimonster" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">
+            Burlimonster
+          </a>
+          .
+        </p>
+        <p className="mt-1">
+          <a href="https://burlimonster.com/gaming/best-minecraft-mega-storage-world-download/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground hover:underline transition-colors">
+            Download the original storage world
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }

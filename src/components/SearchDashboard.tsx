@@ -147,8 +147,8 @@ export function SearchDashboard({ data }: SearchDashboardProps) {
     : 0;
 
   return (
-    <div className="flex flex-col items-center justify-center p-4 selection:bg-transparent">
-      <div className="relative flex flex-col items-center w-[392px]">
+    <div className="flex flex-col items-center justify-center p-4 selection:bg-transparent overflow-x-hidden w-full">
+      <div className="relative flex flex-col items-center w-[392px] transform scale-[1.25] sm:scale-[1.5] md:scale-[1.75] xl:scale-[2] origin-top mb-[100px] sm:mb-[200px] md:mb-[300px] xl:mb-[400px]">
         
         {/* Top Tabs */}
         <div className="flex w-[392px] items-end z-10 relative">

@@ -115,3 +115,9 @@ The current `generate-inventory-sort.ts` script relies heavily on substring matc
 - **Scraper Fragility:** The `scrape-inventory-sort.ts` script relies on the specific DOM structure of the Minecraft Wiki. If the Wiki changes its layout, class names, or adds stricter bot protection, the scraper will break and need adjustments.
 - **Performance with Images:** Loading hundreds of high-resolution item icons simultaneously might cause network bottlenecks if Next.js Image optimization isn't heavily cached.
 - **Hardcoded Chambers:** The fallback for non-stackables is hardcoded to `'Copper Golem Non-stockable Bottom chamber (CGNSB)'`. A more dynamic mapping system would be beneficial for future-proofing.
+
+## 🙏 Credits & Acknowledgments
+
+This web dashboard is an external companion tool for the incredible **Minecraft Mega Storage** machine designed and built by **Burlimonster**. 
+- **Storage World Download:** [Best Minecraft Mega Storage World](https://burlimonster.com/gaming/best-minecraft-mega-storage-world-download/)
+- **YouTube Channel:** [Burlimonster on YouTube](https://www.youtube.com/@Burlimonster)
