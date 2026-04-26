@@ -4,6 +4,8 @@ import * as React from "react"
 import { CreativeCategory } from "@/lib/types"
 import { ItemSlot } from "@/components/ItemSlot"
 import { cn } from "@/lib/utils"
+import { useDebounce } from "@/hooks/useDebounce"
+import { Skeleton } from "@/components/ui/skeleton"
 
 interface SearchDashboardProps {
   data: CreativeCategory[];
@@ -13,10 +15,20 @@ export function SearchDashboard({ data }: SearchDashboardProps) {
   const [activeTab, setActiveTab] = React.useState<string>("search");
   const [searchQuery, setSearchQuery] = React.useState("");
   const [scrollRow, setScrollRow] = React.useState(0);
+  const [mounted, setMounted] = React.useState(false);
+
+  // Debounce search so filtering only runs 250ms after the user stops typing
+  const debouncedSearch = useDebounce(searchQuery, 250);
+
+  React.useEffect(() => {
+    // Simulate a minimal async hydration frame so the skeleton is visible
+    const id = requestAnimationFrame(() => setMounted(true));
+    return () => cancelAnimationFrame(id);
+  }, []);
 
   React.useEffect(() => {
     setScrollRow(0);
-  }, [activeTab, searchQuery]);
+  }, [activeTab, debouncedSearch]);
 
   const allItems = React.useMemo(() => {
     return data.flatMap(category => 
@@ -37,13 +49,14 @@ export function SearchDashboard({ data }: SearchDashboardProps) {
     if (activeTab !== "search" && activeTab !== "all" && activeTab !== "hotbars" && activeTab !== "survival") {
       itemsToFilter = allItems.filter(item => item.categoryName === activeTab);
     }
-    if (activeTab === "search" && searchQuery) {
-      return itemsToFilter.filter(item => 
-        item.name.toLowerCase().includes(searchQuery.toLowerCase())
+    // Use the debounced value so filtering doesn't run on every keystroke
+    if (activeTab === "search" && debouncedSearch) {
+      return itemsToFilter.filter(item =>
+        item.name.toLowerCase().includes(debouncedSearch.toLowerCase())
       );
     }
     return itemsToFilter;
-  }, [allItems, activeTab, searchQuery]);
+  }, [allItems, activeTab, debouncedSearch]);
 
   const maxRows = Math.ceil(filteredItems.length / 9);
   const maxScrollableRows = Math.max(0, maxRows - 5);
@@ -145,6 +158,39 @@ export function SearchDashboard({ data }: SearchDashboardProps) {
   const scrollThumbTop = maxScrollableRows > 0 
     ? (scrollRow / maxScrollableRows) * (180 - 30 - 4)
     : 0;
+
+  if (!mounted) {
+    return (
+      <div className="flex flex-col items-center justify-center p-4 overflow-x-hidden w-full">
+        <div className="relative flex flex-col items-center w-[392px] scale-[0.85] sm:scale-[1.25] md:scale-[1.5] lg:scale-[1.75] xl:scale-[2] origin-top mb-[-40px] sm:mb-[100px] md:mb-[200px] lg:mb-[300px] xl:mb-[400px]">
+          {/* Skeleton tabs row */}
+          <div className="flex w-[392px] items-end gap-1 -mb-px">
+            {Array.from({ length: 6 }).map((_, i) => (
+              <Skeleton key={i} className="w-[54px] h-[30px] rounded-b-none" />
+            ))}
+          </div>
+          {/* Skeleton main window */}
+          <div className="mc-window w-[392px] h-[272px] flex flex-col items-center pt-[16px] pb-[16px]">
+            <div className="flex justify-between items-end w-[356px] h-[24px] mb-[12px]">
+              <Skeleton className="w-28 h-4" />
+              <Skeleton className="w-[180px] h-[24px]" />
+            </div>
+            <div className="grid grid-cols-9 gap-[2px] w-[356px]">
+              {Array.from({ length: 45 }).map((_, i) => (
+                <Skeleton key={i} className="w-[36px] h-[36px] rounded-none" />
+              ))}
+            </div>
+          </div>
+          {/* Skeleton bottom tabs */}
+          <div className="flex w-[392px] items-end gap-1 -mt-px">
+            {Array.from({ length: 6 }).map((_, i) => (
+              <Skeleton key={i} className="w-[54px] h-[30px] rounded-t-none" />
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="flex flex-col items-center justify-center p-4 selection:bg-transparent overflow-x-hidden w-full">
