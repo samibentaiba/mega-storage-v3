@@ -24,7 +24,7 @@ function LazyChamberCard({ chamber }: { chamber: Chamber }) {
           observer.disconnect() // fire once, then stop watching
         }
       },
-      { rootMargin: "200px" } // start loading 200px before entering viewport
+      { rootMargin: "0px", threshold: 0.1 } // trigger only when 10% of card is actually in view
     )
     observer.observe(el)
     return () => observer.disconnect()
@@ -55,7 +55,7 @@ function LazyChamberCard({ chamber }: { chamber: Chamber }) {
       {/* Item grid — deferred until visible */}
       <div className="p-4 bg-[#111] min-h-[60px]">
         {visible ? (
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 animate-in fade-in slide-in-from-bottom-2 duration-500">
             {chamber.items.map(item => {
               const wikiName = item.name.replace(/\s*\(.*?\)\s*/g, ' ').trim().replace(/ /g, '_')
               const iconUrl = `https://minecraft.wiki/images/Invicon_${wikiName}.png`
@@ -91,10 +91,14 @@ function LazyChamberCard({ chamber }: { chamber: Chamber }) {
             })}
           </div>
         ) : (
-          // Placeholder skeleton while the card is off-screen
+          // Skeleton pills — one per item, varying widths to mimic real text lengths
           <div className="flex flex-wrap gap-2">
-            {Array.from({ length: Math.min(chamber.items.length, 8) }).map((_, i) => (
-              <Skeleton key={i} className="w-24 h-8 rounded-lg" />
+            {Array.from({ length: chamber.items.length }).map((_, i) => (
+              <Skeleton
+                key={i}
+                className="h-8 rounded-lg"
+                style={{ width: `${64 + (i % 5) * 16}px` }}
+              />
             ))}
           </div>
         )}
