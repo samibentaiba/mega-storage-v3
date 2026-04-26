@@ -271,8 +271,7 @@
     "id": 2,
     "name": "Drops & Mob Loot",
     "active item": 64,
-    "items": [
-""      {
+    "items": [     {
         "name": "Firework Rocket",
         "wiki_url": "https://minecraft.wiki/w/Firework_Rocket"
       },
