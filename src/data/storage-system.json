@@ -1,0 +1,4559 @@
+[
+  {
+    "id": 1,
+    "name": "Food & Crops",
+    "active item": 65,
+    "items": [
+      {
+        "name": "Wheat Seeds",
+        "wiki_url": "https://minecraft.wiki/w/Wheat_Seeds"
+      },
+      {
+        "name": "Wheat",
+        "wiki_url": "https://minecraft.wiki/w/Wheat"
+      },
+      {
+        "name": "Hay Bale",
+        "wiki_url": "https://minecraft.wiki/w/Hay_Bale"
+      },
+      {
+        "name": "Sugar Cane",
+        "wiki_url": "https://minecraft.wiki/w/Sugar_Cane"
+      },
+      {
+        "name": "Sugar",
+        "wiki_url": "https://minecraft.wiki/w/Sugar"
+      },
+      {
+        "name": "Paper",
+        "wiki_url": "https://minecraft.wiki/w/Paper"
+      },
+      {
+        "name": "Beetroot Seeds",
+        "wiki_url": "https://minecraft.wiki/w/Beetroot_Seeds"
+      },
+      {
+        "name": "Beetroot",
+        "wiki_url": "https://minecraft.wiki/w/Beetroot"
+      },
+      {
+        "name": "Sweet Berries",
+        "wiki_url": "https://minecraft.wiki/w/Sweet_Berries"
+      },
+      {
+        "name": "Melon Seeds",
+        "wiki_url": "https://minecraft.wiki/w/Melon_Seeds"
+      },
+      {
+        "name": "Melon",
+        "wiki_url": "https://minecraft.wiki/w/Melon"
+      },
+      {
+        "name": "Melon Slice",
+        "wiki_url": "https://minecraft.wiki/w/Melon_Slice"
+      },
+      {
+        "name": "Glistering Melon Slice",
+        "wiki_url": "https://minecraft.wiki/w/Glistering_Melon_Slice"
+      },
+      {
+        "name": "Pumpkin Seeds",
+        "wiki_url": "https://minecraft.wiki/w/Pumpkin_Seeds"
+      },
+      {
+        "name": "Pumpkin",
+        "wiki_url": "https://minecraft.wiki/w/Pumpkin"
+      },
+      {
+        "name": "Carved Pumpkin",
+        "wiki_url": "https://minecraft.wiki/w/Carved_Pumpkin"
+      },
+      {
+        "name": "Glow Berries",
+        "wiki_url": "https://minecraft.wiki/w/Glow_Berries"
+      },
+      {
+        "name": "Kelp",
+        "wiki_url": "https://minecraft.wiki/w/Kelp"
+      },
+      {
+        "name": "Dried Kelp",
+        "wiki_url": "https://minecraft.wiki/w/Dried_Kelp"
+      },
+      {
+        "name": "Dried Kelp Block",
+        "wiki_url": "https://minecraft.wiki/w/Dried_Kelp_Block"
+      },
+      {
+        "name": "Seagrass",
+        "wiki_url": "https://minecraft.wiki/w/Seagrass"
+      },
+      {
+        "name": "Brown Mushroom",
+        "wiki_url": "https://minecraft.wiki/w/Brown_Mushroom"
+      },
+      {
+        "name": "Brown Mushroom Block",
+        "wiki_url": "https://minecraft.wiki/w/Brown_Mushroom_Block"
+      },
+      {
+        "name": "Red Mushroom",
+        "wiki_url": "https://minecraft.wiki/w/Red_Mushroom"
+      },
+      {
+        "name": "Red Mushroom Block",
+        "wiki_url": "https://minecraft.wiki/w/Red_Mushroom_Block"
+      },
+      {
+        "name": "Mushroom Stem",
+        "wiki_url": "https://minecraft.wiki/w/Mushroom_Stem"
+      },
+      {
+        "name": "Chorus Flower",
+        "wiki_url": "https://minecraft.wiki/w/Chorus_Flower"
+      },
+      {
+        "name": "Chorus Fruit",
+        "wiki_url": "https://minecraft.wiki/w/Chorus_Fruit"
+      },
+      {
+        "name": "Popped Chorus Fruit",
+        "wiki_url": "https://minecraft.wiki/w/Popped_Chorus_Fruit"
+      },
+      {
+        "name": "Nether Wart",
+        "wiki_url": "https://minecraft.wiki/w/Nether_Wart"
+      },
+      {
+        "name": "Beehive",
+        "wiki_url": "https://minecraft.wiki/w/Beehive"
+      },
+      {
+        "name": "Bee Nest",
+        "wiki_url": "https://minecraft.wiki/w/Bee_Nest"
+      },
+      {
+        "name": "Honeycomb Block",
+        "wiki_url": "https://minecraft.wiki/w/Honeycomb_Block"
+      },
+      {
+        "name": "Honeycomb",
+        "wiki_url": "https://minecraft.wiki/w/Honeycomb"
+      },
+      {
+        "name": "Honey Block",
+        "wiki_url": "https://minecraft.wiki/w/Honey_Block"
+      },
+      {
+        "name": "Honey Bottle",
+        "wiki_url": "https://minecraft.wiki/w/Honey_Bottle"
+      },
+      {
+        "name": "Pumpkin Pie",
+        "wiki_url": "https://minecraft.wiki/w/Pumpkin_Pie"
+      },
+      {
+        "name": "Bread",
+        "wiki_url": "https://minecraft.wiki/w/Bread"
+      },
+      {
+        "name": "Poisonous Potato",
+        "wiki_url": "https://minecraft.wiki/w/Poisonous_Potato"
+      },
+      {
+        "name": "Baked Potato",
+        "wiki_url": "https://minecraft.wiki/w/Baked_Potato"
+      },
+      {
+        "name": "Potato",
+        "wiki_url": "https://minecraft.wiki/w/Potato"
+      },
+      {
+        "name": "Golden Carrot",
+        "wiki_url": "https://minecraft.wiki/w/Golden_Carrot"
+      },
+      {
+        "name": "Carrot",
+        "wiki_url": "https://minecraft.wiki/w/Carrot"
+      },
+      {
+        "name": "Enchanted Golden Apple",
+        "wiki_url": "https://minecraft.wiki/w/Enchanted_Golden_Apple"
+      },
+      {
+        "name": "Golden Apple",
+        "wiki_url": "https://minecraft.wiki/w/Golden_Apple"
+      },
+      {
+        "name": "Apple",
+        "wiki_url": "https://minecraft.wiki/w/Apple"
+      },
+      {
+        "name": "Tropical Fish",
+        "wiki_url": "https://minecraft.wiki/w/Tropical_Fish"
+      },
+      {
+        "name": "Pufferfish",
+        "wiki_url": "https://minecraft.wiki/w/Pufferfish"
+      },
+      {
+        "name": "Cooked Cod",
+        "wiki_url": "https://minecraft.wiki/w/Cooked_Cod"
+      },
+      {
+        "name": "Raw Cod",
+        "wiki_url": "https://minecraft.wiki/w/Raw_Cod"
+      },
+      {
+        "name": "Cooked Salmon",
+        "wiki_url": "https://minecraft.wiki/w/Cooked_Salmon"
+      },
+      {
+        "name": "Raw Salmon",
+        "wiki_url": "https://minecraft.wiki/w/Raw_Salmon"
+      },
+      {
+        "name": "Cooked Rabbit",
+        "wiki_url": "https://minecraft.wiki/w/Cooked_Rabbit"
+      },
+      {
+        "name": "Raw Rabbit",
+        "wiki_url": "https://minecraft.wiki/w/Raw_Rabbit"
+      },
+      {
+        "name": "Cooked Chicken",
+        "wiki_url": "https://minecraft.wiki/w/Cooked_Chicken"
+      },
+      {
+        "name": "Raw Chicken",
+        "wiki_url": "https://minecraft.wiki/w/Raw_Chicken"
+      },
+      {
+        "name": "Brown Egg",
+        "wiki_url": "https://minecraft.wiki/w/Brown_Egg"
+      },
+      {
+        "name": "Blue Egg",
+        "wiki_url": "https://minecraft.wiki/w/Blue_Egg"
+      },
+      {
+        "name": "Egg",
+        "wiki_url": "https://minecraft.wiki/w/Egg"
+      },
+      {
+        "name": "Cooked Mutton",
+        "wiki_url": "https://minecraft.wiki/w/Cooked_Mutton"
+      },
+      {
+        "name": "Raw Mutton",
+        "wiki_url": "https://minecraft.wiki/w/Raw_Mutton"
+      },
+      {
+        "name": "Steak",
+        "wiki_url": "https://minecraft.wiki/w/Steak"
+      },
+      {
+        "name": "Raw Beef",
+        "wiki_url": "https://minecraft.wiki/w/Raw_Beef"
+      },
+      {
+        "name": "Cooked Porkchop",
+        "wiki_url": "https://minecraft.wiki/w/Cooked_Porkchop"
+      },
+      {
+        "name": "Raw Porkchop",
+        "wiki_url": "https://minecraft.wiki/w/Raw_Porkchop"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "Drops & Mob Loot",
+    "active item": 64,
+    "items": [
+      {
+        "name": "Rotten Flesh",
+        "wiki_url": "https://minecraft.wiki/w/Rotten_Flesh"
+      },
+      {
+        "name": "Bone",
+        "wiki_url": "https://minecraft.wiki/w/Bone"
+      },
+      {
+        "name": "Bone Meal",
+        "wiki_url": "https://minecraft.wiki/w/Bone_Meal"
+      },
+      {
+        "name": "Bone Block",
+        "wiki_url": "https://minecraft.wiki/w/Bone_Block"
+      },
+      {
+        "name": "Rabbit Hide",
+        "wiki_url": "https://minecraft.wiki/w/Rabbit_Hide"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "wiki_url": "https://minecraft.wiki/w/Rabbit's_Foot"
+      },
+      {
+        "name": "Phantom Membrane",
+        "wiki_url": "https://minecraft.wiki/w/Phantom_Membrane"
+      },
+      {
+        "name": "Feather",
+        "wiki_url": "https://minecraft.wiki/w/Feather"
+      },
+      {
+        "name": "Spider Eye",
+        "wiki_url": "https://minecraft.wiki/w/Spider_Eye"
+      },
+      {
+        "name": "Fermented Spider Eye",
+        "wiki_url": "https://minecraft.wiki/w/Fermented_Spider_Eye"
+      },
+      {
+        "name": "Gunpowder",
+        "wiki_url": "https://minecraft.wiki/w/Gunpowder"
+      },
+      {
+        "name": "Arrow",
+        "wiki_url": "https://minecraft.wiki/w/Arrow"
+      },
+      {
+        "name": "Spectral Arrow",
+        "wiki_url": "https://minecraft.wiki/w/Spectral_Arrow"
+      },
+      {
+        "name": "Lead",
+        "wiki_url": "https://minecraft.wiki/w/Lead"
+      },
+      {
+        "name": "Name Tag",
+        "wiki_url": "https://minecraft.wiki/w/Name_Tag"
+      },
+      {
+        "name": "Bowl",
+        "wiki_url": "https://minecraft.wiki/w/Bowl"
+      },
+      {
+        "name": "Shulker Shell",
+        "wiki_url": "https://minecraft.wiki/w/Shulker_Shell"
+      },
+      {
+        "name": "Slimeball",
+        "wiki_url": "https://minecraft.wiki/w/Slimeball"
+      },
+      {
+        "name": "Slime Block",
+        "wiki_url": "https://minecraft.wiki/w/Slime_Block"
+      },
+      {
+        "name": "Turtle Egg",
+        "wiki_url": "https://minecraft.wiki/w/Turtle_Egg"
+      },
+      {
+        "name": "Turtle Scute",
+        "wiki_url": "https://minecraft.wiki/w/Turtle_Scute"
+      },
+      {
+        "name": "Armadillo Scute",
+        "wiki_url": "https://minecraft.wiki/w/Armadillo_Scute"
+      },
+      {
+        "name": "Ink Sac",
+        "wiki_url": "https://minecraft.wiki/w/Ink_Sac"
+      },
+      {
+        "name": "Glow Ink Sac",
+        "wiki_url": "https://minecraft.wiki/w/Glow_Ink_Sac"
+      },
+      {
+        "name": "Heart of the Sea",
+        "wiki_url": "https://minecraft.wiki/w/Heart_of_the_Sea"
+      },
+      {
+        "name": "Nautilus Shell",
+        "wiki_url": "https://minecraft.wiki/w/Nautilus_Shell"
+      },
+      {
+        "name": "Sponge",
+        "wiki_url": "https://minecraft.wiki/w/Sponge"
+      },
+      {
+        "name": "Wet Sponge",
+        "wiki_url": "https://minecraft.wiki/w/Wet_Sponge"
+      },
+      {
+        "name": "Breeze Rod",
+        "wiki_url": "https://minecraft.wiki/w/Breeze_Rod"
+      },
+      {
+        "name": "Wind Charge",
+        "wiki_url": "https://minecraft.wiki/w/Wind_Charge"
+      },
+      {
+        "name": "Heavy Core",
+        "wiki_url": "https://minecraft.wiki/w/Heavy_Core"
+      },
+      {
+        "name": "Ominous Bottle (Bad Omen I)",
+        "wiki_url": "https://minecraft.wiki/w/Ominous_Bottle"
+      },
+      {
+        "name": "Ominous Bottle (Bad Omen II)",
+        "wiki_url": "https://minecraft.wiki/w/Ominous_Bottle"
+      },
+      {
+        "name": "Echo Shard",
+        "wiki_url": "https://minecraft.wiki/w/Echo_Shard"
+      },
+      {
+        "name": "Disc Fragment",
+        "wiki_url": "https://minecraft.wiki/w/Disc_Fragment"
+      },
+      {
+        "name": "Ominous Bottle (Bad Omen III)",
+        "wiki_url": "https://minecraft.wiki/w/Ominous_Bottle"
+      },
+      {
+        "name": "Ominous Bottle (Bad Omen IV)",
+        "wiki_url": "https://minecraft.wiki/w/Ominous_Bottle"
+      },
+      {
+        "name": "Ominous Bottle (Bad Omen V)",
+        "wiki_url": "https://minecraft.wiki/w/Ominous_Bottle"
+      },
+      {
+        "name": "Snowball",
+        "wiki_url": "https://minecraft.wiki/w/Snowball"
+      },
+      {
+        "name": "Snow Block",
+        "wiki_url": "https://minecraft.wiki/w/Snow_Block"
+      },
+      {
+        "name": "Snow",
+        "wiki_url": "https://minecraft.wiki/w/Snow"
+      },
+      {
+        "name": "Blue Ice",
+        "wiki_url": "https://minecraft.wiki/w/Blue_Ice"
+      },
+      {
+        "name": "Packed Ice",
+        "wiki_url": "https://minecraft.wiki/w/Packed_Ice"
+      },
+      {
+        "name": "Ice",
+        "wiki_url": "https://minecraft.wiki/w/Ice"
+      },
+      {
+        "name": "Player Head",
+        "wiki_url": "https://minecraft.wiki/w/Player_Head"
+      },
+      {
+        "name": "Skeleton Skull",
+        "wiki_url": "https://minecraft.wiki/w/Skeleton_Skull"
+      },
+      {
+        "name": "Zombie Head",
+        "wiki_url": "https://minecraft.wiki/w/Zombie_Head"
+      },
+      {
+        "name": "Creeper Head",
+        "wiki_url": "https://minecraft.wiki/w/Creeper_Head"
+      },
+      {
+        "name": "Wither Skeleton Skull",
+        "wiki_url": "https://minecraft.wiki/w/Wither_Skeleton_Skull"
+      },
+      {
+        "name": "Dragon Head",
+        "wiki_url": "https://minecraft.wiki/w/Dragon_Head"
+      },
+      {
+        "name": "Piglin Head",
+        "wiki_url": "https://minecraft.wiki/w/Piglin_Head"
+      },
+      {
+        "name": "Shulker Shell",
+        "wiki_url": "https://minecraft.wiki/w/Shulker_Shell"
+      },
+      {
+        "name": "Eye of Ender",
+        "wiki_url": "https://minecraft.wiki/w/Eye_of_Ender"
+      },
+      {
+        "name": "Ender Pearl",
+        "wiki_url": "https://minecraft.wiki/w/Ender_Pearl"
+      },
+      {
+        "name": "End Crystal",
+        "wiki_url": "https://minecraft.wiki/w/End_Crystal"
+      },
+      {
+        "name": "Nether Star",
+        "wiki_url": "https://minecraft.wiki/w/Nether_Star"
+      },
+      {
+        "name": "Wither Skeleton Skull",
+        "wiki_url": "https://minecraft.wiki/w/Wither_Skeleton_Skull"
+      },
+      {
+        "name": "Ghast Tear",
+        "wiki_url": "https://minecraft.wiki/w/Ghast_Tear"
+      },
+      {
+        "name": "Blaze Powder",
+        "wiki_url": "https://minecraft.wiki/w/Blaze_Powder"
+      },
+      {
+        "name": "Blaze Rod",
+        "wiki_url": "https://minecraft.wiki/w/Blaze_Rod"
+      },
+      {
+        "name": "Fire Charge",
+        "wiki_url": "https://minecraft.wiki/w/Fire_Charge"
+      },
+      {
+        "name": "Magma Cream",
+        "wiki_url": "https://minecraft.wiki/w/Magma_Cream"
+      },
+      {
+        "name": "Trial Key",
+        "wiki_url": "https://minecraft.wiki/w/Trial_Key"
+      },
+      {
+        "name": "Ominous Trial Key",
+        "wiki_url": "https://minecraft.wiki/w/Ominous_Trial_Key"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "name": "Lighting & Crafting",
+    "active item": 60,
+    "items": [
+      {
+        "name": "Bell",
+        "wiki_url": "https://minecraft.wiki/w/Bell"
+      },
+      {
+        "name": "Clock",
+        "wiki_url": "https://minecraft.wiki/w/Clock"
+      },
+      {
+        "name": "Compass",
+        "wiki_url": "https://minecraft.wiki/w/Compass"
+      },
+      {
+        "name": "Recovery Compass",
+        "wiki_url": "https://minecraft.wiki/w/Recovery_Compass"
+      },
+      {
+        "name": "Lodestone",
+        "wiki_url": "https://minecraft.wiki/w/Lodestone"
+      },
+      {
+        "name": "Respawn Anchor",
+        "wiki_url": "https://minecraft.wiki/w/Respawn_Anchor"
+      },
+      {
+        "name": "Empty Map",
+        "wiki_url": "https://minecraft.wiki/w/Empty_Map"
+      },
+      {
+        "name": "Painting",
+        "wiki_url": "https://minecraft.wiki/w/Painting"
+      },
+      {
+        "name": "Anvil",
+        "wiki_url": "https://minecraft.wiki/w/Anvil"
+      },
+      {
+        "name": "Barrel",
+        "wiki_url": "https://minecraft.wiki/w/Barrel"
+      },
+      {
+        "name": "Blast Furnace",
+        "wiki_url": "https://minecraft.wiki/w/Blast_Furnace"
+      },
+      {
+        "name": "Brewing Stand",
+        "wiki_url": "https://minecraft.wiki/w/Brewing_Stand"
+      },
+      {
+        "name": "Cauldron",
+        "wiki_url": "https://minecraft.wiki/w/Cauldron"
+      },
+      {
+        "name": "Composter",
+        "wiki_url": "https://minecraft.wiki/w/Composter"
+      },
+      {
+        "name": "Crafting Table",
+        "wiki_url": "https://minecraft.wiki/w/Crafting_Table"
+      },
+      {
+        "name": "Enchanting Table",
+        "wiki_url": "https://minecraft.wiki/w/Enchanting_Table"
+      },
+      {
+        "name": "Fletching Table",
+        "wiki_url": "https://minecraft.wiki/w/Fletching_Table"
+      },
+      {
+        "name": "Furnace",
+        "wiki_url": "https://minecraft.wiki/w/Furnace"
+      },
+      {
+        "name": "Grindstone",
+        "wiki_url": "https://minecraft.wiki/w/Grindstone"
+      },
+      {
+        "name": "Lectern",
+        "wiki_url": "https://minecraft.wiki/w/Lectern"
+      },
+      {
+        "name": "Loom",
+        "wiki_url": "https://minecraft.wiki/w/Loom"
+      },
+      {
+        "name": "Smithing Table",
+        "wiki_url": "https://minecraft.wiki/w/Smithing_Table"
+      },
+      {
+        "name": "Smoker",
+        "wiki_url": "https://minecraft.wiki/w/Smoker"
+      },
+      {
+        "name": "Stonecutter",
+        "wiki_url": "https://minecraft.wiki/w/Stonecutter"
+      },
+      {
+        "name": "Iron Bars",
+        "wiki_url": "https://minecraft.wiki/w/Iron_Bars"
+      },
+      {
+        "name": "Chiseled Bookshelf",
+        "wiki_url": "https://minecraft.wiki/w/Chiseled_Bookshelf"
+      },
+      {
+        "name": "Bookshelf",
+        "wiki_url": "https://minecraft.wiki/w/Bookshelf"
+      },
+      {
+        "name": "Book",
+        "wiki_url": "https://minecraft.wiki/w/Book"
+      },
+      {
+        "name": "Ladder",
+        "wiki_url": "https://minecraft.wiki/w/Ladder"
+      },
+      {
+        "name": "Bucket",
+        "wiki_url": "https://minecraft.wiki/w/Bucket"
+      },
+      {
+        "name": "Conduit",
+        "wiki_url": "https://minecraft.wiki/w/Conduit"
+      },
+      {
+        "name": "Beacon",
+        "wiki_url": "https://minecraft.wiki/w/Beacon"
+      },
+      {
+        "name": "Glass Bottle",
+        "wiki_url": "https://minecraft.wiki/w/Glass_Bottle"
+      },
+      {
+        "name": "Soul Campfire",
+        "wiki_url": "https://minecraft.wiki/w/Soul_Campfire"
+      },
+      {
+        "name": "Campfire",
+        "wiki_url": "https://minecraft.wiki/w/Campfire"
+      },
+      {
+        "name": "Soul Lantern",
+        "wiki_url": "https://minecraft.wiki/w/Soul_Lantern"
+      },
+      {
+        "name": "Lantern",
+        "wiki_url": "https://minecraft.wiki/w/Lantern"
+      },
+      {
+        "name": "Jack o'Lantern",
+        "wiki_url": "https://minecraft.wiki/w/Jack_o'Lantern"
+      },
+      {
+        "name": "Soul Torch",
+        "wiki_url": "https://minecraft.wiki/w/Soul_Torch"
+      },
+      {
+        "name": "Torch",
+        "wiki_url": "https://minecraft.wiki/w/Torch"
+      },
+      {
+        "name": "Candle",
+        "wiki_url": "https://minecraft.wiki/w/Candle"
+      },
+      {
+        "name": "Glow Lichen",
+        "wiki_url": "https://minecraft.wiki/w/Glow_Lichen"
+      },
+      {
+        "name": "End Rod",
+        "wiki_url": "https://minecraft.wiki/w/End_Rod"
+      },
+      {
+        "name": "Magma Block",
+        "wiki_url": "https://minecraft.wiki/w/Magma_Block"
+      },
+      {
+        "name": "Shroomlight",
+        "wiki_url": "https://minecraft.wiki/w/Shroomlight"
+      },
+      {
+        "name": "Glowstone Dust",
+        "wiki_url": "https://minecraft.wiki/w/Glowstone_Dust"
+      },
+      {
+        "name": "Glowstone",
+        "wiki_url": "https://minecraft.wiki/w/Glowstone"
+      },
+      {
+        "name": "Waxed Oxidized Copper Bulb",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Copper_Bulb"
+      },
+      {
+        "name": "Waxed Weathered Copper Bulb",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Copper_Bulb"
+      },
+      {
+        "name": "Waxed Exposed Copper Bulb",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Copper_Bulb"
+      },
+      {
+        "name": "Waxed Copper Bulb",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Copper_Bulb"
+      },
+      {
+        "name": "Oxidized Copper Bulb",
+        "wiki_url": "https://minecraft.wiki/w/Oxidized_Copper_Bulb"
+      },
+      {
+        "name": "Weathered Copper Bulb",
+        "wiki_url": "https://minecraft.wiki/w/Weathered_Copper_Bulb"
+      },
+      {
+        "name": "Exposed Copper Bulb",
+        "wiki_url": "https://minecraft.wiki/w/Exposed_Copper_Bulb"
+      },
+      {
+        "name": "Copper Bulb",
+        "wiki_url": "https://minecraft.wiki/w/Copper_Bulb"
+      },
+      {
+        "name": "Verdant Froglight",
+        "wiki_url": "https://minecraft.wiki/w/Verdant_Froglight"
+      },
+      {
+        "name": "Pearlescent Froglight",
+        "wiki_url": "https://minecraft.wiki/w/Pearlescent_Froglight"
+      },
+      {
+        "name": "Ochre Froglight",
+        "wiki_url": "https://minecraft.wiki/w/Ochre_Froglight"
+      },
+      {
+        "name": "Sea Pickle",
+        "wiki_url": "https://minecraft.wiki/w/Sea_Pickle"
+      },
+      {
+        "name": "Sea Lantern",
+        "wiki_url": "https://minecraft.wiki/w/Sea_Lantern"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "name": "Redstone",
+    "active item": 51,
+    "items": [
+      {
+        "name": "Redstone Dust",
+        "wiki_url": "https://minecraft.wiki/w/Redstone_Dust"
+      },
+      {
+        "name": "Redstone Torch",
+        "wiki_url": "https://minecraft.wiki/w/Redstone_Torch"
+      },
+      {
+        "name": "Block of Redstone",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Redstone"
+      },
+      {
+        "name": "Redstone Lamp",
+        "wiki_url": "https://minecraft.wiki/w/Redstone_Lamp"
+      },
+      {
+        "name": "Redstone Repeater",
+        "wiki_url": "https://minecraft.wiki/w/Redstone_Repeater"
+      },
+      {
+        "name": "Redstone Comparator",
+        "wiki_url": "https://minecraft.wiki/w/Redstone_Comparator"
+      },
+      {
+        "name": "Hopper",
+        "wiki_url": "https://minecraft.wiki/w/Hopper"
+      },
+      {
+        "name": "Dispenser",
+        "wiki_url": "https://minecraft.wiki/w/Dispenser"
+      },
+      {
+        "name": "Dropper",
+        "wiki_url": "https://minecraft.wiki/w/Dropper"
+      },
+      {
+        "name": "Crafter",
+        "wiki_url": "https://minecraft.wiki/w/Crafter"
+      },
+      {
+        "name": "Observer",
+        "wiki_url": "https://minecraft.wiki/w/Observer"
+      },
+      {
+        "name": "Piston",
+        "wiki_url": "https://minecraft.wiki/w/Piston"
+      },
+      {
+        "name": "Sticky Piston",
+        "wiki_url": "https://minecraft.wiki/w/Sticky_Piston"
+      },
+      {
+        "name": "Lever",
+        "wiki_url": "https://minecraft.wiki/w/Lever"
+      },
+      {
+        "name": "Tripwire Hook",
+        "wiki_url": "https://minecraft.wiki/w/Tripwire_Hook"
+      },
+      {
+        "name": "Target",
+        "wiki_url": "https://minecraft.wiki/w/Target"
+      },
+      {
+        "name": "Chest",
+        "wiki_url": "https://minecraft.wiki/w/Chest"
+      },
+      {
+        "name": "Trapped Chest",
+        "wiki_url": "https://minecraft.wiki/w/Trapped_Chest"
+      },
+      {
+        "name": "Ender Chest",
+        "wiki_url": "https://minecraft.wiki/w/Ender_Chest"
+      },
+      {
+        "name": "Daylight Detector",
+        "wiki_url": "https://minecraft.wiki/w/Daylight_Detector"
+      },
+      {
+        "name": "Cobweb",
+        "wiki_url": "https://minecraft.wiki/w/Cobweb"
+      },
+      {
+        "name": "TNT",
+        "wiki_url": "https://minecraft.wiki/w/TNT"
+      },
+      {
+        "name": "Rail",
+        "wiki_url": "https://minecraft.wiki/w/Rail"
+      },
+      {
+        "name": "Powered Rail",
+        "wiki_url": "https://minecraft.wiki/w/Powered_Rail"
+      },
+      {
+        "name": "Detector Rail",
+        "wiki_url": "https://minecraft.wiki/w/Detector_Rail"
+      },
+      {
+        "name": "Activator Rail",
+        "wiki_url": "https://minecraft.wiki/w/Activator_Rail"
+      },
+      {
+        "name": "Scaffolding",
+        "wiki_url": "https://minecraft.wiki/w/Scaffolding"
+      },
+      {
+        "name": "Armor Stand",
+        "wiki_url": "https://minecraft.wiki/w/Armor_Stand"
+      },
+      {
+        "name": "Note Block",
+        "wiki_url": "https://minecraft.wiki/w/Note_Block"
+      },
+      {
+        "name": "Jukebox",
+        "wiki_url": "https://minecraft.wiki/w/Jukebox"
+      },
+      {
+        "name": "Bell",
+        "wiki_url": "https://minecraft.wiki/w/Bell"
+      },
+      {
+        "name": "Item Frame",
+        "wiki_url": "https://minecraft.wiki/w/Item_Frame"
+      },
+      {
+        "name": "Glow Item Frame",
+        "wiki_url": "https://minecraft.wiki/w/Glow_Item_Frame"
+      },
+      {
+        "name": "Crimson Shelf",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Shelf"
+      },
+      {
+        "name": "Warped Shelf",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Shelf"
+      },
+      {
+        "name": "Bamboo Shelf",
+        "wiki_url": "https://minecraft.wiki/w/Bamboo_Shelf"
+      },
+      {
+        "name": "Pale Oak Shelf",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Oak_Shelf"
+      },
+      {
+        "name": "Cherry Shelf",
+        "wiki_url": "https://minecraft.wiki/w/Cherry_Shelf"
+      },
+      {
+        "name": "Mangrove Shelf",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Shelf"
+      },
+      {
+        "name": "Dark Oak Shelf",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Oak_Shelf"
+      },
+      {
+        "name": "Acacia Shelf",
+        "wiki_url": "https://minecraft.wiki/w/Acacia_Shelf"
+      },
+      {
+        "name": "Jungle Shelf",
+        "wiki_url": "https://minecraft.wiki/w/Jungle_Shelf"
+      },
+      {
+        "name": "Birch Shelf",
+        "wiki_url": "https://minecraft.wiki/w/Birch_Shelf"
+      },
+      {
+        "name": "Spruce Shelf",
+        "wiki_url": "https://minecraft.wiki/w/Spruce_Shelf"
+      },
+      {
+        "name": "Oak Shelf",
+        "wiki_url": "https://minecraft.wiki/w/Oak_Shelf"
+      },
+      {
+        "name": "Calibrated Sculk Sensor",
+        "wiki_url": "https://minecraft.wiki/w/Calibrated_Sculk_Sensor"
+      },
+      {
+        "name": "Sculk Sensor",
+        "wiki_url": "https://minecraft.wiki/w/Sculk_Sensor"
+      },
+      {
+        "name": "Sculk Shrieker",
+        "wiki_url": "https://minecraft.wiki/w/Sculk_Shrieker"
+      },
+      {
+        "name": "Sculk Catalyst",
+        "wiki_url": "https://minecraft.wiki/w/Sculk_Catalyst"
+      },
+      {
+        "name": "Sculk Vein",
+        "wiki_url": "https://minecraft.wiki/w/Sculk_Vein"
+      },
+      {
+        "name": "Sculk",
+        "wiki_url": "https://minecraft.wiki/w/Sculk"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "name": "Copper",
+    "active item": 66,
+    "items": [
+      {
+        "name": "Waxed Oxidized Copper Grate",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Copper_Grate"
+      },
+      {
+        "name": "Waxed Oxidized Copper Door",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Copper_Door"
+      },
+      {
+        "name": "Waxed Oxidized Copper Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Copper_Trapdoor"
+      },
+      {
+        "name": "Waxed Oxidized Cut Copper Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Cut_Copper_Stairs"
+      },
+      {
+        "name": "Waxed Oxidized Cut Copper Slab",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Cut_Copper_Slab"
+      },
+      {
+        "name": "Waxed Oxidized Cut Copper",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Cut_Copper"
+      },
+      {
+        "name": "Waxed Oxidized Chiseled Copper",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Chiseled_Copper"
+      },
+      {
+        "name": "Waxed Oxidized Block of Copper",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Block_of_Copper"
+      },
+      {
+        "name": "Waxed Weathered Copper Grate",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Copper_Grate"
+      },
+      {
+        "name": "Waxed Weathered Copper Door",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Copper_Door"
+      },
+      {
+        "name": "Waxed Weathered Copper Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Copper_Trapdoor"
+      },
+      {
+        "name": "Waxed Weathered Cut Copper Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Cut_Copper_Stairs"
+      },
+      {
+        "name": "Waxed Weathered Cut Copper Slab",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Cut_Copper_Slab"
+      },
+      {
+        "name": "Waxed Weathered Cut Copper",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Cut_Copper"
+      },
+      {
+        "name": "Waxed Weathered Chiseled Copper",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Chiseled_Copper"
+      },
+      {
+        "name": "Waxed Weathered Block of Copper",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Block_of_Copper"
+      },
+      {
+        "name": "Waxed Exposed Copper Grate",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Copper_Grate"
+      },
+      {
+        "name": "Waxed Exposed Copper Door",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Copper_Door"
+      },
+      {
+        "name": "Waxed Exposed Copper Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Copper_Trapdoor"
+      },
+      {
+        "name": "Waxed Exposed Cut Copper Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Cut_Copper_Stairs"
+      },
+      {
+        "name": "Waxed Exposed Cut Copper Slab",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Cut_Copper_Slab"
+      },
+      {
+        "name": "Waxed Exposed Cut Copper",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Cut_Copper"
+      },
+      {
+        "name": "Waxed Exposed Chiseled Copper",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Chiseled_Copper"
+      },
+      {
+        "name": "Waxed Exposed Block of Copper",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Block_of_Copper"
+      },
+      {
+        "name": "Waxed Copper Grate",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Copper_Grate"
+      },
+      {
+        "name": "Waxed Copper Door",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Copper_Door"
+      },
+      {
+        "name": "Waxed Copper Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Copper_Trapdoor"
+      },
+      {
+        "name": "Waxed Cut Copper Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Cut_Copper_Stairs"
+      },
+      {
+        "name": "Waxed Cut Copper Slab",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Cut_Copper_Slab"
+      },
+      {
+        "name": "Waxed Cut Copper",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Cut_Copper"
+      },
+      {
+        "name": "Waxed Chiseled Copper",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Chiseled_Copper"
+      },
+      {
+        "name": "Waxed Block of Copper",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Block_of_Copper"
+      },
+      {
+        "name": "Oxidized Copper Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Oxidized_Copper_Trapdoor"
+      },
+      {
+        "name": "Oxidized Copper Door",
+        "wiki_url": "https://minecraft.wiki/w/Oxidized_Copper_Door"
+      },
+      {
+        "name": "Oxidized Cut Copper Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Oxidized_Cut_Copper_Stairs"
+      },
+      {
+        "name": "Oxidized Cut Copper Slab",
+        "wiki_url": "https://minecraft.wiki/w/Oxidized_Cut_Copper_Slab"
+      },
+      {
+        "name": "Oxidized Cut Copper",
+        "wiki_url": "https://minecraft.wiki/w/Oxidized_Cut_Copper"
+      },
+      {
+        "name": "Oxidized Chiseled Copper",
+        "wiki_url": "https://minecraft.wiki/w/Oxidized_Chiseled_Copper"
+      },
+      {
+        "name": "Oxidized Block of Copper",
+        "wiki_url": "https://minecraft.wiki/w/Oxidized_Block_of_Copper"
+      },
+      {
+        "name": "Weathered Copper Grate",
+        "wiki_url": "https://minecraft.wiki/w/Weathered_Copper_Grate"
+      },
+      {
+        "name": "Weathered Copper Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Weathered_Copper_Trapdoor"
+      },
+      {
+        "name": "Weathered Copper Door",
+        "wiki_url": "https://minecraft.wiki/w/Weathered_Copper_Door"
+      },
+      {
+        "name": "Weathered Cut Copper Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Weathered_Cut_Copper_Stairs"
+      },
+      {
+        "name": "Weathered Cut Copper Slab",
+        "wiki_url": "https://minecraft.wiki/w/Weathered_Cut_Copper_Slab"
+      },
+      {
+        "name": "Weathered Cut Copper",
+        "wiki_url": "https://minecraft.wiki/w/Weathered_Cut_Copper"
+      },
+      {
+        "name": "Weathered Chiseled Copper",
+        "wiki_url": "https://minecraft.wiki/w/Weathered_Chiseled_Copper"
+      },
+      {
+        "name": "Weathered Block of Copper",
+        "wiki_url": "https://minecraft.wiki/w/Weathered_Block_of_Copper"
+      },
+      {
+        "name": "Exposed Copper Grate",
+        "wiki_url": "https://minecraft.wiki/w/Exposed_Copper_Grate"
+      },
+      {
+        "name": "Exposed Copper Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Exposed_Copper_Trapdoor"
+      },
+      {
+        "name": "Exposed Copper Door",
+        "wiki_url": "https://minecraft.wiki/w/Exposed_Copper_Door"
+      },
+      {
+        "name": "Exposed Cut Copper Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Exposed_Cut_Copper_Stairs"
+      },
+      {
+        "name": "Exposed Cut Copper Slab",
+        "wiki_url": "https://minecraft.wiki/w/Exposed_Cut_Copper_Slab"
+      },
+      {
+        "name": "Exposed Cut Copper",
+        "wiki_url": "https://minecraft.wiki/w/Exposed_Cut_Copper"
+      },
+      {
+        "name": "Exposed Chiseled Copper",
+        "wiki_url": "https://minecraft.wiki/w/Exposed_Chiseled_Copper"
+      },
+      {
+        "name": "Exposed Block of Copper",
+        "wiki_url": "https://minecraft.wiki/w/Exposed_Block_of_Copper"
+      },
+      {
+        "name": "Copper Grate",
+        "wiki_url": "https://minecraft.wiki/w/Copper_Grate"
+      },
+      {
+        "name": "Copper Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Copper_Trapdoor"
+      },
+      {
+        "name": "Copper Door",
+        "wiki_url": "https://minecraft.wiki/w/Copper_Door"
+      },
+      {
+        "name": "Cut Copper Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Cut_Copper_Stairs"
+      },
+      {
+        "name": "Cut Copper Slab",
+        "wiki_url": "https://minecraft.wiki/w/Cut_Copper_Slab"
+      },
+      {
+        "name": "Cut Copper",
+        "wiki_url": "https://minecraft.wiki/w/Cut_Copper"
+      },
+      {
+        "name": "Chiseled Copper",
+        "wiki_url": "https://minecraft.wiki/w/Chiseled_Copper"
+      },
+      {
+        "name": "Block of Copper",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Copper"
+      },
+      {
+        "name": "Copper Ingot",
+        "wiki_url": "https://minecraft.wiki/w/Copper_Ingot"
+      },
+      {
+        "name": "Raw Copper",
+        "wiki_url": "https://minecraft.wiki/w/Raw_Copper"
+      },
+      {
+        "name": "Block of Raw Copper",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Raw_Copper"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "name": "Ores & More",
+    "active item": 57,
+    "items": [
+      {
+        "name": "Deepslate Emerald Ore",
+        "wiki_url": "https://minecraft.wiki/w/Deepslate_Emerald_Ore"
+      },
+      {
+        "name": "Emerald Ore",
+        "wiki_url": "https://minecraft.wiki/w/Emerald_Ore"
+      },
+      {
+        "name": "Emerald",
+        "wiki_url": "https://minecraft.wiki/w/Emerald"
+      },
+      {
+        "name": "Block of Emerald",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Emerald"
+      },
+      {
+        "name": "Deepslate Lapis Lazuli Ore",
+        "wiki_url": "https://minecraft.wiki/w/Deepslate_Lapis_Lazuli_Ore"
+      },
+      {
+        "name": "Lapis Lazuli Ore",
+        "wiki_url": "https://minecraft.wiki/w/Lapis_Lazuli_Ore"
+      },
+      {
+        "name": "Lapis Lazuli",
+        "wiki_url": "https://minecraft.wiki/w/Lapis_Lazuli"
+      },
+      {
+        "name": "Block of Lapis Lazuli",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Lapis_Lazuli"
+      },
+      {
+        "name": "Amethyst Shard",
+        "wiki_url": "https://minecraft.wiki/w/Amethyst_Shard"
+      },
+      {
+        "name": "Block of Amethyst",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Amethyst"
+      },
+      {
+        "name": "Budding Amethyst",
+        "wiki_url": "https://minecraft.wiki/w/Budding_Amethyst"
+      },
+      {
+        "name": "Amethyst Cluster",
+        "wiki_url": "https://minecraft.wiki/w/Amethyst_Cluster"
+      },
+      {
+        "name": "Large Amethyst Bud",
+        "wiki_url": "https://minecraft.wiki/w/Large_Amethyst_Bud"
+      },
+      {
+        "name": "Medium Amethyst Bud",
+        "wiki_url": "https://minecraft.wiki/w/Medium_Amethyst_Bud"
+      },
+      {
+        "name": "Small Amethyst Bud",
+        "wiki_url": "https://minecraft.wiki/w/Small_Amethyst_Bud"
+      },
+      {
+        "name": "Calcite",
+        "wiki_url": "https://minecraft.wiki/w/Calcite"
+      },
+      {
+        "name": "Block of Resin",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Resin"
+      },
+      {
+        "name": "Resin Clump",
+        "wiki_url": "https://minecraft.wiki/w/Resin_Clump"
+      },
+      {
+        "name": "Resin Brick",
+        "wiki_url": "https://minecraft.wiki/w/Resin_Brick"
+      },
+      {
+        "name": "Resin Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Resin_Bricks"
+      },
+      {
+        "name": "Resin Brick Wall",
+        "wiki_url": "https://minecraft.wiki/w/Resin_Brick_Wall"
+      },
+      {
+        "name": "Resin Brick Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Resin_Brick_Stairs"
+      },
+      {
+        "name": "Resin Brick Slab",
+        "wiki_url": "https://minecraft.wiki/w/Resin_Brick_Slab"
+      },
+      {
+        "name": "Chiseled Resin Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Chiseled_Resin_Bricks"
+      },
+      {
+        "name": "Block of Diamond",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Diamond"
+      },
+      {
+        "name": "Diamond",
+        "wiki_url": "https://minecraft.wiki/w/Diamond"
+      },
+      {
+        "name": "Deepslate Diamond Ore",
+        "wiki_url": "https://minecraft.wiki/w/Deepslate_Diamond_Ore"
+      },
+      {
+        "name": "Diamond Ore",
+        "wiki_url": "https://minecraft.wiki/w/Diamond_Ore"
+      },
+      {
+        "name": "Light Weighted Pressure Plate",
+        "wiki_url": "https://minecraft.wiki/w/Light_Weighted_Pressure_Plate"
+      },
+      {
+        "name": "Block of Gold",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Gold"
+      },
+      {
+        "name": "Gold Ingot",
+        "wiki_url": "https://minecraft.wiki/w/Gold_Ingot"
+      },
+      {
+        "name": "Gold Nugget",
+        "wiki_url": "https://minecraft.wiki/w/Gold_Nugget"
+      },
+      {
+        "name": "Deepslate Gold Ore",
+        "wiki_url": "https://minecraft.wiki/w/Deepslate_Gold_Ore"
+      },
+      {
+        "name": "Gold Ore",
+        "wiki_url": "https://minecraft.wiki/w/Gold_Ore"
+      },
+      {
+        "name": "Nether Gold Ore",
+        "wiki_url": "https://minecraft.wiki/w/Nether_Gold_Ore"
+      },
+      {
+        "name": "Gilded Blackstone",
+        "wiki_url": "https://minecraft.wiki/w/Gilded_Blackstone"
+      },
+      {
+        "name": "Raw Gold",
+        "wiki_url": "https://minecraft.wiki/w/Raw_Gold"
+      },
+      {
+        "name": "Block of Raw Gold",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Raw_Gold"
+      },
+      {
+        "name": "Heavy Weighted Pressure Plate",
+        "wiki_url": "https://minecraft.wiki/w/Heavy_Weighted_Pressure_Plate"
+      },
+      {
+        "name": "Block of Iron",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Iron"
+      },
+      {
+        "name": "Iron Ingot",
+        "wiki_url": "https://minecraft.wiki/w/Iron_Ingot"
+      },
+      {
+        "name": "Iron Nugget",
+        "wiki_url": "https://minecraft.wiki/w/Iron_Nugget"
+      },
+      {
+        "name": "Deepslate Iron Ore",
+        "wiki_url": "https://minecraft.wiki/w/Deepslate_Iron_Ore"
+      },
+      {
+        "name": "Iron Ore",
+        "wiki_url": "https://minecraft.wiki/w/Iron_Ore"
+      },
+      {
+        "name": "Raw Iron",
+        "wiki_url": "https://minecraft.wiki/w/Raw_Iron"
+      },
+      {
+        "name": "Block of Raw Iron",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Raw_Iron"
+      },
+      {
+        "name": "Iron Door",
+        "wiki_url": "https://minecraft.wiki/w/Iron_Door"
+      },
+      {
+        "name": "Iron Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Iron_Trapdoor"
+      },
+      {
+        "name": "Block of Netherite",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Netherite"
+      },
+      {
+        "name": "Netherite Ingot",
+        "wiki_url": "https://minecraft.wiki/w/Netherite_Ingot"
+      },
+      {
+        "name": "Netherite Scrap",
+        "wiki_url": "https://minecraft.wiki/w/Netherite_Scrap"
+      },
+      {
+        "name": "Ancient Debris",
+        "wiki_url": "https://minecraft.wiki/w/Ancient_Debris"
+      },
+      {
+        "name": "Block of Coal",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Coal"
+      },
+      {
+        "name": "Coal",
+        "wiki_url": "https://minecraft.wiki/w/Coal"
+      },
+      {
+        "name": "Charcoal",
+        "wiki_url": "https://minecraft.wiki/w/Charcoal"
+      },
+      {
+        "name": "Deepslate Coal Ore",
+        "wiki_url": "https://minecraft.wiki/w/Deepslate_Coal_Ore"
+      },
+      {
+        "name": "Coal Ore",
+        "wiki_url": "https://minecraft.wiki/w/Coal_Ore"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "name": "Candles & Textiles",
+    "active item": 65,
+    "items": [
+      {
+        "name": "Brown Candle",
+        "wiki_url": "https://minecraft.wiki/w/Brown_Candle"
+      },
+      {
+        "name": "Black Candle",
+        "wiki_url": "https://minecraft.wiki/w/Black_Candle"
+      },
+      {
+        "name": "Gray Candle",
+        "wiki_url": "https://minecraft.wiki/w/Gray_Candle"
+      },
+      {
+        "name": "Light Gray Candle",
+        "wiki_url": "https://minecraft.wiki/w/Light_Gray_Candle"
+      },
+      {
+        "name": "White Candle",
+        "wiki_url": "https://minecraft.wiki/w/White_Candle"
+      },
+      {
+        "name": "Purple Candle",
+        "wiki_url": "https://minecraft.wiki/w/Purple_Candle"
+      },
+      {
+        "name": "Magenta Candle",
+        "wiki_url": "https://minecraft.wiki/w/Magenta_Candle"
+      },
+      {
+        "name": "Pink Candle",
+        "wiki_url": "https://minecraft.wiki/w/Pink_Candle"
+      },
+      {
+        "name": "Blue Candle",
+        "wiki_url": "https://minecraft.wiki/w/Blue_Candle"
+      },
+      {
+        "name": "Light Blue Candle",
+        "wiki_url": "https://minecraft.wiki/w/Light_Blue_Candle"
+      },
+      {
+        "name": "Cyan Candle",
+        "wiki_url": "https://minecraft.wiki/w/Cyan_Candle"
+      },
+      {
+        "name": "Green Candle",
+        "wiki_url": "https://minecraft.wiki/w/Green_Candle"
+      },
+      {
+        "name": "Lime Candle",
+        "wiki_url": "https://minecraft.wiki/w/Lime_Candle"
+      },
+      {
+        "name": "Yellow Candle",
+        "wiki_url": "https://minecraft.wiki/w/Yellow_Candle"
+      },
+      {
+        "name": "Orange Candle",
+        "wiki_url": "https://minecraft.wiki/w/Orange_Candle"
+      },
+      {
+        "name": "Red Candle",
+        "wiki_url": "https://minecraft.wiki/w/Red_Candle"
+      },
+      {
+        "name": "Brown Wool",
+        "wiki_url": "https://minecraft.wiki/w/Brown_Wool"
+      },
+      {
+        "name": "Black Wool",
+        "wiki_url": "https://minecraft.wiki/w/Black_Wool"
+      },
+      {
+        "name": "Gray Wool",
+        "wiki_url": "https://minecraft.wiki/w/Gray_Wool"
+      },
+      {
+        "name": "Light Gray Wool",
+        "wiki_url": "https://minecraft.wiki/w/Light_Gray_Wool"
+      },
+      {
+        "name": "White Wool",
+        "wiki_url": "https://minecraft.wiki/w/White_Wool"
+      },
+      {
+        "name": "Purple Wool",
+        "wiki_url": "https://minecraft.wiki/w/Purple_Wool"
+      },
+      {
+        "name": "Magenta Wool",
+        "wiki_url": "https://minecraft.wiki/w/Magenta_Wool"
+      },
+      {
+        "name": "Pink Wool",
+        "wiki_url": "https://minecraft.wiki/w/Pink_Wool"
+      },
+      {
+        "name": "Blue Wool",
+        "wiki_url": "https://minecraft.wiki/w/Blue_Wool"
+      },
+      {
+        "name": "Light Blue Wool",
+        "wiki_url": "https://minecraft.wiki/w/Light_Blue_Wool"
+      },
+      {
+        "name": "Cyan Wool",
+        "wiki_url": "https://minecraft.wiki/w/Cyan_Wool"
+      },
+      {
+        "name": "Green Wool",
+        "wiki_url": "https://minecraft.wiki/w/Green_Wool"
+      },
+      {
+        "name": "Lime Wool",
+        "wiki_url": "https://minecraft.wiki/w/Lime_Wool"
+      },
+      {
+        "name": "Yellow Wool",
+        "wiki_url": "https://minecraft.wiki/w/Yellow_Wool"
+      },
+      {
+        "name": "Orange Wool",
+        "wiki_url": "https://minecraft.wiki/w/Orange_Wool"
+      },
+      {
+        "name": "Red Wool",
+        "wiki_url": "https://minecraft.wiki/w/Red_Wool"
+      },
+      {
+        "name": "Brown Banner",
+        "wiki_url": "https://minecraft.wiki/w/Brown_Banner"
+      },
+      {
+        "name": "Black Banner",
+        "wiki_url": "https://minecraft.wiki/w/Black_Banner"
+      },
+      {
+        "name": "Gray Banner",
+        "wiki_url": "https://minecraft.wiki/w/Gray_Banner"
+      },
+      {
+        "name": "Light Gray (Mansion) Banner",
+        "wiki_url": "https://minecraft.wiki/w/Light_Gray_Banner"
+      },
+      {
+        "name": "White Banner",
+        "wiki_url": "https://minecraft.wiki/w/White_Banner"
+      },
+      {
+        "name": "Purple Banner",
+        "wiki_url": "https://minecraft.wiki/w/Purple_Banner"
+      },
+      {
+        "name": "Magenta (End City) Banner",
+        "wiki_url": "https://minecraft.wiki/w/Magenta_Banner"
+      },
+      {
+        "name": "Pink Banner",
+        "wiki_url": "https://minecraft.wiki/w/Pink_Banner"
+      },
+      {
+        "name": "Blue Banner",
+        "wiki_url": "https://minecraft.wiki/w/Blue_Banner"
+      },
+      {
+        "name": "Light Blue Banner",
+        "wiki_url": "https://minecraft.wiki/w/Light_Blue_Banner"
+      },
+      {
+        "name": "Cyan Banner",
+        "wiki_url": "https://minecraft.wiki/w/Cyan_Banner"
+      },
+      {
+        "name": "Green Banner",
+        "wiki_url": "https://minecraft.wiki/w/Green_Banner"
+      },
+      {
+        "name": "Lime Banner",
+        "wiki_url": "https://minecraft.wiki/w/Lime_Banner"
+      },
+      {
+        "name": "Yellow Banner",
+        "wiki_url": "https://minecraft.wiki/w/Yellow_Banner"
+      },
+      {
+        "name": "Orange Banner",
+        "wiki_url": "https://minecraft.wiki/w/Orange_Banner"
+      },
+      {
+        "name": "Red Banner",
+        "wiki_url": "https://minecraft.wiki/w/Red_Banner"
+      },
+      {
+        "name": "Ominous (Illager) Banner",
+        "wiki_url": "https://minecraft.wiki/w/Ominous_Banner"
+      },
+      {
+        "name": "Brown Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Brown_Carpet"
+      },
+      {
+        "name": "Black Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Black_Carpet"
+      },
+      {
+        "name": "Gray Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Gray_Carpet"
+      },
+      {
+        "name": "Light Gray Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Light_Gray_Carpet"
+      },
+      {
+        "name": "White Carpet",
+        "wiki_url": "https://minecraft.wiki/w/White_Carpet"
+      },
+      {
+        "name": "Purple Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Purple_Carpet"
+      },
+      {
+        "name": "Magenta Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Magenta_Carpet"
+      },
+      {
+        "name": "Pink Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Pink_Carpet"
+      },
+      {
+        "name": "Blue Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Blue_Carpet"
+      },
+      {
+        "name": "Light Blue Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Light_Blue_Carpet"
+      },
+      {
+        "name": "Cyan Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Cyan_Carpet"
+      },
+      {
+        "name": "Green Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Green_Carpet"
+      },
+      {
+        "name": "Lime Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Lime_Carpet"
+      },
+      {
+        "name": "Yellow Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Yellow_Carpet"
+      },
+      {
+        "name": "Orange Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Orange_Carpet"
+      },
+      {
+        "name": "Red Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Red_Carpet"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "name": "Dyes & Flowers",
+    "active item": 67,
+    "items": [
+      {
+        "name": "White Dye",
+        "wiki_url": "https://minecraft.wiki/w/White_Dye"
+      },
+      {
+        "name": "Light Gray Dye",
+        "wiki_url": "https://minecraft.wiki/w/Light_Gray_Dye"
+      },
+      {
+        "name": "Gray Dye",
+        "wiki_url": "https://minecraft.wiki/w/Gray_Dye"
+      },
+      {
+        "name": "Black Dye",
+        "wiki_url": "https://minecraft.wiki/w/Black_Dye"
+      },
+      {
+        "name": "Brown Dye",
+        "wiki_url": "https://minecraft.wiki/w/Brown_Dye"
+      },
+      {
+        "name": "Red Dye",
+        "wiki_url": "https://minecraft.wiki/w/Red_Dye"
+      },
+      {
+        "name": "Orange Dye",
+        "wiki_url": "https://minecraft.wiki/w/Orange_Dye"
+      },
+      {
+        "name": "Yellow Dye",
+        "wiki_url": "https://minecraft.wiki/w/Yellow_Dye"
+      },
+      {
+        "name": "Lime Dye",
+        "wiki_url": "https://minecraft.wiki/w/Lime_Dye"
+      },
+      {
+        "name": "Green Dye",
+        "wiki_url": "https://minecraft.wiki/w/Green_Dye"
+      },
+      {
+        "name": "Cyan Dye",
+        "wiki_url": "https://minecraft.wiki/w/Cyan_Dye"
+      },
+      {
+        "name": "Light Blue Dye",
+        "wiki_url": "https://minecraft.wiki/w/Light_Blue_Dye"
+      },
+      {
+        "name": "Blue Dye",
+        "wiki_url": "https://minecraft.wiki/w/Blue_Dye"
+      },
+      {
+        "name": "Purple Dye",
+        "wiki_url": "https://minecraft.wiki/w/Purple_Dye"
+      },
+      {
+        "name": "Magenta Dye",
+        "wiki_url": "https://minecraft.wiki/w/Magenta_Dye"
+      },
+      {
+        "name": "Pink Dye",
+        "wiki_url": "https://minecraft.wiki/w/Pink_Dye"
+      },
+      {
+        "name": "Lily of the Valley",
+        "wiki_url": "https://minecraft.wiki/w/Lily_of_the_Valley"
+      },
+      {
+        "name": "Azure Bluet",
+        "wiki_url": "https://minecraft.wiki/w/Azure_Bluet"
+      },
+      {
+        "name": "Oxeye Daisy",
+        "wiki_url": "https://minecraft.wiki/w/Oxeye_Daisy"
+      },
+      {
+        "name": "White Tulip",
+        "wiki_url": "https://minecraft.wiki/w/White_Tulip"
+      },
+      {
+        "name": "Closed Eyeblossom",
+        "wiki_url": "https://minecraft.wiki/w/Closed_Eyeblossom"
+      },
+      {
+        "name": "Open Eyeblossom",
+        "wiki_url": "https://minecraft.wiki/w/Open_Eyeblossom"
+      },
+      {
+        "name": "Wither Rose",
+        "wiki_url": "https://minecraft.wiki/w/Wither_Rose"
+      },
+      {
+        "name": "Cocoa Beans",
+        "wiki_url": "https://minecraft.wiki/w/Cocoa_Beans"
+      },
+      {
+        "name": "Poppy",
+        "wiki_url": "https://minecraft.wiki/w/Poppy"
+      },
+      {
+        "name": "Red Tulip",
+        "wiki_url": "https://minecraft.wiki/w/Red_Tulip"
+      },
+      {
+        "name": "Rose Bush",
+        "wiki_url": "https://minecraft.wiki/w/Rose_Bush"
+      },
+      {
+        "name": "Torchflower Seeds",
+        "wiki_url": "https://minecraft.wiki/w/Torchflower_Seeds"
+      },
+      {
+        "name": "Torchflower",
+        "wiki_url": "https://minecraft.wiki/w/Torchflower"
+      },
+      {
+        "name": "Orange Tulip",
+        "wiki_url": "https://minecraft.wiki/w/Orange_Tulip"
+      },
+      {
+        "name": "Pitcher Pod",
+        "wiki_url": "https://minecraft.wiki/w/Pitcher_Pod"
+      },
+      {
+        "name": "Pitcher Plant",
+        "wiki_url": "https://minecraft.wiki/w/Pitcher_Plant"
+      },
+      {
+        "name": "Dandelion",
+        "wiki_url": "https://minecraft.wiki/w/Dandelion"
+      },
+      {
+        "name": "Sunflower",
+        "wiki_url": "https://minecraft.wiki/w/Sunflower"
+      },
+      {
+        "name": "Wildflowers",
+        "wiki_url": "https://minecraft.wiki/w/Wildflowers"
+      },
+      {
+        "name": "Cactus",
+        "wiki_url": "https://minecraft.wiki/w/Cactus"
+      },
+      {
+        "name": "Pale Moss Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Moss_Carpet"
+      },
+      {
+        "name": "Pale Hanging Moss",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Hanging_Moss"
+      },
+      {
+        "name": "Pale Moss Block",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Moss_Block"
+      },
+      {
+        "name": "Moss Carpet",
+        "wiki_url": "https://minecraft.wiki/w/Moss_Carpet"
+      },
+      {
+        "name": "Moss Block",
+        "wiki_url": "https://minecraft.wiki/w/Moss_Block"
+      },
+      {
+        "name": "Flowering Azalea Leaves",
+        "wiki_url": "https://minecraft.wiki/w/Flowering_Azalea_Leaves"
+      },
+      {
+        "name": "Azalea Leaves",
+        "wiki_url": "https://minecraft.wiki/w/Azalea_Leaves"
+      },
+      {
+        "name": "Flowering Azalea",
+        "wiki_url": "https://minecraft.wiki/w/Flowering_Azalea"
+      },
+      {
+        "name": "Azalea",
+        "wiki_url": "https://minecraft.wiki/w/Azalea"
+      },
+      {
+        "name": "Big Dripleaf",
+        "wiki_url": "https://minecraft.wiki/w/Big_Dripleaf"
+      },
+      {
+        "name": "Small Dripleaf",
+        "wiki_url": "https://minecraft.wiki/w/Small_Dripleaf"
+      },
+      {
+        "name": "Lily Pad",
+        "wiki_url": "https://minecraft.wiki/w/Lily_Pad"
+      },
+      {
+        "name": "Fern",
+        "wiki_url": "https://minecraft.wiki/w/Fern"
+      },
+      {
+        "name": "Firefly Bush",
+        "wiki_url": "https://minecraft.wiki/w/Firefly_Bush"
+      },
+      {
+        "name": "Dead Bush",
+        "wiki_url": "https://minecraft.wiki/w/Dead_Bush"
+      },
+      {
+        "name": "Bush",
+        "wiki_url": "https://minecraft.wiki/w/Bush"
+      },
+      {
+        "name": "Tall Dry Grass",
+        "wiki_url": "https://minecraft.wiki/w/Tall_Dry_Grass"
+      },
+      {
+        "name": "Short Dry Grass",
+        "wiki_url": "https://minecraft.wiki/w/Short_Dry_Grass"
+      },
+      {
+        "name": "Short Grass",
+        "wiki_url": "https://minecraft.wiki/w/Short_Grass"
+      },
+      {
+        "name": "Grass",
+        "wiki_url": "https://minecraft.wiki/w/Grass"
+      },
+      {
+        "name": "Hanging Roots",
+        "wiki_url": "https://minecraft.wiki/w/Hanging_Roots"
+      },
+      {
+        "name": "Vines",
+        "wiki_url": "https://minecraft.wiki/w/Vines"
+      },
+      {
+        "name": "Leaf Litter",
+        "wiki_url": "https://minecraft.wiki/w/Leaf_Litter"
+      },
+      {
+        "name": "Spore Blossom",
+        "wiki_url": "https://minecraft.wiki/w/Spore_Blossom"
+      },
+      {
+        "name": "Cactus Flower",
+        "wiki_url": "https://minecraft.wiki/w/Cactus_Flower"
+      },
+      {
+        "name": "Pink Petals",
+        "wiki_url": "https://minecraft.wiki/w/Pink_Petals"
+      },
+      {
+        "name": "Peony",
+        "wiki_url": "https://minecraft.wiki/w/Peony"
+      },
+      {
+        "name": "Pink Tulip",
+        "wiki_url": "https://minecraft.wiki/w/Pink_Tulip"
+      },
+      {
+        "name": "Lilac",
+        "wiki_url": "https://minecraft.wiki/w/Lilac"
+      },
+      {
+        "name": "Allium",
+        "wiki_url": "https://minecraft.wiki/w/Allium"
+      },
+      {
+        "name": "Cornflower",
+        "wiki_url": "https://minecraft.wiki/w/Cornflower"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 9,
+    "name": "Dirt & Terracotta",
+    "active item": 56,
+    "items": [
+      {
+        "name": "Grass Block",
+        "wiki_url": "https://minecraft.wiki/w/Grass_Block"
+      },
+      {
+        "name": "Rooted Dirt",
+        "wiki_url": "https://minecraft.wiki/w/Rooted_Dirt"
+      },
+      {
+        "name": "Coarse Dirt",
+        "wiki_url": "https://minecraft.wiki/w/Coarse_Dirt"
+      },
+      {
+        "name": "Dirt",
+        "wiki_url": "https://minecraft.wiki/w/Dirt"
+      },
+      {
+        "name": "Podzol",
+        "wiki_url": "https://minecraft.wiki/w/Podzol"
+      },
+      {
+        "name": "Mycelium",
+        "wiki_url": "https://minecraft.wiki/w/Mycelium"
+      },
+      {
+        "name": "Dirt Path",
+        "wiki_url": "https://minecraft.wiki/w/Dirt_Path"
+      },
+      {
+        "name": "Farmland",
+        "wiki_url": "https://minecraft.wiki/w/Farmland"
+      },
+      {
+        "name": "Mud",
+        "wiki_url": "https://minecraft.wiki/w/Mud"
+      },
+      {
+        "name": "Packed Mud",
+        "wiki_url": "https://minecraft.wiki/w/Packed_Mud"
+      },
+      {
+        "name": "Mud Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Mud_Bricks"
+      },
+      {
+        "name": "Mud Brick Slab",
+        "wiki_url": "https://minecraft.wiki/w/Mud_Brick_Slab"
+      },
+      {
+        "name": "Mud Brick Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Mud_Brick_Stairs"
+      },
+      {
+        "name": "Mud Brick Wall",
+        "wiki_url": "https://minecraft.wiki/w/Mud_Brick_Wall"
+      },
+      {
+        "name": "Clay",
+        "wiki_url": "https://minecraft.wiki/w/Clay"
+      },
+      {
+        "name": "Clay Block",
+        "wiki_url": "https://minecraft.wiki/w/Clay_Block"
+      },
+      {
+        "name": "Brick",
+        "wiki_url": "https://minecraft.wiki/w/Brick"
+      },
+      {
+        "name": "Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Bricks"
+      },
+      {
+        "name": "Brick Slab",
+        "wiki_url": "https://minecraft.wiki/w/Brick_Slab"
+      },
+      {
+        "name": "Brick Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Brick_Stairs"
+      },
+      {
+        "name": "Brick Wall",
+        "wiki_url": "https://minecraft.wiki/w/Brick_Wall"
+      },
+      {
+        "name": "Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Terracotta"
+      },
+      {
+        "name": "White Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/White_Terracotta"
+      },
+      {
+        "name": "Light Gray Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Light_Gray_Terracotta"
+      },
+      {
+        "name": "Gray Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Gray_Terracotta"
+      },
+      {
+        "name": "Black Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Black_Terracotta"
+      },
+      {
+        "name": "Brown Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Brown_Terracotta"
+      },
+      {
+        "name": "Red Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Red_Terracotta"
+      },
+      {
+        "name": "Orange Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Orange_Terracotta"
+      },
+      {
+        "name": "Yellow Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Yellow_Terracotta"
+      },
+      {
+        "name": "Lime Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Lime_Terracotta"
+      },
+      {
+        "name": "Green Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Green_Terracotta"
+      },
+      {
+        "name": "Cyan Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Cyan_Terracotta"
+      },
+      {
+        "name": "Light Blue Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Light_Blue_Terracotta"
+      },
+      {
+        "name": "Blue Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Blue_Terracotta"
+      },
+      {
+        "name": "Purple Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Purple_Terracotta"
+      },
+      {
+        "name": "Magenta Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Magenta_Terracotta"
+      },
+      {
+        "name": "Pink Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Pink_Terracotta"
+      },
+      {
+        "name": "Decorated Pot",
+        "wiki_url": "https://minecraft.wiki/w/Decorated_Pot"
+      },
+      {
+        "name": "Flower Pot",
+        "wiki_url": "https://minecraft.wiki/w/Flower_Pot"
+      },
+      {
+        "name": "White Glazed Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/White_Glazed_Terracotta"
+      },
+      {
+        "name": "Light Gray Glazed Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Light_Gray_Glazed_Terracotta"
+      },
+      {
+        "name": "Gray Glazed Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Gray_Glazed_Terracotta"
+      },
+      {
+        "name": "Black Glazed Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Black_Glazed_Terracotta"
+      },
+      {
+        "name": "Brown Glazed Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Brown_Glazed_Terracotta"
+      },
+      {
+        "name": "Red Glazed Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Red_Glazed_Terracotta"
+      },
+      {
+        "name": "Orange Glazed Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Orange_Glazed_Terracotta"
+      },
+      {
+        "name": "Yellow Glazed Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Yellow_Glazed_Terracotta"
+      },
+      {
+        "name": "Lime Glazed Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Lime_Glazed_Terracotta"
+      },
+      {
+        "name": "Green Glazed Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Green_Glazed_Terracotta"
+      },
+      {
+        "name": "Cyan Glazed Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Cyan_Glazed_Terracotta"
+      },
+      {
+        "name": "Light Blue Glazed Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Light_Blue_Glazed_Terracotta"
+      },
+      {
+        "name": "Blue Glazed Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Blue_Glazed_Terracotta"
+      },
+      {
+        "name": "Purple Glazed Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Purple_Glazed_Terracotta"
+      },
+      {
+        "name": "Magenta Glazed Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Magenta_Glazed_Terracotta"
+      },
+      {
+        "name": "Pink Glazed Terracotta",
+        "wiki_url": "https://minecraft.wiki/w/Pink_Glazed_Terracotta"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 10,
+    "name": "Glass & Concrete",
+    "active item": 67,
+    "items": [
+      {
+        "name": "White Concrete Powder",
+        "wiki_url": "https://minecraft.wiki/w/White_Concrete_Powder"
+      },
+      {
+        "name": "Light Gray Concrete Powder",
+        "wiki_url": "https://minecraft.wiki/w/Light_Gray_Concrete_Powder"
+      },
+      {
+        "name": "Gray Concrete Powder",
+        "wiki_url": "https://minecraft.wiki/w/Gray_Concrete_Powder"
+      },
+      {
+        "name": "Black Concrete Powder",
+        "wiki_url": "https://minecraft.wiki/w/Black_Concrete_Powder"
+      },
+      {
+        "name": "Brown Concrete Powder",
+        "wiki_url": "https://minecraft.wiki/w/Brown_Concrete_Powder"
+      },
+      {
+        "name": "Red Concrete Powder",
+        "wiki_url": "https://minecraft.wiki/w/Red_Concrete_Powder"
+      },
+      {
+        "name": "Orange Concrete Powder",
+        "wiki_url": "https://minecraft.wiki/w/Orange_Concrete_Powder"
+      },
+      {
+        "name": "Yellow Concrete Powder",
+        "wiki_url": "https://minecraft.wiki/w/Yellow_Concrete_Powder"
+      },
+      {
+        "name": "Lime Concrete Powder",
+        "wiki_url": "https://minecraft.wiki/w/Lime_Concrete_Powder"
+      },
+      {
+        "name": "Green Concrete Powder",
+        "wiki_url": "https://minecraft.wiki/w/Green_Concrete_Powder"
+      },
+      {
+        "name": "Cyan Concrete Powder",
+        "wiki_url": "https://minecraft.wiki/w/Cyan_Concrete_Powder"
+      },
+      {
+        "name": "Light Blue Concrete Powder",
+        "wiki_url": "https://minecraft.wiki/w/Light_Blue_Concrete_Powder"
+      },
+      {
+        "name": "Blue Concrete Powder",
+        "wiki_url": "https://minecraft.wiki/w/Blue_Concrete_Powder"
+      },
+      {
+        "name": "Purple Concrete Powder",
+        "wiki_url": "https://minecraft.wiki/w/Purple_Concrete_Powder"
+      },
+      {
+        "name": "Magenta Concrete Powder",
+        "wiki_url": "https://minecraft.wiki/w/Magenta_Concrete_Powder"
+      },
+      {
+        "name": "Pink Concrete Powder",
+        "wiki_url": "https://minecraft.wiki/w/Pink_Concrete_Powder"
+      },
+      {
+        "name": "White Concrete",
+        "wiki_url": "https://minecraft.wiki/w/White_Concrete"
+      },
+      {
+        "name": "Light Gray Concrete",
+        "wiki_url": "https://minecraft.wiki/w/Light_Gray_Concrete"
+      },
+      {
+        "name": "Gray Concrete",
+        "wiki_url": "https://minecraft.wiki/w/Gray_Concrete"
+      },
+      {
+        "name": "Black Concrete",
+        "wiki_url": "https://minecraft.wiki/w/Black_Concrete"
+      },
+      {
+        "name": "Brown Concrete",
+        "wiki_url": "https://minecraft.wiki/w/Brown_Concrete"
+      },
+      {
+        "name": "Red Concrete",
+        "wiki_url": "https://minecraft.wiki/w/Red_Concrete"
+      },
+      {
+        "name": "Orange Concrete",
+        "wiki_url": "https://minecraft.wiki/w/Orange_Concrete"
+      },
+      {
+        "name": "Yellow Concrete",
+        "wiki_url": "https://minecraft.wiki/w/Yellow_Concrete"
+      },
+      {
+        "name": "Lime Concrete",
+        "wiki_url": "https://minecraft.wiki/w/Lime_Concrete"
+      },
+      {
+        "name": "Green Concrete",
+        "wiki_url": "https://minecraft.wiki/w/Green_Concrete"
+      },
+      {
+        "name": "Cyan Concrete",
+        "wiki_url": "https://minecraft.wiki/w/Cyan_Concrete"
+      },
+      {
+        "name": "Light Blue Concrete",
+        "wiki_url": "https://minecraft.wiki/w/Light_Blue_Concrete"
+      },
+      {
+        "name": "Blue Concrete",
+        "wiki_url": "https://minecraft.wiki/w/Blue_Concrete"
+      },
+      {
+        "name": "Purple Concrete",
+        "wiki_url": "https://minecraft.wiki/w/Purple_Concrete"
+      },
+      {
+        "name": "Magenta Concrete",
+        "wiki_url": "https://minecraft.wiki/w/Magenta_Concrete"
+      },
+      {
+        "name": "Pink Concrete",
+        "wiki_url": "https://minecraft.wiki/w/Pink_Concrete"
+      },
+      {
+        "name": "White Stained Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/White_Stained_Glass_Pane"
+      },
+      {
+        "name": "Light Gray Stained Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/Light_Gray_Stained_Glass_Pane"
+      },
+      {
+        "name": "Gray Stained Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/Gray_Stained_Glass_Pane"
+      },
+      {
+        "name": "Black Stained Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/Black_Stained_Glass_Pane"
+      },
+      {
+        "name": "Brown Stained Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/Brown_Stained_Glass_Pane"
+      },
+      {
+        "name": "Red Stained Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/Red_Stained_Glass_Pane"
+      },
+      {
+        "name": "Orange Stained Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/Orange_Stained_Glass_Pane"
+      },
+      {
+        "name": "Yellow Stained Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/Yellow_Stained_Glass_Pane"
+      },
+      {
+        "name": "Lime Stained Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/Lime_Stained_Glass_Pane"
+      },
+      {
+        "name": "Green Stained Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/Green_Stained_Glass_Pane"
+      },
+      {
+        "name": "Cyan Stained Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/Cyan_Stained_Glass_Pane"
+      },
+      {
+        "name": "Light Blue Stained Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/Light_Blue_Stained_Glass_Pane"
+      },
+      {
+        "name": "Blue Stained Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/Blue_Stained_Glass_Pane"
+      },
+      {
+        "name": "Purple Stained Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/Purple_Stained_Glass_Pane"
+      },
+      {
+        "name": "Magenta Stained Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/Magenta_Stained_Glass_Pane"
+      },
+      {
+        "name": "Pink Stained Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/Pink_Stained_Glass_Pane"
+      },
+      {
+        "name": "White Stained Glass",
+        "wiki_url": "https://minecraft.wiki/w/White_Stained_Glass"
+      },
+      {
+        "name": "Light Gray Stained Glass",
+        "wiki_url": "https://minecraft.wiki/w/Light_Gray_Stained_Glass"
+      },
+      {
+        "name": "Gray Stained Glass",
+        "wiki_url": "https://minecraft.wiki/w/Gray_Stained_Glass"
+      },
+      {
+        "name": "Black Stained Glass",
+        "wiki_url": "https://minecraft.wiki/w/Black_Stained_Glass"
+      },
+      {
+        "name": "Brown Stained Glass",
+        "wiki_url": "https://minecraft.wiki/w/Brown_Stained_Glass"
+      },
+      {
+        "name": "Red Stained Glass",
+        "wiki_url": "https://minecraft.wiki/w/Red_Stained_Glass"
+      },
+      {
+        "name": "Orange Stained Glass",
+        "wiki_url": "https://minecraft.wiki/w/Orange_Stained_Glass"
+      },
+      {
+        "name": "Yellow Stained Glass",
+        "wiki_url": "https://minecraft.wiki/w/Yellow_Stained_Glass"
+      },
+      {
+        "name": "Lime Stained Glass",
+        "wiki_url": "https://minecraft.wiki/w/Lime_Stained_Glass"
+      },
+      {
+        "name": "Green Stained Glass",
+        "wiki_url": "https://minecraft.wiki/w/Green_Stained_Glass"
+      },
+      {
+        "name": "Cyan Stained Glass",
+        "wiki_url": "https://minecraft.wiki/w/Cyan_Stained_Glass"
+      },
+      {
+        "name": "Light Blue Stained Glass",
+        "wiki_url": "https://minecraft.wiki/w/Light_Blue_Stained_Glass"
+      },
+      {
+        "name": "Blue Stained Glass",
+        "wiki_url": "https://minecraft.wiki/w/Blue_Stained_Glass"
+      },
+      {
+        "name": "Purple Stained Glass",
+        "wiki_url": "https://minecraft.wiki/w/Purple_Stained_Glass"
+      },
+      {
+        "name": "Magenta Stained Glass",
+        "wiki_url": "https://minecraft.wiki/w/Magenta_Stained_Glass"
+      },
+      {
+        "name": "Pink Stained Glass",
+        "wiki_url": "https://minecraft.wiki/w/Pink_Stained_Glass"
+      },
+      {
+        "name": "Glass",
+        "wiki_url": "https://minecraft.wiki/w/Glass"
+      },
+      {
+        "name": "Glass Pane",
+        "wiki_url": "https://minecraft.wiki/w/Glass_Pane"
+      },
+      {
+        "name": "Tinted Glass",
+        "wiki_url": "https://minecraft.wiki/w/Tinted_Glass"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 11,
+    "name": "Stone & Deepslate",
+    "active item": 47,
+    "items": [
+      {
+        "name": "Stone",
+        "wiki_url": "https://minecraft.wiki/w/Stone"
+      },
+      {
+        "name": "Stone Slab",
+        "wiki_url": "https://minecraft.wiki/w/Stone_Slab"
+      },
+      {
+        "name": "Stone Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Stone_Stairs"
+      },
+      {
+        "name": "Stone Button",
+        "wiki_url": "https://minecraft.wiki/w/Stone_Button"
+      },
+      {
+        "name": "Stone Pressure Plate",
+        "wiki_url": "https://minecraft.wiki/w/Stone_Pressure_Plate"
+      },
+      {
+        "name": "Smooth Stone",
+        "wiki_url": "https://minecraft.wiki/w/Smooth_Stone"
+      },
+      {
+        "name": "Smooth Stone Slab",
+        "wiki_url": "https://minecraft.wiki/w/Smooth_Stone_Slab"
+      },
+      {
+        "name": "Stone Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Stone_Bricks"
+      },
+      {
+        "name": "Stone Brick Slab",
+        "wiki_url": "https://minecraft.wiki/w/Stone_Brick_Slab"
+      },
+      {
+        "name": "Stone Brick Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Stone_Brick_Stairs"
+      },
+      {
+        "name": "Stone Brick Wall",
+        "wiki_url": "https://minecraft.wiki/w/Stone_Brick_Wall"
+      },
+      {
+        "name": "Chiseled Stone Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Chiseled_Stone_Bricks"
+      },
+      {
+        "name": "Cracked Stone Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Cracked_Stone_Bricks"
+      },
+      {
+        "name": "Cobblestone",
+        "wiki_url": "https://minecraft.wiki/w/Cobblestone"
+      },
+      {
+        "name": "Cobblestone Slab",
+        "wiki_url": "https://minecraft.wiki/w/Cobblestone_Slab"
+      },
+      {
+        "name": "Cobblestone Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Cobblestone_Stairs"
+      },
+      {
+        "name": "Cobblestone Wall",
+        "wiki_url": "https://minecraft.wiki/w/Cobblestone_Wall"
+      },
+      {
+        "name": "Mossy Cobblestone",
+        "wiki_url": "https://minecraft.wiki/w/Mossy_Cobblestone"
+      },
+      {
+        "name": "Mossy Cobblestone Slab",
+        "wiki_url": "https://minecraft.wiki/w/Mossy_Cobblestone_Slab"
+      },
+      {
+        "name": "Mossy Cobblestone Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Mossy_Cobblestone_Stairs"
+      },
+      {
+        "name": "Mossy Cobblestone Wall",
+        "wiki_url": "https://minecraft.wiki/w/Mossy_Cobblestone_Wall"
+      },
+      {
+        "name": "Mossy Stone Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Mossy_Stone_Bricks"
+      },
+      {
+        "name": "Mossy Stone Brick Slab",
+        "wiki_url": "https://minecraft.wiki/w/Mossy_Stone_Brick_Slab"
+      },
+      {
+        "name": "Mossy Stone Brick Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Mossy_Stone_Brick_Stairs"
+      },
+      {
+        "name": "Mossy Stone Brick Wall",
+        "wiki_url": "https://minecraft.wiki/w/Mossy_Stone_Brick_Wall"
+      },
+      {
+        "name": "Pointed Dripstone",
+        "wiki_url": "https://minecraft.wiki/w/Pointed_Dripstone"
+      },
+      {
+        "name": "Dripstone Block",
+        "wiki_url": "https://minecraft.wiki/w/Dripstone_Block"
+      },
+      {
+        "name": "Deepslate",
+        "wiki_url": "https://minecraft.wiki/w/Deepslate"
+      },
+      {
+        "name": "Cobbled Deepslate",
+        "wiki_url": "https://minecraft.wiki/w/Cobbled_Deepslate"
+      },
+      {
+        "name": "Cobbled Deepslate Slab",
+        "wiki_url": "https://minecraft.wiki/w/Cobbled_Deepslate_Slab"
+      },
+      {
+        "name": "Cobbled Deepslate Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Cobbled_Deepslate_Stairs"
+      },
+      {
+        "name": "Cobbled Deepslate Wall",
+        "wiki_url": "https://minecraft.wiki/w/Cobbled_Deepslate_Wall"
+      },
+      {
+        "name": "Polished Deepslate",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Deepslate"
+      },
+      {
+        "name": "Polished Deepslate Slab",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Deepslate_Slab"
+      },
+      {
+        "name": "Polished Deepslate Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Deepslate_Stairs"
+      },
+      {
+        "name": "Polished Deepslate Wall",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Deepslate_Wall"
+      },
+      {
+        "name": "Deepslate Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Deepslate_Bricks"
+      },
+      {
+        "name": "Deepslate Brick Slab",
+        "wiki_url": "https://minecraft.wiki/w/Deepslate_Brick_Slab"
+      },
+      {
+        "name": "Deepslate Brick Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Deepslate_Brick_Stairs"
+      },
+      {
+        "name": "Deepslate Brick Wall",
+        "wiki_url": "https://minecraft.wiki/w/Deepslate_Brick_Wall"
+      },
+      {
+        "name": "Cracked Deepslate Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Cracked_Deepslate_Bricks"
+      },
+      {
+        "name": "Deepslate Tiles",
+        "wiki_url": "https://minecraft.wiki/w/Deepslate_Tiles"
+      },
+      {
+        "name": "Deepslate Tile Slab",
+        "wiki_url": "https://minecraft.wiki/w/Deepslate_Tile_Slab"
+      },
+      {
+        "name": "Deepslate Tile Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Deepslate_Tile_Stairs"
+      },
+      {
+        "name": "Deepslate Tile Wall",
+        "wiki_url": "https://minecraft.wiki/w/Deepslate_Tile_Wall"
+      },
+      {
+        "name": "Chiseled Deepslate",
+        "wiki_url": "https://minecraft.wiki/w/Chiseled_Deepslate"
+      },
+      {
+        "name": "Cracked Deepslate Tiles",
+        "wiki_url": "https://minecraft.wiki/w/Cracked_Deepslate_Tiles"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 12,
+    "name": "Stones & Sandstone",
+    "active item": 58,
+    "items": [
+      {
+        "name": "Diorite",
+        "wiki_url": "https://minecraft.wiki/w/Diorite"
+      },
+      {
+        "name": "Diorite Slab",
+        "wiki_url": "https://minecraft.wiki/w/Diorite_Slab"
+      },
+      {
+        "name": "Diorite Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Diorite_Stairs"
+      },
+      {
+        "name": "Diorite Wall",
+        "wiki_url": "https://minecraft.wiki/w/Diorite_Wall"
+      },
+      {
+        "name": "Polished Diorite",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Diorite"
+      },
+      {
+        "name": "Polished Diorite Slab",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Diorite_Slab"
+      },
+      {
+        "name": "Polished Diorite Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Diorite_Stairs"
+      },
+      {
+        "name": "Granite",
+        "wiki_url": "https://minecraft.wiki/w/Granite"
+      },
+      {
+        "name": "Granite Slab",
+        "wiki_url": "https://minecraft.wiki/w/Granite_Slab"
+      },
+      {
+        "name": "Granite Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Granite_Stairs"
+      },
+      {
+        "name": "Granite Wall",
+        "wiki_url": "https://minecraft.wiki/w/Granite_Wall"
+      },
+      {
+        "name": "Polished Granite",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Granite"
+      },
+      {
+        "name": "Polished Granite Slab",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Granite_Slab"
+      },
+      {
+        "name": "Polished Granite Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Granite_Stairs"
+      },
+      {
+        "name": "Tuff",
+        "wiki_url": "https://minecraft.wiki/w/Tuff"
+      },
+      {
+        "name": "Tuff Slab",
+        "wiki_url": "https://minecraft.wiki/w/Tuff_Slab"
+      },
+      {
+        "name": "Tuff Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Tuff_Stairs"
+      },
+      {
+        "name": "Tuff Wall",
+        "wiki_url": "https://minecraft.wiki/w/Tuff_Wall"
+      },
+      {
+        "name": "Chiseled Tuff",
+        "wiki_url": "https://minecraft.wiki/w/Chiseled_Tuff"
+      },
+      {
+        "name": "Polished Tuff",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Tuff"
+      },
+      {
+        "name": "Polished Tuff Slab",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Tuff_Slab"
+      },
+      {
+        "name": "Polished Tuff Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Tuff_Stairs"
+      },
+      {
+        "name": "Polished Tuff Wall",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Tuff_Wall"
+      },
+      {
+        "name": "Tuff Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Tuff_Bricks"
+      },
+      {
+        "name": "Tuff Brick Slab",
+        "wiki_url": "https://minecraft.wiki/w/Tuff_Brick_Slab"
+      },
+      {
+        "name": "Tuff Brick Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Tuff_Brick_Stairs"
+      },
+      {
+        "name": "Tuff Brick Wall",
+        "wiki_url": "https://minecraft.wiki/w/Tuff_Brick_Wall"
+      },
+      {
+        "name": "Chiseled Tuff Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Chiseled_Tuff_Bricks"
+      },
+      {
+        "name": "Flint",
+        "wiki_url": "https://minecraft.wiki/w/Flint"
+      },
+      {
+        "name": "Sand",
+        "wiki_url": "https://minecraft.wiki/w/Sand"
+      },
+      {
+        "name": "Sandstone",
+        "wiki_url": "https://minecraft.wiki/w/Sandstone"
+      },
+      {
+        "name": "Sandstone Slab",
+        "wiki_url": "https://minecraft.wiki/w/Sandstone_Slab"
+      },
+      {
+        "name": "Sandstone Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Sandstone_Stairs"
+      },
+      {
+        "name": "Sandstone Wall",
+        "wiki_url": "https://minecraft.wiki/w/Sandstone_Wall"
+      },
+      {
+        "name": "Chiseled Sandstone",
+        "wiki_url": "https://minecraft.wiki/w/Chiseled_Sandstone"
+      },
+      {
+        "name": "Cut Sandstone",
+        "wiki_url": "https://minecraft.wiki/w/Cut_Sandstone"
+      },
+      {
+        "name": "Smooth Sandstone",
+        "wiki_url": "https://minecraft.wiki/w/Smooth_Sandstone"
+      },
+      {
+        "name": "Smooth Sandstone Slab",
+        "wiki_url": "https://minecraft.wiki/w/Smooth_Sandstone_Slab"
+      },
+      {
+        "name": "Smooth Sandstone Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Smooth_Sandstone_Stairs"
+      },
+      {
+        "name": "Red Sand",
+        "wiki_url": "https://minecraft.wiki/w/Red_Sand"
+      },
+      {
+        "name": "Red Sandstone",
+        "wiki_url": "https://minecraft.wiki/w/Red_Sandstone"
+      },
+      {
+        "name": "Red Sandstone Slab",
+        "wiki_url": "https://minecraft.wiki/w/Red_Sandstone_Slab"
+      },
+      {
+        "name": "Red Sandstone Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Red_Sandstone_Stairs"
+      },
+      {
+        "name": "Red Sandstone Wall",
+        "wiki_url": "https://minecraft.wiki/w/Red_Sandstone_Wall"
+      },
+      {
+        "name": "Chiseled Red Sandstone",
+        "wiki_url": "https://minecraft.wiki/w/Chiseled_Red_Sandstone"
+      },
+      {
+        "name": "Cut Red Sandstone",
+        "wiki_url": "https://minecraft.wiki/w/Cut_Red_Sandstone"
+      },
+      {
+        "name": "Smooth Red Sandstone",
+        "wiki_url": "https://minecraft.wiki/w/Smooth_Red_Sandstone"
+      },
+      {
+        "name": "Smooth Red Sandstone Slab",
+        "wiki_url": "https://minecraft.wiki/w/Smooth_Red_Sandstone_Slab"
+      },
+      {
+        "name": "Smooth Red Sandstone Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Smooth_Red_Sandstone_Stairs"
+      },
+      {
+        "name": "Obsidian",
+        "wiki_url": "https://minecraft.wiki/w/Obsidian"
+      },
+      {
+        "name": "Crying Obsidian",
+        "wiki_url": "https://minecraft.wiki/w/Crying_Obsidian"
+      },
+      {
+        "name": "Andesite",
+        "wiki_url": "https://minecraft.wiki/w/Andesite"
+      },
+      {
+        "name": "Andesite Slab",
+        "wiki_url": "https://minecraft.wiki/w/Andesite_Slab"
+      },
+      {
+        "name": "Andesite Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Andesite_Stairs"
+      },
+      {
+        "name": "Andesite Wall",
+        "wiki_url": "https://minecraft.wiki/w/Andesite_Wall"
+      },
+      {
+        "name": "Polished Andesite",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Andesite"
+      },
+      {
+        "name": "Polished Andesite Slab",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Andesite_Slab"
+      },
+      {
+        "name": "Polished Andesite Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Andesite_Stairs"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 13,
+    "name": "Softwood",
+    "active item": 68,
+    "items": [
+      {
+        "name": "Oak Sapling",
+        "wiki_url": "https://minecraft.wiki/w/Oak_Sapling"
+      },
+      {
+        "name": "Oak Leaves",
+        "wiki_url": "https://minecraft.wiki/w/Oak_Leaves"
+      },
+      {
+        "name": "Oak Log",
+        "wiki_url": "https://minecraft.wiki/w/Oak_Log"
+      },
+      {
+        "name": "Oak Wood",
+        "wiki_url": "https://minecraft.wiki/w/Oak_Wood"
+      },
+      {
+        "name": "Stripped Oak Log",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Oak_Log"
+      },
+      {
+        "name": "Stripped Oak Wood",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Oak_Wood"
+      },
+      {
+        "name": "Oak Planks",
+        "wiki_url": "https://minecraft.wiki/w/Oak_Planks"
+      },
+      {
+        "name": "Oak Slab",
+        "wiki_url": "https://minecraft.wiki/w/Oak_Slab"
+      },
+      {
+        "name": "Oak Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Oak_Stairs"
+      },
+      {
+        "name": "Oak Fence",
+        "wiki_url": "https://minecraft.wiki/w/Oak_Fence"
+      },
+      {
+        "name": "Oak Fence Gate",
+        "wiki_url": "https://minecraft.wiki/w/Oak_Fence_Gate"
+      },
+      {
+        "name": "Oak Sign",
+        "wiki_url": "https://minecraft.wiki/w/Oak_Sign"
+      },
+      {
+        "name": "Oak Hanging Sign",
+        "wiki_url": "https://minecraft.wiki/w/Oak_Hanging_Sign"
+      },
+      {
+        "name": "Oak Button",
+        "wiki_url": "https://minecraft.wiki/w/Oak_Button"
+      },
+      {
+        "name": "Oak Pressure Plate",
+        "wiki_url": "https://minecraft.wiki/w/Oak_Pressure_Plate"
+      },
+      {
+        "name": "Oak Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Oak_Trapdoor"
+      },
+      {
+        "name": "Oak Door",
+        "wiki_url": "https://minecraft.wiki/w/Oak_Door"
+      },
+      {
+        "name": "Birch Sapling",
+        "wiki_url": "https://minecraft.wiki/w/Birch_Sapling"
+      },
+      {
+        "name": "Birch Leaves",
+        "wiki_url": "https://minecraft.wiki/w/Birch_Leaves"
+      },
+      {
+        "name": "Birch Log",
+        "wiki_url": "https://minecraft.wiki/w/Birch_Log"
+      },
+      {
+        "name": "Birch Wood",
+        "wiki_url": "https://minecraft.wiki/w/Birch_Wood"
+      },
+      {
+        "name": "Stripped Birch Log",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Birch_Log"
+      },
+      {
+        "name": "Stripped Birch Wood",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Birch_Wood"
+      },
+      {
+        "name": "Birch Planks",
+        "wiki_url": "https://minecraft.wiki/w/Birch_Planks"
+      },
+      {
+        "name": "Birch Slab",
+        "wiki_url": "https://minecraft.wiki/w/Birch_Slab"
+      },
+      {
+        "name": "Birch Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Birch_Stairs"
+      },
+      {
+        "name": "Birch Fence",
+        "wiki_url": "https://minecraft.wiki/w/Birch_Fence"
+      },
+      {
+        "name": "Birch Fence Gate",
+        "wiki_url": "https://minecraft.wiki/w/Birch_Fence_Gate"
+      },
+      {
+        "name": "Birch Sign",
+        "wiki_url": "https://minecraft.wiki/w/Birch_Sign"
+      },
+      {
+        "name": "Birch Hanging Sign",
+        "wiki_url": "https://minecraft.wiki/w/Birch_Hanging_Sign"
+      },
+      {
+        "name": "Birch Button",
+        "wiki_url": "https://minecraft.wiki/w/Birch_Button"
+      },
+      {
+        "name": "Birch Pressure Plate",
+        "wiki_url": "https://minecraft.wiki/w/Birch_Pressure_Plate"
+      },
+      {
+        "name": "Birch Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Birch_Trapdoor"
+      },
+      {
+        "name": "Birch Door",
+        "wiki_url": "https://minecraft.wiki/w/Birch_Door"
+      },
+      {
+        "name": "Cherry Sapling",
+        "wiki_url": "https://minecraft.wiki/w/Cherry_Sapling"
+      },
+      {
+        "name": "Cherry Leaves",
+        "wiki_url": "https://minecraft.wiki/w/Cherry_Leaves"
+      },
+      {
+        "name": "Cherry Log",
+        "wiki_url": "https://minecraft.wiki/w/Cherry_Log"
+      },
+      {
+        "name": "Cherry Wood",
+        "wiki_url": "https://minecraft.wiki/w/Cherry_Wood"
+      },
+      {
+        "name": "Stripped Cherry Log",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Cherry_Log"
+      },
+      {
+        "name": "Stripped Cherry Wood",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Cherry_Wood"
+      },
+      {
+        "name": "Cherry Planks",
+        "wiki_url": "https://minecraft.wiki/w/Cherry_Planks"
+      },
+      {
+        "name": "Cherry Slab",
+        "wiki_url": "https://minecraft.wiki/w/Cherry_Slab"
+      },
+      {
+        "name": "Cherry Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Cherry_Stairs"
+      },
+      {
+        "name": "Cherry Fence",
+        "wiki_url": "https://minecraft.wiki/w/Cherry_Fence"
+      },
+      {
+        "name": "Cherry Fence Gate",
+        "wiki_url": "https://minecraft.wiki/w/Cherry_Fence_Gate"
+      },
+      {
+        "name": "Cherry Sign",
+        "wiki_url": "https://minecraft.wiki/w/Cherry_Sign"
+      },
+      {
+        "name": "Cherry Hanging Sign",
+        "wiki_url": "https://minecraft.wiki/w/Cherry_Hanging_Sign"
+      },
+      {
+        "name": "Cherry Button",
+        "wiki_url": "https://minecraft.wiki/w/Cherry_Button"
+      },
+      {
+        "name": "Cherry Pressure Plate",
+        "wiki_url": "https://minecraft.wiki/w/Cherry_Pressure_Plate"
+      },
+      {
+        "name": "Cherry Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Cherry_Trapdoor"
+      },
+      {
+        "name": "Cherry Door",
+        "wiki_url": "https://minecraft.wiki/w/Cherry_Door"
+      },
+      {
+        "name": "Spruce Sapling",
+        "wiki_url": "https://minecraft.wiki/w/Spruce_Sapling"
+      },
+      {
+        "name": "Spruce Leaves",
+        "wiki_url": "https://minecraft.wiki/w/Spruce_Leaves"
+      },
+      {
+        "name": "Spruce Log",
+        "wiki_url": "https://minecraft.wiki/w/Spruce_Log"
+      },
+      {
+        "name": "Spruce Wood",
+        "wiki_url": "https://minecraft.wiki/w/Spruce_Wood"
+      },
+      {
+        "name": "Stripped Spruce Log",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Spruce_Log"
+      },
+      {
+        "name": "Stripped Spruce Wood",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Spruce_Wood"
+      },
+      {
+        "name": "Spruce Planks",
+        "wiki_url": "https://minecraft.wiki/w/Spruce_Planks"
+      },
+      {
+        "name": "Spruce Slab",
+        "wiki_url": "https://minecraft.wiki/w/Spruce_Slab"
+      },
+      {
+        "name": "Spruce Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Spruce_Stairs"
+      },
+      {
+        "name": "Spruce Fence",
+        "wiki_url": "https://minecraft.wiki/w/Spruce_Fence"
+      },
+      {
+        "name": "Spruce Fence Gate",
+        "wiki_url": "https://minecraft.wiki/w/Spruce_Fence_Gate"
+      },
+      {
+        "name": "Spruce Sign",
+        "wiki_url": "https://minecraft.wiki/w/Spruce_Sign"
+      },
+      {
+        "name": "Spruce Hanging Sign",
+        "wiki_url": "https://minecraft.wiki/w/Spruce_Hanging_Sign"
+      },
+      {
+        "name": "Spruce Button",
+        "wiki_url": "https://minecraft.wiki/w/Spruce_Button"
+      },
+      {
+        "name": "Spruce Pressure Plate",
+        "wiki_url": "https://minecraft.wiki/w/Spruce_Pressure_Plate"
+      },
+      {
+        "name": "Spruce Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Spruce_Trapdoor"
+      },
+      {
+        "name": "Spruce Door",
+        "wiki_url": "https://minecraft.wiki/w/Spruce_Door"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 14,
+    "name": "Hardwood",
+    "active item": 68,
+    "items": [
+      {
+        "name": "Stripped Acacia Wood",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Acacia_Wood"
+      },
+      {
+        "name": "Stripped Acacia Log",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Acacia_Log"
+      },
+      {
+        "name": "Acacia Wood",
+        "wiki_url": "https://minecraft.wiki/w/Acacia_Wood"
+      },
+      {
+        "name": "Acacia Log",
+        "wiki_url": "https://minecraft.wiki/w/Acacia_Log"
+      },
+      {
+        "name": "Acacia Leaves",
+        "wiki_url": "https://minecraft.wiki/w/Acacia_Leaves"
+      },
+      {
+        "name": "Acacia Sapling",
+        "wiki_url": "https://minecraft.wiki/w/Acacia_Sapling"
+      },
+      {
+        "name": "Acacia Planks",
+        "wiki_url": "https://minecraft.wiki/w/Acacia_Planks"
+      },
+      {
+        "name": "Acacia Slab",
+        "wiki_url": "https://minecraft.wiki/w/Acacia_Slab"
+      },
+      {
+        "name": "Acacia Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Acacia_Stairs"
+      },
+      {
+        "name": "Acacia Fence",
+        "wiki_url": "https://minecraft.wiki/w/Acacia_Fence"
+      },
+      {
+        "name": "Acacia Fence Gate",
+        "wiki_url": "https://minecraft.wiki/w/Acacia_Fence_Gate"
+      },
+      {
+        "name": "Acacia Sign",
+        "wiki_url": "https://minecraft.wiki/w/Acacia_Sign"
+      },
+      {
+        "name": "Acacia Hanging Sign",
+        "wiki_url": "https://minecraft.wiki/w/Acacia_Hanging_Sign"
+      },
+      {
+        "name": "Acacia Button",
+        "wiki_url": "https://minecraft.wiki/w/Acacia_Button"
+      },
+      {
+        "name": "Acacia Pressure Plate",
+        "wiki_url": "https://minecraft.wiki/w/Acacia_Pressure_Plate"
+      },
+      {
+        "name": "Acacia Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Acacia_Trapdoor"
+      },
+      {
+        "name": "Acacia Door",
+        "wiki_url": "https://minecraft.wiki/w/Acacia_Door"
+      },
+      {
+        "name": "Block of Stripped Bamboo",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Stripped_Bamboo"
+      },
+      {
+        "name": "Block of Bamboo",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Bamboo"
+      },
+      {
+        "name": "Bamboo",
+        "wiki_url": "https://minecraft.wiki/w/Bamboo"
+      },
+      {
+        "name": "Bamboo Mosaic",
+        "wiki_url": "https://minecraft.wiki/w/Bamboo_Mosaic"
+      },
+      {
+        "name": "Bamboo Mosaic Slab",
+        "wiki_url": "https://minecraft.wiki/w/Bamboo_Mosaic_Slab"
+      },
+      {
+        "name": "Bamboo Mosaic Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Bamboo_Mosaic_Stairs"
+      },
+      {
+        "name": "Bamboo Planks",
+        "wiki_url": "https://minecraft.wiki/w/Bamboo_Planks"
+      },
+      {
+        "name": "Bamboo Slab",
+        "wiki_url": "https://minecraft.wiki/w/Bamboo_Slab"
+      },
+      {
+        "name": "Bamboo Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Bamboo_Stairs"
+      },
+      {
+        "name": "Bamboo Fence",
+        "wiki_url": "https://minecraft.wiki/w/Bamboo_Fence"
+      },
+      {
+        "name": "Bamboo Fence Gate",
+        "wiki_url": "https://minecraft.wiki/w/Bamboo_Fence_Gate"
+      },
+      {
+        "name": "Bamboo Sign",
+        "wiki_url": "https://minecraft.wiki/w/Bamboo_Sign"
+      },
+      {
+        "name": "Bamboo Hanging Sign",
+        "wiki_url": "https://minecraft.wiki/w/Bamboo_Hanging_Sign"
+      },
+      {
+        "name": "Bamboo Button",
+        "wiki_url": "https://minecraft.wiki/w/Bamboo_Button"
+      },
+      {
+        "name": "Bamboo Pressure Plate",
+        "wiki_url": "https://minecraft.wiki/w/Bamboo_Pressure_Plate"
+      },
+      {
+        "name": "Bamboo Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Bamboo_Trapdoor"
+      },
+      {
+        "name": "Bamboo Door",
+        "wiki_url": "https://minecraft.wiki/w/Bamboo_Door"
+      },
+      {
+        "name": "Stripped Dark Oak Wood",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Dark_Oak_Wood"
+      },
+      {
+        "name": "Stripped Dark Oak Log",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Dark_Oak_Log"
+      },
+      {
+        "name": "Dark Oak Wood",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Oak_Wood"
+      },
+      {
+        "name": "Dark Oak Log",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Oak_Log"
+      },
+      {
+        "name": "Dark Oak Leaves",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Oak_Leaves"
+      },
+      {
+        "name": "Dark Oak Sapling",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Oak_Sapling"
+      },
+      {
+        "name": "Dark Oak Planks",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Oak_Planks"
+      },
+      {
+        "name": "Dark Oak Slab",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Oak_Slab"
+      },
+      {
+        "name": "Dark Oak Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Oak_Stairs"
+      },
+      {
+        "name": "Dark Oak Fence",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Oak_Fence"
+      },
+      {
+        "name": "Dark Oak Fence Gate",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Oak_Fence_Gate"
+      },
+      {
+        "name": "Dark Oak Sign",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Oak_Sign"
+      },
+      {
+        "name": "Dark Oak Hanging Sign",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Oak_Hanging_Sign"
+      },
+      {
+        "name": "Dark Oak Button",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Oak_Button"
+      },
+      {
+        "name": "Dark Oak Pressure Plate",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Oak_Pressure_Plate"
+      },
+      {
+        "name": "Dark Oak Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Oak_Trapdoor"
+      },
+      {
+        "name": "Dark Oak Door",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Oak_Door"
+      },
+      {
+        "name": "Stripped Jungle Wood",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Jungle_Wood"
+      },
+      {
+        "name": "Stripped Jungle Log",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Jungle_Log"
+      },
+      {
+        "name": "Jungle Wood",
+        "wiki_url": "https://minecraft.wiki/w/Jungle_Wood"
+      },
+      {
+        "name": "Jungle Log",
+        "wiki_url": "https://minecraft.wiki/w/Jungle_Log"
+      },
+      {
+        "name": "Jungle Leaves",
+        "wiki_url": "https://minecraft.wiki/w/Jungle_Leaves"
+      },
+      {
+        "name": "Jungle Sapling",
+        "wiki_url": "https://minecraft.wiki/w/Jungle_Sapling"
+      },
+      {
+        "name": "Jungle Planks",
+        "wiki_url": "https://minecraft.wiki/w/Jungle_Planks"
+      },
+      {
+        "name": "Jungle Slab",
+        "wiki_url": "https://minecraft.wiki/w/Jungle_Slab"
+      },
+      {
+        "name": "Jungle Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Jungle_Stairs"
+      },
+      {
+        "name": "Jungle Fence",
+        "wiki_url": "https://minecraft.wiki/w/Jungle_Fence"
+      },
+      {
+        "name": "Jungle Fence Gate",
+        "wiki_url": "https://minecraft.wiki/w/Jungle_Fence_Gate"
+      },
+      {
+        "name": "Jungle Sign",
+        "wiki_url": "https://minecraft.wiki/w/Jungle_Sign"
+      },
+      {
+        "name": "Jungle Hanging Sign",
+        "wiki_url": "https://minecraft.wiki/w/Jungle_Hanging_Sign"
+      },
+      {
+        "name": "Jungle Button",
+        "wiki_url": "https://minecraft.wiki/w/Jungle_Button"
+      },
+      {
+        "name": "Jungle Pressure Plate",
+        "wiki_url": "https://minecraft.wiki/w/Jungle_Pressure_Plate"
+      },
+      {
+        "name": "Jungle Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Jungle_Trapdoor"
+      },
+      {
+        "name": "Jungle Door",
+        "wiki_url": "https://minecraft.wiki/w/Jungle_Door"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 15,
+    "name": "Nether Blocks",
+    "active item": 52,
+    "items": [
+      {
+        "name": "Soul Sand",
+        "wiki_url": "https://minecraft.wiki/w/Soul_Sand"
+      },
+      {
+        "name": "Soul Soil",
+        "wiki_url": "https://minecraft.wiki/w/Soul_Soil"
+      },
+      {
+        "name": "Nether Sprouts",
+        "wiki_url": "https://minecraft.wiki/w/Nether_Sprouts"
+      },
+      {
+        "name": "Twisting Vines",
+        "wiki_url": "https://minecraft.wiki/w/Twisting_Vines"
+      },
+      {
+        "name": "Weeping Vines",
+        "wiki_url": "https://minecraft.wiki/w/Weeping_Vines"
+      },
+      {
+        "name": "Crimson Roots",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Roots"
+      },
+      {
+        "name": "Crimson Nylium",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Nylium"
+      },
+      {
+        "name": "Warped Roots",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Roots"
+      },
+      {
+        "name": "Warped Nylium",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Nylium"
+      },
+      {
+        "name": "Netherrack",
+        "wiki_url": "https://minecraft.wiki/w/Netherrack"
+      },
+      {
+        "name": "Nether Brick",
+        "wiki_url": "https://minecraft.wiki/w/Nether_Brick"
+      },
+      {
+        "name": "Nether Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Nether_Bricks"
+      },
+      {
+        "name": "Nether Brick Slab",
+        "wiki_url": "https://minecraft.wiki/w/Nether_Brick_Slab"
+      },
+      {
+        "name": "Nether Brick Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Nether_Brick_Stairs"
+      },
+      {
+        "name": "Nether Brick Wall",
+        "wiki_url": "https://minecraft.wiki/w/Nether_Brick_Wall"
+      },
+      {
+        "name": "Chiseled Nether Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Chiseled_Nether_Bricks"
+      },
+      {
+        "name": "Cracked Nether Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Cracked_Nether_Bricks"
+      },
+      {
+        "name": "Nether Brick Fence",
+        "wiki_url": "https://minecraft.wiki/w/Nether_Brick_Fence"
+      },
+      {
+        "name": "Red Nether Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Red_Nether_Bricks"
+      },
+      {
+        "name": "Red Nether Brick Slab",
+        "wiki_url": "https://minecraft.wiki/w/Red_Nether_Brick_Slab"
+      },
+      {
+        "name": "Red Nether Brick Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Red_Nether_Brick_Stairs"
+      },
+      {
+        "name": "Red Nether Brick Wall",
+        "wiki_url": "https://minecraft.wiki/w/Red_Nether_Brick_Wall"
+      },
+      {
+        "name": "Basalt",
+        "wiki_url": "https://minecraft.wiki/w/Basalt"
+      },
+      {
+        "name": "Polished Basalt",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Basalt"
+      },
+      {
+        "name": "Smooth Basalt",
+        "wiki_url": "https://minecraft.wiki/w/Smooth_Basalt"
+      },
+      {
+        "name": "Nether Quartz Ore",
+        "wiki_url": "https://minecraft.wiki/w/Nether_Quartz_Ore"
+      },
+      {
+        "name": "Nether Quartz",
+        "wiki_url": "https://minecraft.wiki/w/Nether_Quartz"
+      },
+      {
+        "name": "Block of Quartz",
+        "wiki_url": "https://minecraft.wiki/w/Block_of_Quartz"
+      },
+      {
+        "name": "Quartz Slab",
+        "wiki_url": "https://minecraft.wiki/w/Quartz_Slab"
+      },
+      {
+        "name": "Quartz Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Quartz_Stairs"
+      },
+      {
+        "name": "Chiseled Quartz Block",
+        "wiki_url": "https://minecraft.wiki/w/Chiseled_Quartz_Block"
+      },
+      {
+        "name": "Quartz Pillar",
+        "wiki_url": "https://minecraft.wiki/w/Quartz_Pillar"
+      },
+      {
+        "name": "Quartz Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Quartz_Bricks"
+      },
+      {
+        "name": "Smooth Quartz Block",
+        "wiki_url": "https://minecraft.wiki/w/Smooth_Quartz_Block"
+      },
+      {
+        "name": "Smooth Quartz Slab",
+        "wiki_url": "https://minecraft.wiki/w/Smooth_Quartz_Slab"
+      },
+      {
+        "name": "Smooth Quartz Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Smooth_Quartz_Stairs"
+      },
+      {
+        "name": "Blackstone",
+        "wiki_url": "https://minecraft.wiki/w/Blackstone"
+      },
+      {
+        "name": "Blackstone Slab",
+        "wiki_url": "https://minecraft.wiki/w/Blackstone_Slab"
+      },
+      {
+        "name": "Blackstone Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Blackstone_Stairs"
+      },
+      {
+        "name": "Blackstone Wall",
+        "wiki_url": "https://minecraft.wiki/w/Blackstone_Wall"
+      },
+      {
+        "name": "Polished Blackstone",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Blackstone"
+      },
+      {
+        "name": "Polished Blackstone Slab",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Blackstone_Slab"
+      },
+      {
+        "name": "Polished Blackstone Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Blackstone_Stairs"
+      },
+      {
+        "name": "Polished Blackstone Wall",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Blackstone_Wall"
+      },
+      {
+        "name": "Chiseled Polished Blackstone",
+        "wiki_url": "https://minecraft.wiki/w/Chiseled_Polished_Blackstone"
+      },
+      {
+        "name": "Polished Blackstone Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Blackstone_Bricks"
+      },
+      {
+        "name": "Polished Blackstone Brick Slab",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Blackstone_Brick_Slab"
+      },
+      {
+        "name": "Polished Blackstone Brick Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Blackstone_Brick_Stairs"
+      },
+      {
+        "name": "Polished Blackstone Brick Wall",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Blackstone_Brick_Wall"
+      },
+      {
+        "name": "Cracked Polished Blackstone Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Cracked_Polished_Blackstone_Bricks"
+      },
+      {
+        "name": "Polished Blackstone Pressure Plate",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Blackstone_Pressure_Plate"
+      },
+      {
+        "name": "Polished Blackstone Button",
+        "wiki_url": "https://minecraft.wiki/w/Polished_Blackstone_Button"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 16,
+    "name": "Swamp & Nether Wood",
+    "active item": 71,
+    "items": [
+      {
+        "name": "Stripped Mangrove Log",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Mangrove_Log"
+      },
+      {
+        "name": "Mangrove Wood",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Wood"
+      },
+      {
+        "name": "Mangrove Log",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Log"
+      },
+      {
+        "name": "Muddy Mangrove Roots",
+        "wiki_url": "https://minecraft.wiki/w/Muddy_Mangrove_Roots"
+      },
+      {
+        "name": "Mangrove Roots",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Roots"
+      },
+      {
+        "name": "Mangrove Fence",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Fence"
+      },
+      {
+        "name": "Mangrove Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Stairs"
+      },
+      {
+        "name": "Mangrove Slab",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Slab"
+      },
+      {
+        "name": "Mangrove Planks",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Planks"
+      },
+      {
+        "name": "Stripped Mangrove Wood",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Mangrove_Wood"
+      },
+      {
+        "name": "Mangrove Button",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Button"
+      },
+      {
+        "name": "Mangrove Hanging Sign",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Hanging_Sign"
+      },
+      {
+        "name": "Mangrove Sign",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Sign"
+      },
+      {
+        "name": "Mangrove Fence Gate",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Fence_Gate"
+      },
+      {
+        "name": "Mangrove Door",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Door"
+      },
+      {
+        "name": "Mangrove Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Trapdoor"
+      },
+      {
+        "name": "Mangrove Pressure Plate",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Pressure_Plate"
+      },
+      {
+        "name": "Mangrove Propagule",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Propagule"
+      },
+      {
+        "name": "Mangrove Leaves",
+        "wiki_url": "https://minecraft.wiki/w/Mangrove_Leaves"
+      },
+      {
+        "name": "Stripped Pale Oak Wood",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Pale_Oak_Wood"
+      },
+      {
+        "name": "Pale Oak Wood",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Oak_Wood"
+      },
+      {
+        "name": "Pale Oak Log",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Oak_Log"
+      },
+      {
+        "name": "Creaking Heart",
+        "wiki_url": "https://minecraft.wiki/w/Creaking_Heart"
+      },
+      {
+        "name": "Pale Oak Leaves",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Oak_Leaves"
+      },
+      {
+        "name": "Pale Oak Sapling",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Oak_Sapling"
+      },
+      {
+        "name": "Pale Oak Slab",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Oak_Slab"
+      },
+      {
+        "name": "Pale Oak Planks",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Oak_Planks"
+      },
+      {
+        "name": "Stripped Pale Oak Log",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Pale_Oak_Log"
+      },
+      {
+        "name": "Pale Oak Button",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Oak_Button"
+      },
+      {
+        "name": "Pale Oak Hanging Sign",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Oak_Hanging_Sign"
+      },
+      {
+        "name": "Pale Oak Sign",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Oak_Sign"
+      },
+      {
+        "name": "Pale Oak Fence Gate",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Oak_Fence_Gate"
+      },
+      {
+        "name": "Pale Oak Fence",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Oak_Fence"
+      },
+      {
+        "name": "Pale Oak Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Oak_Stairs"
+      },
+      {
+        "name": "Pale Oak Door",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Oak_Door"
+      },
+      {
+        "name": "Pale Oak Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Oak_Trapdoor"
+      },
+      {
+        "name": "Pale Oak Pressure Plate",
+        "wiki_url": "https://minecraft.wiki/w/Pale_Oak_Pressure_Plate"
+      },
+      {
+        "name": "Warped Pressure Plate",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Pressure_Plate"
+      },
+      {
+        "name": "Warped Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Trapdoor"
+      },
+      {
+        "name": "Warped Door",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Door"
+      },
+      {
+        "name": "Warped Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Stairs"
+      },
+      {
+        "name": "Warped Fence",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Fence"
+      },
+      {
+        "name": "Warped Fence Gate",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Fence_Gate"
+      },
+      {
+        "name": "Warped Sign",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Sign"
+      },
+      {
+        "name": "Warped Hanging Sign",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Hanging_Sign"
+      },
+      {
+        "name": "Warped Button",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Button"
+      },
+      {
+        "name": "Stripped Warped Stem",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Warped_Stem"
+      },
+      {
+        "name": "Stripped Warped Hyphae",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Warped_Hyphae"
+      },
+      {
+        "name": "Warped Planks",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Planks"
+      },
+      {
+        "name": "Warped Slab",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Slab"
+      },
+      {
+        "name": "Warped Fungus",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Fungus"
+      },
+      {
+        "name": "Warped Wart Block",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Wart_Block"
+      },
+      {
+        "name": "Warped Stem",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Stem"
+      },
+      {
+        "name": "Warped Hyphae",
+        "wiki_url": "https://minecraft.wiki/w/Warped_Hyphae"
+      },
+      {
+        "name": "Crimson Trapdoor",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Trapdoor"
+      },
+      {
+        "name": "Crimson Door",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Door"
+      },
+      {
+        "name": "Crimson Sign",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Sign"
+      },
+      {
+        "name": "Crimson Hanging Sign",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Hanging_Sign"
+      },
+      {
+        "name": "Crimson Button",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Button"
+      },
+      {
+        "name": "Crimson Pressure Plate",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Pressure_Plate"
+      },
+      {
+        "name": "Crimson Slab",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Slab"
+      },
+      {
+        "name": "Crimson Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Stairs"
+      },
+      {
+        "name": "Crimson Fence",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Fence"
+      },
+      {
+        "name": "Crimson Fence Gate",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Fence_Gate"
+      },
+      {
+        "name": "Stripped Crimson Hyphae",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Crimson_Hyphae"
+      },
+      {
+        "name": "Stripped Crimson Stem",
+        "wiki_url": "https://minecraft.wiki/w/Stripped_Crimson_Stem"
+      },
+      {
+        "name": "Crimson Planks",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Planks"
+      },
+      {
+        "name": "Crimson Fungus",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Fungus"
+      },
+      {
+        "name": "Crimson Stem",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Stem"
+      },
+      {
+        "name": "Crimson Hyphae",
+        "wiki_url": "https://minecraft.wiki/w/Crimson_Hyphae"
+      },
+      {
+        "name": "Nether Wart Block",
+        "wiki_url": "https://minecraft.wiki/w/Nether_Wart_Block"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 17,
+    "name": "Armor Trims",
+    "active item": 17,
+    "items": [
+      {
+        "name": "Coast Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Coast_Armor_Trim"
+      },
+      {
+        "name": "Dune Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Dune_Armor_Trim"
+      },
+      {
+        "name": "Eye Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Eye_Armor_Trim"
+      },
+      {
+        "name": "Flow Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Flow_Armor_Trim"
+      },
+      {
+        "name": "Host Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Host_Armor_Trim"
+      },
+      {
+        "name": "Raiser Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Raiser_Armor_Trim"
+      },
+      {
+        "name": "Rib Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Rib_Armor_Trim"
+      },
+      {
+        "name": "Sentry Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Sentry_Armor_Trim"
+      },
+      {
+        "name": "Shaper Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Shaper_Armor_Trim"
+      },
+      {
+        "name": "Silence Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Silence_Armor_Trim"
+      },
+      {
+        "name": "Snout Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Snout_Armor_Trim"
+      },
+      {
+        "name": "Spire Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Spire_Armor_Trim"
+      },
+      {
+        "name": "Tide Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Tide_Armor_Trim"
+      },
+      {
+        "name": "Vex Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Vex_Armor_Trim"
+      },
+      {
+        "name": "Ward Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Ward_Armor_Trim"
+      },
+      {
+        "name": "Wayfinder Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Wayfinder_Armor_Trim"
+      },
+      {
+        "name": "Wild Armor Trim",
+        "wiki_url": "https://minecraft.wiki/w/Wild_Armor_Trim"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 18,
+    "name": "End & Ocean",
+    "active item": 51,
+    "items": [
+      {
+        "name": "End Stone",
+        "wiki_url": "https://minecraft.wiki/w/End_Stone"
+      },
+      {
+        "name": "End Stone Bricks",
+        "wiki_url": "https://minecraft.wiki/w/End_Stone_Bricks"
+      },
+      {
+        "name": "End Stone Brick Slab",
+        "wiki_url": "https://minecraft.wiki/w/End_Stone_Brick_Slab"
+      },
+      {
+        "name": "End Stone Brick Stairs",
+        "wiki_url": "https://minecraft.wiki/w/End_Stone_Brick_Stairs"
+      },
+      {
+        "name": "End Stone Brick Wall",
+        "wiki_url": "https://minecraft.wiki/w/End_Stone_Brick_Wall"
+      },
+      {
+        "name": "Purpur Block",
+        "wiki_url": "https://minecraft.wiki/w/Purpur_Block"
+      },
+      {
+        "name": "Purpur Pillar",
+        "wiki_url": "https://minecraft.wiki/w/Purpur_Pillar"
+      },
+      {
+        "name": "Purpur Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Purpur_Stairs"
+      },
+      {
+        "name": "Purpur Slab",
+        "wiki_url": "https://minecraft.wiki/w/Purpur_Slab"
+      },
+      {
+        "name": "Prismarine Crystals",
+        "wiki_url": "https://minecraft.wiki/w/Prismarine_Crystals"
+      },
+      {
+        "name": "Prismarine Shard",
+        "wiki_url": "https://minecraft.wiki/w/Prismarine_Shard"
+      },
+      {
+        "name": "Prismarine",
+        "wiki_url": "https://minecraft.wiki/w/Prismarine"
+      },
+      {
+        "name": "Prismarine Slab",
+        "wiki_url": "https://minecraft.wiki/w/Prismarine_Slab"
+      },
+      {
+        "name": "Prismarine Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Prismarine_Stairs"
+      },
+      {
+        "name": "Prismarine Wall",
+        "wiki_url": "https://minecraft.wiki/w/Prismarine_Wall"
+      },
+      {
+        "name": "Prismarine Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Prismarine_Bricks"
+      },
+      {
+        "name": "Prismarine Brick Slab",
+        "wiki_url": "https://minecraft.wiki/w/Prismarine_Brick_Slab"
+      },
+      {
+        "name": "Prismarine Brick Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Prismarine_Brick_Stairs"
+      },
+      {
+        "name": "Dark Prismarine",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Prismarine"
+      },
+      {
+        "name": "Dark Prismarine Slab",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Prismarine_Slab"
+      },
+      {
+        "name": "Dark Prismarine Stairs",
+        "wiki_url": "https://minecraft.wiki/w/Dark_Prismarine_Stairs"
+      },
+      {
+        "name": "Dead Tube Coral Fan",
+        "wiki_url": "https://minecraft.wiki/w/Dead_Tube_Coral_Fan"
+      },
+      {
+        "name": "Tube Coral Fan",
+        "wiki_url": "https://minecraft.wiki/w/Tube_Coral_Fan"
+      },
+      {
+        "name": "Dead Tube Coral Block",
+        "wiki_url": "https://minecraft.wiki/w/Dead_Tube_Coral_Block"
+      },
+      {
+        "name": "Tube Coral Block",
+        "wiki_url": "https://minecraft.wiki/w/Tube_Coral_Block"
+      },
+      {
+        "name": "Dead Tube Coral",
+        "wiki_url": "https://minecraft.wiki/w/Dead_Tube_Coral"
+      },
+      {
+        "name": "Tube Coral",
+        "wiki_url": "https://minecraft.wiki/w/Tube_Coral"
+      },
+      {
+        "name": "Dead Horn Coral Fan",
+        "wiki_url": "https://minecraft.wiki/w/Dead_Horn_Coral_Fan"
+      },
+      {
+        "name": "Horn Coral Fan",
+        "wiki_url": "https://minecraft.wiki/w/Horn_Coral_Fan"
+      },
+      {
+        "name": "Dead Horn Coral Block",
+        "wiki_url": "https://minecraft.wiki/w/Dead_Horn_Coral_Block"
+      },
+      {
+        "name": "Horn Coral Block",
+        "wiki_url": "https://minecraft.wiki/w/Horn_Coral_Block"
+      },
+      {
+        "name": "Dead Horn Coral",
+        "wiki_url": "https://minecraft.wiki/w/Dead_Horn_Coral"
+      },
+      {
+        "name": "Horn Coral",
+        "wiki_url": "https://minecraft.wiki/w/Horn_Coral"
+      },
+      {
+        "name": "Dead Fire Coral Fan",
+        "wiki_url": "https://minecraft.wiki/w/Dead_Fire_Coral_Fan"
+      },
+      {
+        "name": "Fire Coral Fan",
+        "wiki_url": "https://minecraft.wiki/w/Fire_Coral_Fan"
+      },
+      {
+        "name": "Dead Fire Coral Block",
+        "wiki_url": "https://minecraft.wiki/w/Dead_Fire_Coral_Block"
+      },
+      {
+        "name": "Fire Coral Block",
+        "wiki_url": "https://minecraft.wiki/w/Fire_Coral_Block"
+      },
+      {
+        "name": "Dead Fire Coral",
+        "wiki_url": "https://minecraft.wiki/w/Dead_Fire_Coral"
+      },
+      {
+        "name": "Fire Coral",
+        "wiki_url": "https://minecraft.wiki/w/Fire_Coral"
+      },
+      {
+        "name": "Dead Bubble Coral Fan",
+        "wiki_url": "https://minecraft.wiki/w/Dead_Bubble_Coral_Fan"
+      },
+      {
+        "name": "Bubble Coral Fan",
+        "wiki_url": "https://minecraft.wiki/w/Bubble_Coral_Fan"
+      },
+      {
+        "name": "Dead Bubble Coral Block",
+        "wiki_url": "https://minecraft.wiki/w/Dead_Bubble_Coral_Block"
+      },
+      {
+        "name": "Bubble Coral Block",
+        "wiki_url": "https://minecraft.wiki/w/Bubble_Coral_Block"
+      },
+      {
+        "name": "Dead Bubble Coral",
+        "wiki_url": "https://minecraft.wiki/w/Dead_Bubble_Coral"
+      },
+      {
+        "name": "Bubble Coral",
+        "wiki_url": "https://minecraft.wiki/w/Bubble_Coral"
+      },
+      {
+        "name": "Dead Brain Coral Fan",
+        "wiki_url": "https://minecraft.wiki/w/Dead_Brain_Coral_Fan"
+      },
+      {
+        "name": "Brain Coral Fan",
+        "wiki_url": "https://minecraft.wiki/w/Brain_Coral_Fan"
+      },
+      {
+        "name": "Dead Brain Coral Block",
+        "wiki_url": "https://minecraft.wiki/w/Dead_Brain_Coral_Block"
+      },
+      {
+        "name": "Brain Coral Block",
+        "wiki_url": "https://minecraft.wiki/w/Brain_Coral_Block"
+      },
+      {
+        "name": "Dead Brain Coral",
+        "wiki_url": "https://minecraft.wiki/w/Dead_Brain_Coral"
+      },
+      {
+        "name": "Brain Coral",
+        "wiki_url": "https://minecraft.wiki/w/Brain_Coral"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 19,
+    "name": "Modded Copper & Lightning",
+    "active item": 46,
+    "items": [
+      {
+        "name": "Oxidized Copper Bars",
+        "wiki_url": "https://minecraft.wiki/w/Oxidized_Copper_Bars"
+      },
+      {
+        "name": "Weathered Copper Bars",
+        "wiki_url": "https://minecraft.wiki/w/Weathered_Copper_Bars"
+      },
+      {
+        "name": "Exposed Copper Bars",
+        "wiki_url": "https://minecraft.wiki/w/Exposed_Copper_Bars"
+      },
+      {
+        "name": "Copper Bars",
+        "wiki_url": "https://minecraft.wiki/w/Copper_Bars"
+      },
+      {
+        "name": "Copper Nugget",
+        "wiki_url": "https://minecraft.wiki/w/Copper_Nugget"
+      },
+      {
+        "name": "Waxed Oxidized Copper Chain",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Copper_Chain"
+      },
+      {
+        "name": "Waxed Weathered Copper Chain",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Copper_Chain"
+      },
+      {
+        "name": "Waxed Exposed Copper Chain",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Copper_Chain"
+      },
+      {
+        "name": "Waxed Copper Chain",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Copper_Chain"
+      },
+      {
+        "name": "Oxidized Copper Chain",
+        "wiki_url": "https://minecraft.wiki/w/Oxidized_Copper_Chain"
+      },
+      {
+        "name": "Weathered Copper Chain",
+        "wiki_url": "https://minecraft.wiki/w/Weathered_Copper_Chain"
+      },
+      {
+        "name": "Exposed Copper Chain",
+        "wiki_url": "https://minecraft.wiki/w/Exposed_Copper_Chain"
+      },
+      {
+        "name": "Copper Chain",
+        "wiki_url": "https://minecraft.wiki/w/Copper_Chain"
+      },
+      {
+        "name": "Waxed Oxidized Copper Chest",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Copper_Chest"
+      },
+      {
+        "name": "Waxed Weathered Copper Chest",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Copper_Chest"
+      },
+      {
+        "name": "Waxed Exposed Copper Chest",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Copper_Chest"
+      },
+      {
+        "name": "Waxed Copper Chest",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Copper_Chest"
+      },
+      {
+        "name": "Oxidized Copper Chest",
+        "wiki_url": "https://minecraft.wiki/w/Oxidized_Copper_Chest"
+      },
+      {
+        "name": "Weathered Copper Chest",
+        "wiki_url": "https://minecraft.wiki/w/Weathered_Copper_Chest"
+      },
+      {
+        "name": "Exposed Copper Chest",
+        "wiki_url": "https://minecraft.wiki/w/Exposed_Copper_Chest"
+      },
+      {
+        "name": "Copper Chest",
+        "wiki_url": "https://minecraft.wiki/w/Copper_Chest"
+      },
+      {
+        "name": "Waxed Oxidized Copper Golem Statue",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Copper_Golem_Statue"
+      },
+      {
+        "name": "Waxed Weathered Copper Golem Statue",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Copper_Golem_Statue"
+      },
+      {
+        "name": "Waxed Exposed Copper Golem Statue",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Copper_Golem_Statue"
+      },
+      {
+        "name": "Waxed Copper Golem Statue",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Copper_Golem_Statue"
+      },
+      {
+        "name": "Oxidized Copper Golem Statue",
+        "wiki_url": "https://minecraft.wiki/w/Oxidized_Copper_Golem_Statue"
+      },
+      {
+        "name": "Weathered Copper Golem Statue",
+        "wiki_url": "https://minecraft.wiki/w/Weathered_Copper_Golem_Statue"
+      },
+      {
+        "name": "Exposed Copper Golem Statue",
+        "wiki_url": "https://minecraft.wiki/w/Exposed_Copper_Golem_Statue"
+      },
+      {
+        "name": "Copper Golem Statue",
+        "wiki_url": "https://minecraft.wiki/w/Copper_Golem_Statue"
+      },
+      {
+        "name": "Waxed Oxidized Lightning Rod",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Lightning_Rod"
+      },
+      {
+        "name": "Waxed Weathered Lightning Rod",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Lightning_Rod"
+      },
+      {
+        "name": "Waxed Exposed Lightning Rod",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Lightning_Rod"
+      },
+      {
+        "name": "Waxed Lightning Rod",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Lightning_Rod"
+      },
+      {
+        "name": "Oxidized Lightning Rod",
+        "wiki_url": "https://minecraft.wiki/w/Oxidized_Lightning_Rod"
+      },
+      {
+        "name": "Weathered Lightning Rod",
+        "wiki_url": "https://minecraft.wiki/w/Weathered_Lightning_Rod"
+      },
+      {
+        "name": "Exposed Lightning Rod",
+        "wiki_url": "https://minecraft.wiki/w/Exposed_Lightning_Rod"
+      },
+      {
+        "name": "Lightning Rod",
+        "wiki_url": "https://minecraft.wiki/w/Lightning_Rod"
+      },
+      {
+        "name": "Waxed Oxidized Copper Lantern",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Copper_Lantern"
+      },
+      {
+        "name": "Waxed Weathered Copper Lantern",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Copper_Lantern"
+      },
+      {
+        "name": "Waxed Exposed Copper Lantern",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Copper_Lantern"
+      },
+      {
+        "name": "Waxed Copper Lantern",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Copper_Lantern"
+      },
+      {
+        "name": "Oxidized Copper Lantern",
+        "wiki_url": "https://minecraft.wiki/w/Oxidized_Copper_Lantern"
+      },
+      {
+        "name": "Weathered Copper Lantern",
+        "wiki_url": "https://minecraft.wiki/w/Weathered_Copper_Lantern"
+      },
+      {
+        "name": "Exposed Copper Lantern",
+        "wiki_url": "https://minecraft.wiki/w/Exposed_Copper_Lantern"
+      },
+      {
+        "name": "Copper Lantern",
+        "wiki_url": "https://minecraft.wiki/w/Copper_Lantern"
+      },
+      {
+        "name": "Copper Torch",
+        "wiki_url": "https://minecraft.wiki/w/Copper_Torch"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "id": 20,
+    "name": "Future Use 1",
+    "active item": 0,
+    "items": [],
+    "status": "empty"
+  },
+  {
+    "id": 21,
+    "name": "Future Use 2",
+    "active item": 0,
+    "items": [],
+    "status": "empty"
+  },
+  {
+    "id": 22,
+    "name": "Future Use 3",
+    "active item": 0,
+    "items": [],
+    "status": "empty"
+  }
+]
