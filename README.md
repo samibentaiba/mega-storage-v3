@@ -44,6 +44,55 @@ npx tsx scripts/scrape-inventory-sort.ts
 npx tsx scripts/generate-inventory-sort.ts
 ```
 
+## 🛠️ How to Contribute & Manage Items
+
+### 1. How to change the sort (tab) of an item
+The inventory tabs are generated automatically by a script based on keywords in the item's name.
+1. Open the file `scripts/generate-inventory-sort.ts`.
+2. Find the `getCategory` function. This function checks the item's name and returns the tab name.
+3. Add a specific rule for your item. For example, if you want "Flint" to go to Redstone Blocks:
+   ```typescript
+   if (lower === 'flint') return 'Redstone Blocks';
+   ```
+4. Save the file and run `npx tsx scripts/generate-inventory-sort.ts` to update the website.
+
+### 2. How to add a new item
+Your web inventory gets all of its items from the main storage map.
+1. Open the file `src/data/storage-system.json`.
+2. Find the chamber where you want to physically store this item.
+3. Add a new object to that chamber's `"items"` array:
+   ```json
+   {
+     "name": "New Cool Item",
+     "wiki_url": "https://minecraft.wiki/w/New_Cool_Item"
+   }
+   ```
+4. Save the file and run `npx tsx scripts/generate-inventory-sort.ts` to officially push it into your visual creative inventory.
+
+### 3. How to edit the icon of an item
+The website automatically fetches the official icon from the Minecraft Wiki using the item's name (e.g., `Invicon_Stone.png`).
+If you want to manually change or override an icon:
+1. Open `src/components/ItemSlot.tsx`.
+2. Look at the top of the component where `const iconUrl` is defined. 
+3. You can change it to a `let` variable and add a rule to change the image link for a specific item:
+   ```tsx
+   let iconUrl = `https://minecraft.wiki/images/Invicon_${wikiName}.png`;
+   
+   // Add your custom overrides here!
+   if (name === "Redstone Dust") {
+     iconUrl = "https://minecraft.wiki/images/Invicon_Redstone.png"; 
+   }
+   if (name === "My Custom Item") {
+     iconUrl = "/my-local-image.png"; // If you put an image in your public/ folder
+   }
+   ```
+
+### 4. Troubleshooting `storage-system.json` Data
+All item data is pulled from `src/data/storage-system.json`. Because this file is manually written and huge, mistakes can happen!
+- **Forgot an item?** If an item is missing from the dashboard, it means it's missing from `storage-system.json`. Find the correct chamber and add it there.
+- **Added an item incorrectly?** If you misspell the `"name"`, the Wiki icon scraper will fail and the item might end up sorted into the wrong tab (or the "Building Blocks" default tab). Double-check the exact spelling against the Minecraft Wiki.
+- **Wrong Chamber?** If an item says it's in Chamber 2 but should be in Chamber 5, move its JSON object to the correct chamber ID block inside the `storage-system.json` file.
+
 ## 📈 How We Can Improve It
 
 - **Search Functionality:** Implement the "Search Items" compass tab functionality to allow quick filtering of the massive item database.
@@ -57,7 +106,10 @@ npx tsx scripts/generate-inventory-sort.ts
 The current `generate-inventory-sort.ts` script relies heavily on substring matching (e.g., `if (lower.includes('pickaxe'))`) to categorize items. This can lead to:
 - **Miscategorization:** Items with overlapping keywords might be placed in the wrong tab depending on the order of the `if` statements.
 - **Manual Non-Stackable List:** The script uses a hardcoded list of non-stackable keywords (e.g., 'Sword', 'Bed', 'Boat'). When Minecraft updates with new non-stackable items, this list must be manually updated, otherwise, items will be assigned to stackable chambers incorrectly.
-- **Dependency on `storage-system.json`:** The sorting script assumes the base storage map is accurate. If an item is missing from the base map, it won't appear in the creative tabs.
+- **Storage System Data Inconsistencies:** The entire dashboard is built off of `src/data/storage-system.json`. Because this file is manually curated, it's highly susceptible to human error. 
+  - **Missing Items:** If you forget to add an item to the storage system map, it simply will never appear in the dashboard.
+  - **Typos & Exact Naming:** If you misspell an item (e.g., "Redstone dust" instead of "Redstone Dust"), the icon might fail to fetch from the Wiki, and it could be sorted into the wrong tab entirely.
+  - **Validation Missing:** There is currently no script to validate if `storage-system.json` has missing blocks from the actual game. If Minecraft updates, you must manually ensure the new items are added to this file.
 
 ### Feature Limitations
 - **Scraper Fragility:** The `scrape-inventory-sort.ts` script relies on the specific DOM structure of the Minecraft Wiki. If the Wiki changes its layout, class names, or adds stricter bot protection, the scraper will break and need adjustments.
