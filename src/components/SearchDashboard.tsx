@@ -176,7 +176,7 @@ export function SearchDashboard() {
           
           {/* Skeleton Top Tabs */}
           <div className="flex w-[392px] items-end z-10 relative">
-            {Array.from({ length: 6 }).map((_, i) => (
+            {Array.from({ length: 5 }).map((_, i) => (
               <div key={i} className="mc-tab-top" />
             ))}
             <div className="flex-1" />
@@ -206,7 +206,7 @@ export function SearchDashboard() {
 
           {/* Skeleton Bottom Tabs */}
           <div className="flex w-[392px] items-start z-10 relative mt-[-2px]">
-            {Array.from({ length: 7 }).map((_, i) => (
+            {Array.from({ length: 6 }).map((_, i) => (
               <div key={i} className="mc-tab-bottom" />
             ))}
           </div>
