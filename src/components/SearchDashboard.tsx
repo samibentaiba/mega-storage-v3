@@ -69,10 +69,29 @@ export function SearchDashboard() {
   const maxRows = Math.ceil(filteredItems.length / 9);
   const maxScrollableRows = Math.max(0, maxRows - 5);
 
-  const handleWheel = (e: React.WheelEvent) => {
-    if (e.deltaY > 0) setScrollRow(prev => Math.min(maxScrollableRows, prev + 1));
-    else setScrollRow(prev => Math.max(0, prev - 1));
-  };
+  const gridRef = React.useRef<HTMLDivElement>(null);
+  const maxScrollableRowsRef = React.useRef(maxScrollableRows);
+
+  React.useEffect(() => {
+    maxScrollableRowsRef.current = maxScrollableRows;
+  }, [maxScrollableRows]);
+
+  React.useEffect(() => {
+    const grid = gridRef.current;
+    if (!grid) return;
+
+    const handleNativeWheel = (e: WheelEvent) => {
+      e.preventDefault(); // Prevent page scroll
+      if (e.deltaY > 0) {
+        setScrollRow(prev => Math.min(maxScrollableRowsRef.current, prev + 1));
+      } else {
+        setScrollRow(prev => Math.max(0, prev - 1));
+      }
+    };
+
+    grid.addEventListener('wheel', handleNativeWheel, { passive: false });
+    return () => grid.removeEventListener('wheel', handleNativeWheel);
+  }, []);
 
   const trackRef = React.useRef<HTMLDivElement>(null);
   const handleScrollDrag = (e: React.MouseEvent) => {
@@ -261,8 +280,8 @@ export function SearchDashboard() {
             )}
           </div>
 
-          <div className="flex justify-between w-[356px]">
-            <div className="grid grid-cols-9 gap-0 w-[324px] h-[180px]" onWheel={handleWheel}>
+          <div ref={gridRef} className="flex justify-between w-[356px]">
+            <div className="grid grid-cols-9 gap-0 w-[324px] h-[180px]">
               {renderSlots()}
             </div>
             <div 
