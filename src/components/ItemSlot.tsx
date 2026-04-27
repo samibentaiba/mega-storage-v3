@@ -14,12 +14,17 @@ interface ItemSlotProps {
   chamberPosition?: number | null;
 }
 
+// Items where the wiki icon filename doesn't match the standard Invicon_{Name}.png pattern.
+// Key = item name (exact), Value = wiki icon filename WITHOUT "Invicon_" prefix and WITHOUT extension.
+const ICON_OVERRIDES: Record<string, string> = {
+  'Steak':         'Cooked_Beef',      // wiki uses the old name
+  'Disc Fragment': 'Disc_Fragment_5',  // wiki uses numbered variant
+};
+
 export function ItemSlot({ name, wiki_url, chamberName, chamberId, chamberItemCount, chamberSide, chamberPosition }: ItemSlotProps) {
-  const wikiName = name
-    .replace(/\s*\(.*?\)\s*/g, ' ')
-    .trim()
-    .replace(/ /g, '_');
-  const iconUrl = `https://minecraft.wiki/images/Invicon_${wikiName}.png`;
+  const baseName = ICON_OVERRIDES[name]
+    ?? name.replace(/\s*\(.*?\)\s*/g, ' ').trim().replace(/ /g, '_');
+  const iconUrl = `https://minecraft.wiki/images/Invicon_${baseName}.png`;
 
   const renderIcon = () => {
     if (!name) return null;
