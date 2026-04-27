@@ -91,7 +91,7 @@ export function SearchDashboard() {
 
     grid.addEventListener('wheel', handleNativeWheel, { passive: false });
     return () => grid.removeEventListener('wheel', handleNativeWheel);
-  }, []);
+  }, [loading, mounted]);
 
   const trackRef = React.useRef<HTMLDivElement>(null);
   const handleScrollDrag = (e: React.MouseEvent) => {
