@@ -21,6 +21,9 @@ interface ItemSlotProps {
 //   "BaseName.gif"      → https://minecraft.wiki/images/Invicon_{BaseName}.gif
 //   "https://..."       → full URL used as-is
 const ICON_OVERRIDES: Record<string, string> = {
+  'Disc fragment': 'Invicon_Disc_Fragment_5',
+  'Grass': 'Invicon_Grass_Block',
+  'Clay Block':                                 'Invicon_Clay',
   // ── Renamed / old names ──────────────────────────────────────────────────
   'Steak':                                 'Cooked_Beef',
   'Chain':                                 'Iron_Chain',

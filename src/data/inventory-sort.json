@@ -6273,16 +6273,7 @@
           "chamberSide": "left",
           "chamberPosition": 13
         },
-        {
-          "name": "Grass",
-          "wiki_url": "https://minecraft.wiki/w/Grass",
-          "stackable": true,
-          "chamber": "Unassigned",
-          "chamberId": null,
-          "chamberItemCount": null,
-          "chamberSide": null,
-          "chamberPosition": null
-        },
+        
         {
           "name": "Spore Blossom",
           "wiki_url": "https://minecraft.wiki/w/Spore_Blossom",
@@ -10432,16 +10423,6 @@
           "chamberItemCount": 50,
           "chamberSide": "right",
           "chamberPosition": 14
-        },
-        {
-          "name": "Clay Block",
-          "wiki_url": "https://minecraft.wiki/w/Clay_Block",
-          "stackable": true,
-          "chamber": "Unassigned",
-          "chamberId": null,
-          "chamberItemCount": null,
-          "chamberSide": null,
-          "chamberPosition": null
         },
         {
           "name": "Brick",
