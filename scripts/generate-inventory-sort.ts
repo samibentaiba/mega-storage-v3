@@ -118,7 +118,7 @@ async function run() {
   for (const [lowerName, info] of itemToChamberMap.entries()) {
     if (outputNames.has(lowerName)) continue;
     // Build a best-effort wiki display name from the storage name
-    const displayName = lowerName.replace(/\b\w/g, c => c.toUpperCase());
+    const displayName = lowerName.replace(/\b\w/g, (c: string) => c.toUpperCase());
     missingStorageItems.push({
       name: displayName,
       wiki_url: `https://minecraft.wiki/w/${displayName.replace(/ /g, '_')}`,
