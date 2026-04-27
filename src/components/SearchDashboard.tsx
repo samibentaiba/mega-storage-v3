@@ -10,13 +10,11 @@ import { Skeleton } from "@/components/ui/skeleton"
 export function SearchDashboard() {
   const [activeTab, setActiveTab] = React.useState<string>("search");
   const [searchQuery, setSearchQuery] = React.useState("");
+  const [committedSearch, setCommittedSearch] = React.useState("");
   const [scrollRow, setScrollRow] = React.useState(0);
   const [mounted, setMounted] = React.useState(false);
   const [filteredItems, setFilteredItems] = React.useState<any[]>([]);
   const [loading, setLoading] = React.useState(true);
-
-  // Debounce search so filtering only runs 250ms after the user stops typing
-  const debouncedSearch = useDebounce(searchQuery, 250);
 
   React.useEffect(() => {
     const id = requestAnimationFrame(() => setMounted(true));
@@ -25,7 +23,7 @@ export function SearchDashboard() {
 
   React.useEffect(() => {
     setScrollRow(0);
-  }, [activeTab, debouncedSearch]);
+  }, [activeTab, committedSearch]);
 
   React.useEffect(() => {
     if (!mounted) return;
@@ -35,8 +33,8 @@ export function SearchDashboard() {
     
     const params = new URLSearchParams();
     params.set("tab", activeTab);
-    if (activeTab === "search" && debouncedSearch) {
-      params.set("search", debouncedSearch);
+    if (activeTab === "search" && committedSearch) {
+      params.set("search", committedSearch);
     }
     
     fetch(`/api/inventory?${params.toString()}`)
@@ -53,7 +51,20 @@ export function SearchDashboard() {
       });
       
     return () => { isMounted = false; };
-  }, [activeTab, debouncedSearch, mounted]);
+  }, [activeTab, committedSearch, mounted]);
+
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === "Enter") {
+      setCommittedSearch(searchQuery);
+    }
+  };
+
+  const handleSearchChange = (val: string) => {
+    setSearchQuery(val);
+    if (val === "") {
+      setCommittedSearch("");
+    }
+  };
 
   const maxRows = Math.ceil(filteredItems.length / 9);
   const maxScrollableRows = Math.max(0, maxRows - 5);
@@ -206,7 +217,7 @@ export function SearchDashboard() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center p-4 selection:bg-transparent overflow-x-hidden w-full">
+    <div className="flex flex-col items-center justify-center p-4 overflow-x-hidden w-full">
       <div className="relative flex flex-col items-center w-[392px] transform scale-[0.85] sm:scale-[1.25] md:scale-[1.5] lg:scale-[1.75] xl:scale-[2] origin-top mb-[-40px] sm:mb-[100px] md:mb-[200px] lg:mb-[300px] xl:mb-[400px]">
         
         {/* Top Tabs */}
@@ -241,8 +252,9 @@ export function SearchDashboard() {
               <input
                 autoFocus
                 value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="mc-search-input w-[180px] h-[24px] px-[6px] py-[2px]"
+                onChange={(e) => handleSearchChange(e.target.value)}
+                onKeyDown={handleKeyDown}
+                className="mc-search-input w-[180px] h-[24px] px-[6px] py-[2px] selection:bg-primary/30"
               />
             )}
           </div>

@@ -114,7 +114,7 @@ function LazyChamberCard({ chamber }: { chamber: Chamber }) {
 // ─── Chamber Dashboard ─────────────────────────────────────────────────────────
 export function ChamberDashboard() {
   const [search, setSearch] = React.useState("")
-  const debouncedSearch = useDebounce(search, 250)
+  const [committedSearch, setCommittedSearch] = React.useState("")
   const [filteredChambers, setFilteredChambers] = React.useState<Chamber[]>([])
   const [loading, setLoading] = React.useState(true)
 
@@ -123,8 +123,8 @@ export function ChamberDashboard() {
     setLoading(true)
 
     const params = new URLSearchParams()
-    if (debouncedSearch) {
-      params.set("search", debouncedSearch)
+    if (committedSearch) {
+      params.set("search", committedSearch)
     }
 
     fetch(`/api/chambers?${params.toString()}`)
@@ -141,7 +141,20 @@ export function ChamberDashboard() {
       })
 
     return () => { isMounted = false }
-  }, [debouncedSearch])
+  }, [committedSearch])
+
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === "Enter") {
+      setCommittedSearch(search)
+    }
+  }
+
+  const handleSearchChange = (val: string) => {
+    setSearch(val)
+    if (val === "") {
+      setCommittedSearch("")
+    }
+  }
 
   return (
     <div className="w-full max-w-6xl mx-auto px-4 flex flex-col gap-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
@@ -152,7 +165,8 @@ export function ChamberDashboard() {
           placeholder="Search by Chamber name, ID, or specific Item..."
           className="w-full h-14 pl-12 pr-4 rounded-xl border border-muted/20 bg-muted/10 focus:bg-muted/20 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all text-lg text-foreground placeholder:text-muted-foreground"
           value={search}
-          onChange={e => setSearch(e.target.value)}
+          onChange={e => handleSearchChange(e.target.value)}
+          onKeyDown={handleKeyDown}
         />
       </div>
 
@@ -169,7 +183,7 @@ export function ChamberDashboard() {
         {!loading && filteredChambers.length === 0 && (
           <div className="col-span-full py-20 text-center flex flex-col items-center gap-4 text-muted-foreground">
             <Search className="w-12 h-12 opacity-20" />
-            <p className="text-lg">No chambers or items found matching &ldquo;{debouncedSearch}&rdquo;</p>
+            <p className="text-lg">No chambers or items found matching &ldquo;{committedSearch}&rdquo;</p>
           </div>
         )}
       </div>
