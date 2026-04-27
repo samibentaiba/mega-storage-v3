@@ -239,7 +239,7 @@ export function SearchDashboard() {
 
   return (
     <div className="flex flex-col items-center justify-center p-4 overflow-x-hidden w-full">
-      <div className="relative flex flex-col items-center w-[392px] transform scale-[0.85] sm:scale-[1.25] md:scale-[1.5] lg:scale-[1.75] xl:scale-[2] origin-top mb-[-40px] sm:mb-[100px] md:mb-[200px] lg:mb-[300px] xl:mb-[400px]">
+      <div ref={gridRef} className="relative flex flex-col items-center w-[392px] transform scale-[0.85] sm:scale-[1.25] md:scale-[1.5] lg:scale-[1.75] xl:scale-[2] origin-top mb-[-40px] sm:mb-[100px] md:mb-[200px] lg:mb-[300px] xl:mb-[400px]">
         
         {/* Top Tabs */}
         <div className="flex w-[392px] items-end z-10 relative">
@@ -280,7 +280,7 @@ export function SearchDashboard() {
             )}
           </div>
 
-          <div ref={gridRef} className="flex justify-between w-[356px]">
+          <div className="flex justify-between w-[356px]">
             <div className="grid grid-cols-9 gap-0 w-[324px] h-[180px]">
               {renderSlots()}
             </div>
