@@ -33,21 +33,18 @@ async function run() {
   }
 
   // Now, merge with storage data to get positions
+  // chamberSide and chamberPosition come directly from storage-system.json
+  // (set by parse-signs.js from physical sign coordinates)
   const itemToChamberMap = new Map();
   for (const chamber of storageData) {
-    let stackableIndex = 0;
     for (const item of chamber.items) {
-      const chamberSide = stackableIndex < 31 ? 'left' : 'right';
-      const chamberPosition = (stackableIndex % 31) + 1;
-      
       itemToChamberMap.set(item.name.toLowerCase(), {
         chamberName: chamber.name,
         chamberId: chamber.id,
-        chamberItemCount: chamber.items.length,
-        chamberSide,
-        chamberPosition
+        chamberItemCount: chamber['active item'],
+        chamberSide: item.chamberSide ?? null,
+        chamberPosition: item.chamberPosition ?? null,
       });
-      stackableIndex++;
     }
   }
 
