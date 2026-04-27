@@ -14,17 +14,119 @@ interface ItemSlotProps {
   chamberPosition?: number | null;
 }
 
-// Items where the wiki icon filename doesn't match the standard Invicon_{Name}.png pattern.
-// Key = item name (exact), Value = wiki icon filename WITHOUT "Invicon_" prefix and WITHOUT extension.
+// Auto-detected via scratch/check-broken-images.js — items where the wiki icon
+// filename differs from the standard Invicon_{Name}.png pattern.
+// Value options:
+//   "BaseName"          → https://minecraft.wiki/images/Invicon_{BaseName}.png
+//   "BaseName.gif"      → https://minecraft.wiki/images/Invicon_{BaseName}.gif
+//   "https://..."       → full URL used as-is
 const ICON_OVERRIDES: Record<string, string> = {
-  'Steak':         'Cooked_Beef',      // wiki uses the old name
-  'Disc Fragment': 'Disc_Fragment_5',  // wiki uses numbered variant
+  // ── Renamed / old names ──────────────────────────────────────────────────
+  'Steak':                                 'Cooked_Beef',
+  'Chain':                                 'Iron_Chain',
+  'Redstone Dust':                         'Redstone',
+  'Smooth Quartz Block':                   'Smooth_Quartz',
+  'Copper Torch':                          'Copper_Torch_JE2_BE2',
+  'Netherite Upgrade Smithing Template':   'Netherite_Upgrade',
+  // ── Animated .gif icons ──────────────────────────────────────────────────
+  'Nether Star':                           'Nether_Star.gif',
+  'Magma Block':                           'Magma_Block.gif',
+  'Sculk Vein':                            'Sculk_Vein.gif',
+  'Warped Stem':                           'Warped_Stem.gif',
+  'Crimson Stem':                          'Crimson_Stem.gif',
+  'Crimson Hyphae':                        'Crimson_Hyphae.gif',
+  'Warped Hyphae':                         'Warped_Hyphae.gif',
+  'Prismarine':                            'Prismarine.gif',
+  'Prismarine Slab':                       'Prismarine_Slab.gif',
+  'Prismarine Stairs':                     'Prismarine_Stairs.gif',
+  'Prismarine Wall':                       'Prismarine_Wall.gif',
+  'Stonecutter':                           'Stonecutter.gif',
+  'Sea Lantern':                           'Sea_Lantern.gif',
+  'Sculk Sensor':                          'Sculk_Sensor.gif',
+  'Calibrated Sculk Sensor':               'Calibrated_Sculk_Sensor.gif',
+  'Compass':                               'Compass.gif',
+  'Clock':                                 'Clock.gif',
+  'Recovery Compass':                      'Recovery_Compass.gif',
+  'Enchanted Golden Apple':                'Enchanted_Golden_Apple.gif',
+  'End Crystal':                           'End_Crystal.gif',
+  "Bottle o' Enchanting":                  "Bottle_o%27_Enchanting.gif",
+  // ── Waxed copper items (wiki uses the non-waxed icon) ────────────────────
+  'Waxed Block of Copper':                 'Block_of_Copper',
+  'Waxed Cut Copper':                      'Cut_Copper',
+  'Waxed Cut Copper Slab':                 'Cut_Copper_Slab',
+  'Waxed Cut Copper Stairs':               'Cut_Copper_Stairs',
+  'Waxed Exposed Cut Copper':              'Exposed_Cut_Copper',
+  'Waxed Exposed Cut Copper Slab':         'Exposed_Cut_Copper_Slab',
+  'Waxed Exposed Cut Copper Stairs':       'Exposed_Cut_Copper_Stairs',
+  'Waxed Oxidized Cut Copper':             'Oxidized_Cut_Copper',
+  'Waxed Oxidized Cut Copper Slab':        'Oxidized_Cut_Copper_Slab',
+  'Waxed Oxidized Cut Copper Stairs':      'Oxidized_Cut_Copper_Stairs',
+  'Waxed Weathered Cut Copper':            'Weathered_Cut_Copper',
+  'Waxed Weathered Cut Copper Slab':       'Weathered_Cut_Copper_Slab',
+  'Waxed Weathered Cut Copper Stairs':     'Weathered_Cut_Copper_Stairs',
+  'Waxed Copper Bulb':                     'Copper_Bulb',
+  'Waxed Exposed Copper Bulb':             'Exposed_Copper_Bulb',
+  'Waxed Oxidized Copper Bulb':            'Oxidized_Copper_Bulb',
+  'Waxed Weathered Copper Bulb':           'Weathered_Copper_Bulb',
+  'Waxed Copper Door':                     'Copper_Door',
+  'Waxed Exposed Copper Door':             'Exposed_Copper_Door',
+  'Waxed Oxidized Copper Door':            'Oxidized_Copper_Door',
+  'Waxed Weathered Copper Door':           'Weathered_Copper_Door',
+  'Waxed Copper Trapdoor':                 'Copper_Trapdoor',
+  'Waxed Exposed Copper Trapdoor':         'Exposed_Copper_Trapdoor',
+  'Waxed Oxidized Copper Trapdoor':        'Oxidized_Copper_Trapdoor',
+  'Waxed Weathered Copper Trapdoor':       'Weathered_Copper_Trapdoor',
+  'Waxed Chiseled Copper':                 'Chiseled_Copper',
+  'Waxed Exposed Chiseled Copper':         'Exposed_Chiseled_Copper',
+  'Waxed Oxidized Chiseled Copper':        'Oxidized_Chiseled_Copper',
+  'Waxed Weathered Chiseled Copper':       'Weathered_Chiseled_Copper',
+  'Waxed Copper Grate':                    'Copper_Grate',
+  'Waxed Exposed Copper Grate':            'Exposed_Copper_Grate',
+  'Waxed Oxidized Copper Grate':           'Oxidized_Copper_Grate',
+  'Waxed Weathered Copper Grate':          'Weathered_Copper_Grate',
+  'Waxed Copper Chain':                    'Copper_Chain',
+  'Waxed Exposed Copper Chain':            'Exposed_Copper_Chain',
+  'Waxed Oxidized Copper Chain':           'Oxidized_Copper_Chain',
+  'Waxed Weathered Copper Chain':          'Weathered_Copper_Chain',
+  'Waxed Copper Chest':                    'Copper_Chest',
+  'Waxed Exposed Copper Chest':            'Exposed_Copper_Chest',
+  'Waxed Oxidized Copper Chest':           'Oxidized_Copper_Chest',
+  'Waxed Weathered Copper Chest':          'Weathered_Copper_Chest',
+  'Waxed Lightning Rod':                   'Lightning_Rod',
+  'Waxed Exposed Lightning Rod':           'Exposed_Lightning_Rod',
+  'Waxed Oxidized Lightning Rod':          'Oxidized_Lightning_Rod',
+  'Waxed Weathered Lightning Rod':         'Weathered_Lightning_Rod',
+  'Waxed Copper Lantern':                  'Copper_Lantern',
+  'Waxed Exposed Copper Lantern':          'Exposed_Copper_Lantern',
+  'Waxed Oxidized Copper Lantern':         'Oxidized_Copper_Lantern',
+  'Waxed Weathered Copper Lantern':        'Weathered_Copper_Lantern',
+  'Waxed Copper Golem Statue':             'Copper_Golem_Statue',
+  'Waxed Exposed Copper Golem Statue':     'Exposed_Copper_Golem_Statue',
+  'Waxed Oxidized Copper Golem Statue':    'Oxidized_Copper_Golem_Statue',
+  'Waxed Weathered Copper Golem Statue':   'Weathered_Copper_Golem_Statue',
+  // ── Non-standard sprite URLs (full URL) ──────────────────────────────────
+  'Trial Key':      'https://minecraft.wiki/images/ItemSprite_trial-key.png',
+  'Sculk':          'https://minecraft.wiki/images/Sculk_JE1_BE1.gif',
+  'Sculk Shrieker': 'https://minecraft.wiki/images/Sculk_Shrieker_JE1_BE2.gif',
+  'Cactus Flower':  'https://minecraft.wiki/images/BlockSprite_cactus-flower.png',
+  'Short Dry Grass':'https://minecraft.wiki/images/BlockSprite_short-dry-grass.png',
+  'Tall Dry Grass': 'https://minecraft.wiki/images/BlockSprite_tall-dry-grass.png',
 };
 
 export function ItemSlot({ name, wiki_url, chamberName, chamberId, chamberItemCount, chamberSide, chamberPosition }: ItemSlotProps) {
-  const baseName = ICON_OVERRIDES[name]
-    ?? name.replace(/\s*\(.*?\)\s*/g, ' ').trim().replace(/ /g, '_');
-  const iconUrl = `https://minecraft.wiki/images/Invicon_${baseName}.png`;
+  const override = ICON_OVERRIDES[name];
+  let iconUrl: string;
+  if (override?.startsWith('http')) {
+    // Full URL override (non-standard sprite paths)
+    iconUrl = override;
+  } else if (override) {
+    // Extension-aware: some overrides include .gif
+    const ext = override.endsWith('.gif') ? '' : '.png';
+    iconUrl = `https://minecraft.wiki/images/Invicon_${override}${ext}`;
+  } else {
+    const wikiName = name.replace(/\s*\(.*?\)\s*/g, ' ').trim().replace(/ /g, '_');
+    iconUrl = `https://minecraft.wiki/images/Invicon_${wikiName}.png`;
+  }
 
   const renderIcon = () => {
     if (!name) return null;
