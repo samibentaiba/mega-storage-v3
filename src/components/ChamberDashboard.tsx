@@ -44,8 +44,8 @@ function LazyChamberCard({ chamber }: { chamber: Chamber }) {
               <Box className="w-3.5 h-3.5" />
               <span>{chamber.items.length} items mapped</span>
               <span className="mx-1 opacity-50">•</span>
-              <span className={chamber.status === "active" ? "text-emerald-400 font-semibold" : "text-destructive font-semibold"}>
-                {chamber.status.toUpperCase()}
+              <span className={chamber["active item"] > 0 ? "text-emerald-400 font-semibold" : "text-destructive font-semibold"}>
+                {chamber["active item"] > 0 ? "ACTIVE" : "EMPTY"}
               </span>
             </div>
           </div>
