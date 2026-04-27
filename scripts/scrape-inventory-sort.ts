@@ -118,7 +118,7 @@ async function run() {
     };
   });
   
-  const destPath = path.join(process.cwd(), 'src/data/inventory-sort.json');
+  const destPath = path.join(process.cwd(), 'src/data/scraped-items.json');
   await fs.writeFile(destPath, JSON.stringify({ categories: finalData }, null, 2));
   console.log(`Saved to ${destPath}`);
   
