@@ -109,6 +109,32 @@ async function run() {
     finalCategories.push({ name: 'Other Items', items: uncategorizedItems });
   }
 
+  // ── Final guarantee: every storage item must appear somewhere ──────────────
+  // Build set of all item names already in the output
+  const outputNames = new Set<string>();
+  finalCategories.forEach(c => c.items.forEach(i => outputNames.add(i.name.toLowerCase())));
+
+  const missingStorageItems: typeof uncategorizedItems = [];
+  for (const [lowerName, info] of itemToChamberMap.entries()) {
+    if (outputNames.has(lowerName)) continue;
+    // Build a best-effort wiki display name from the storage name
+    const displayName = lowerName.replace(/\b\w/g, c => c.toUpperCase());
+    missingStorageItems.push({
+      name: displayName,
+      wiki_url: `https://minecraft.wiki/w/${displayName.replace(/ /g, '_')}`,
+      stackable: true, // storage items are stackable by definition
+      chamber: info.chamberName,
+      chamberId: info.chamberId,
+      chamberItemCount: info.chamberItemCount,
+      chamberSide: info.chamberSide,
+      chamberPosition: info.chamberPosition,
+    });
+    console.warn(`⚠️  Added missing storage item to output: ${displayName} (${info.chamberName})`);
+  }
+  if (missingStorageItems.length > 0) {
+    finalCategories.push({ name: 'Storage Only Items', items: missingStorageItems });
+  }
+
   const destPath = path.join(process.cwd(), 'src/data/inventory-sort.json');
   await fs.writeFile(destPath, JSON.stringify({ categories: finalCategories }, null, 2));
 

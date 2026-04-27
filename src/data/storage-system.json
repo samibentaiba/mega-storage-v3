@@ -405,7 +405,7 @@
   {
     "id": 2,
     "name": "Drops & Mob Loot",
-    "active item": 70,
+    "active item": 65,
     "items": [
       {
         "name": "Firework Rocket",
@@ -460,12 +460,6 @@
         "wiki_url": "https://minecraft.wiki/w/Rabbit_Hide",
         "chamberSide": "right",
         "chamberPosition": 9
-      },
-      {
-        "name": "Rabbit Hide",
-        "wiki_url": "https://minecraft.wiki/w/Rabbit_Hide",
-        "chamberSide": "right",
-        "chamberPosition": 10
       },
       {
         "name": "Rabbit's Foot",
@@ -786,34 +780,10 @@
         "chamberPosition": 27
       },
       {
-        "name": "Ominous Bottle Bad Omen I",
-        "wiki_url": "https://minecraft.wiki/w/Ominous_Bottle_Bad_Omen_I",
+        "name": "Ominous Bottle",
+        "wiki_url": "https://minecraft.wiki/w/Ominous_Bottle",
         "chamberSide": "left",
         "chamberPosition": 28
-      },
-      {
-        "name": "Ominous Bottle Bad Omen II",
-        "wiki_url": "https://minecraft.wiki/w/Ominous_Bottle_Bad_Omen_II",
-        "chamberSide": "left",
-        "chamberPosition": 29
-      },
-      {
-        "name": "Ominous Bottle Bad Omen III",
-        "wiki_url": "https://minecraft.wiki/w/Ominous_Bottle_Bad_Omen_III",
-        "chamberSide": "left",
-        "chamberPosition": 30
-      },
-      {
-        "name": "Ominous Bottle Bad Omen IV",
-        "wiki_url": "https://minecraft.wiki/w/Ominous_Bottle_Bad_Omen_IV",
-        "chamberSide": "left",
-        "chamberPosition": 31
-      },
-      {
-        "name": "Ominous Bottle Bad Omen V",
-        "wiki_url": "https://minecraft.wiki/w/Ominous_Bottle_Bad_Omen_V",
-        "chamberSide": "left",
-        "chamberPosition": 32
       },
       {
         "name": "Disc Fragment",
@@ -1075,8 +1045,8 @@
         "chamberPosition": 22
       },
       {
-        "name": "Lecturn",
-        "wiki_url": "https://minecraft.wiki/w/Lecturn",
+        "name": "Lectern",
+        "wiki_url": "https://minecraft.wiki/w/Lectern",
         "chamberSide": "left",
         "chamberPosition": 21
       },
@@ -1195,8 +1165,8 @@
         "chamberPosition": 2
       },
       {
-        "name": "Iron Chain",
-        "wiki_url": "https://minecraft.wiki/w/Iron_Chain",
+        "name": "Chain",
+        "wiki_url": "https://minecraft.wiki/w/Chain",
         "chamberSide": "left",
         "chamberPosition": 1
       }
@@ -1205,7 +1175,7 @@
   {
     "id": 4,
     "name": "Redstone",
-    "active item": 54,
+    "active item": 53,
     "items": [
       {
         "name": "Redstone Ore",
@@ -1334,94 +1304,88 @@
         "chamberPosition": 21
       },
       {
-        "name": "Placeholder",
-        "wiki_url": "https://minecraft.wiki/w/Placeholder",
-        "chamberSide": "right",
-        "chamberPosition": 22
-      },
-      {
         "name": "Daylight Detector",
         "wiki_url": "https://minecraft.wiki/w/Daylight_Detector",
         "chamberSide": "right",
-        "chamberPosition": 23
+        "chamberPosition": 22
       },
       {
         "name": "Cobweb",
         "wiki_url": "https://minecraft.wiki/w/Cobweb",
         "chamberSide": "right",
-        "chamberPosition": 24
+        "chamberPosition": 23
       },
       {
         "name": "TNT",
         "wiki_url": "https://minecraft.wiki/w/TNT",
         "chamberSide": "right",
-        "chamberPosition": 25
+        "chamberPosition": 24
       },
       {
         "name": "Rail",
         "wiki_url": "https://minecraft.wiki/w/Rail",
         "chamberSide": "right",
-        "chamberPosition": 26
+        "chamberPosition": 25
       },
       {
         "name": "Powered Rail",
         "wiki_url": "https://minecraft.wiki/w/Powered_Rail",
         "chamberSide": "right",
-        "chamberPosition": 27
+        "chamberPosition": 26
       },
       {
         "name": "Detector Rail",
         "wiki_url": "https://minecraft.wiki/w/Detector_Rail",
         "chamberSide": "right",
-        "chamberPosition": 28
+        "chamberPosition": 27
       },
       {
         "name": "Activator Rail",
         "wiki_url": "https://minecraft.wiki/w/Activator_Rail",
         "chamberSide": "right",
-        "chamberPosition": 29
+        "chamberPosition": 28
       },
       {
         "name": "Scaffolding",
         "wiki_url": "https://minecraft.wiki/w/Scaffolding",
         "chamberSide": "right",
-        "chamberPosition": 30
+        "chamberPosition": 29
       },
       {
         "name": "Armor Stand",
         "wiki_url": "https://minecraft.wiki/w/Armor_Stand",
         "chamberSide": "right",
-        "chamberPosition": 31
+        "chamberPosition": 30
       },
       {
         "name": "Note Block",
         "wiki_url": "https://minecraft.wiki/w/Note_Block",
         "chamberSide": "right",
-        "chamberPosition": 32
+        "chamberPosition": 31
       },
       {
         "name": "Jukebox",
         "wiki_url": "https://minecraft.wiki/w/Jukebox",
         "chamberSide": "right",
-        "chamberPosition": 33
+        "chamberPosition": 32
       },
       {
         "name": "Bell",
         "wiki_url": "https://minecraft.wiki/w/Bell",
         "chamberSide": "right",
-        "chamberPosition": 34
+        "chamberPosition": 33
       },
       {
         "name": "Item Frame",
         "wiki_url": "https://minecraft.wiki/w/Item_Frame",
         "chamberSide": "right",
-        "chamberPosition": 35
+        "chamberPosition": 34
       },
       {
         "name": "Glow Item Frame",
         "wiki_url": "https://minecraft.wiki/w/Glow_Item_Frame",
         "chamberSide": "right",
-        "chamberPosition": 36
+        "chamberPosition": 35
       },
       {
         "name": "Sculk",
@@ -3054,14 +3018,14 @@
         "chamberPosition": 20
       },
       {
-        "name": "Small Drip Leaf",
-        "wiki_url": "https://minecraft.wiki/w/Small_Drip_Leaf",
+        "name": "Small Dripleaf",
+        "wiki_url": "https://minecraft.wiki/w/Small_Dripleaf",
         "chamberSide": "left",
         "chamberPosition": 21
       },
       {
-        "name": "Big Drip Leaf",
-        "wiki_url": "https://minecraft.wiki/w/Big_Drip_Leaf",
+        "name": "Big Dripleaf",
+        "wiki_url": "https://minecraft.wiki/w/Big_Dripleaf",
         "chamberSide": "left",
         "chamberPosition": 22
       },
@@ -3873,14 +3837,14 @@
         "chamberPosition": 14
       },
       {
-        "name": "Cracked Stone Brick",
-        "wiki_url": "https://minecraft.wiki/w/Cracked_Stone_Brick",
+        "name": "Cracked Stone Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Cracked_Stone_Bricks",
         "chamberSide": "right",
         "chamberPosition": 13
       },
       {
-        "name": "Chiseled Stone Brick",
-        "wiki_url": "https://minecraft.wiki/w/Chiseled_Stone_Brick",
+        "name": "Chiseled Stone Bricks",
+        "wiki_url": "https://minecraft.wiki/w/Chiseled_Stone_Bricks",
         "chamberSide": "right",
         "chamberPosition": 12
       },
@@ -4448,7 +4412,7 @@
   {
     "id": 13,
     "name": "Softwood",
-    "active item": 68,
+    "active item": 67,
     "items": [
       {
         "name": "Birch Door",
@@ -4503,12 +4467,6 @@
         "wiki_url": "https://minecraft.wiki/w/Birch_Stairs",
         "chamberSide": "right",
         "chamberPosition": 26
-      },
-      {
-        "name": "Birch Button",
-        "wiki_url": "https://minecraft.wiki/w/Birch_Button",
-        "chamberSide": "right",
-        "chamberPosition": 25
       },
       {
         "name": "Birch Planks",
@@ -6141,8 +6099,8 @@
         "chamberPosition": 2
       },
       {
-        "name": "Netherite Upgrade",
-        "wiki_url": "https://minecraft.wiki/w/Netherite_Upgrade",
+        "name": "Netherite Upgrade Smithing Template",
+        "wiki_url": "https://minecraft.wiki/w/Netherite_Upgrade_Smithing_Template",
         "chamberSide": "right",
         "chamberPosition": 1
       }
@@ -6611,26 +6569,26 @@
         "chamberPosition": 10
       },
       {
-        "name": "Waxed Oxidized Copper Bars",
-        "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Copper_Bars",
+        "name": "Waxed Oxidized Copper Grate",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Copper_Grate",
         "chamberSide": "right",
         "chamberPosition": 9
       },
       {
-        "name": "Waxed Weathered Copper Bars",
-        "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Copper_Bars",
+        "name": "Waxed Weathered Copper Grate",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Copper_Grate",
         "chamberSide": "right",
         "chamberPosition": 8
       },
       {
-        "name": "Waxed Exposed Copper Bars",
-        "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Copper_Bars",
+        "name": "Waxed Exposed Copper Grate",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Copper_Grate",
         "chamberSide": "right",
         "chamberPosition": 7
       },
       {
-        "name": "Waxed Copper Bars",
-        "wiki_url": "https://minecraft.wiki/w/Waxed_Copper_Bars",
+        "name": "Waxed Copper Grate",
+        "wiki_url": "https://minecraft.wiki/w/Waxed_Copper_Grate",
         "chamberSide": "right",
         "chamberPosition": 6
       },

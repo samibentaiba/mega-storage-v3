@@ -289,7 +289,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 5
         },
@@ -299,7 +299,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 12
         },
@@ -309,7 +309,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 14
         },
@@ -319,7 +319,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 15
         },
@@ -329,7 +329,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 23
         },
@@ -339,7 +339,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 24
         },
@@ -349,7 +349,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 25
         },
@@ -359,7 +359,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 28
         },
@@ -369,7 +369,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 29
         },
@@ -379,7 +379,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 30
         },
@@ -389,7 +389,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 31
         },
@@ -399,7 +399,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 34
         },
@@ -409,7 +409,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 35
         },
@@ -439,7 +439,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 33
         },
@@ -489,7 +489,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 20
         },
@@ -499,7 +499,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 19
         },
@@ -509,7 +509,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 18
         },
@@ -519,7 +519,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 9
         },
@@ -529,7 +529,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 16
         },
@@ -539,7 +539,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 21
         },
@@ -549,7 +549,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 10
         },
@@ -559,7 +559,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 7
         },
@@ -569,7 +569,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 4
         },
@@ -579,7 +579,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 3
         },
@@ -589,7 +589,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 6
         },
@@ -599,7 +599,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 1
         },
@@ -609,7 +609,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 2
         },
@@ -667,11 +667,11 @@
           "name": "Lectern",
           "wiki_url": "https://minecraft.wiki/w/Lectern",
           "stackable": true,
-          "chamber": "Unassigned",
-          "chamberId": null,
-          "chamberItemCount": null,
-          "chamberSide": null,
-          "chamberPosition": null
+          "chamber": "Lighting & Crafting",
+          "chamberId": 3,
+          "chamberItemCount": 61,
+          "chamberSide": "left",
+          "chamberPosition": 21
         },
         {
           "name": "Iron Bars",
@@ -849,7 +849,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 12
         },
@@ -859,7 +859,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 16
         },
@@ -869,7 +869,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 17
         },
@@ -879,7 +879,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 18
         },
@@ -889,9 +889,9 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
-          "chamberPosition": 23
+          "chamberPosition": 22
         },
         {
           "name": "Cobweb",
@@ -899,9 +899,9 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
-          "chamberPosition": 24
+          "chamberPosition": 23
         },
         {
           "name": "TNT",
@@ -909,9 +909,9 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
-          "chamberPosition": 25
+          "chamberPosition": 24
         },
         {
           "name": "Scaffolding",
@@ -919,9 +919,9 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
-          "chamberPosition": 30
+          "chamberPosition": 29
         },
         {
           "name": "Armor Stand",
@@ -929,9 +929,9 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
-          "chamberPosition": 31
+          "chamberPosition": 30
         },
         {
           "name": "Note Block",
@@ -939,9 +939,9 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
-          "chamberPosition": 32
+          "chamberPosition": 31
         },
         {
           "name": "Jukebox",
@@ -949,9 +949,9 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
-          "chamberPosition": 33
+          "chamberPosition": 32
         },
         {
           "name": "Item Frame",
@@ -959,9 +959,9 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
-          "chamberPosition": 35
+          "chamberPosition": 34
         },
         {
           "name": "Glow Item Frame",
@@ -969,9 +969,9 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
-          "chamberPosition": 36
+          "chamberPosition": 35
         },
         {
           "name": "Crimson Shelf",
@@ -979,7 +979,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 17
         },
@@ -989,7 +989,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 18
         },
@@ -999,7 +999,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 16
         },
@@ -1009,7 +1009,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 15
         },
@@ -1019,7 +1019,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 14
         },
@@ -1029,7 +1029,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 13
         },
@@ -1039,7 +1039,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 12
         },
@@ -1049,7 +1049,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 11
         },
@@ -1059,7 +1059,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 10
         },
@@ -1069,7 +1069,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 9
         },
@@ -1079,7 +1079,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 8
         },
@@ -1089,7 +1089,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 7
         },
@@ -1099,7 +1099,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 4
         },
@@ -1109,7 +1109,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 3
         },
@@ -1119,7 +1119,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 2
         },
@@ -1129,7 +1129,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 1
         },
@@ -1997,21 +1997,21 @@
           "name": "Big Dripleaf",
           "wiki_url": "https://minecraft.wiki/w/Big_Dripleaf",
           "stackable": true,
-          "chamber": "Unassigned",
-          "chamberId": null,
-          "chamberItemCount": null,
-          "chamberSide": null,
-          "chamberPosition": null
+          "chamber": "Dyes & Flowers",
+          "chamberId": 8,
+          "chamberItemCount": 67,
+          "chamberSide": "left",
+          "chamberPosition": 22
         },
         {
           "name": "Small Dripleaf",
           "wiki_url": "https://minecraft.wiki/w/Small_Dripleaf",
           "stackable": true,
-          "chamber": "Unassigned",
-          "chamberId": null,
-          "chamberItemCount": null,
-          "chamberSide": null,
-          "chamberPosition": null
+          "chamber": "Dyes & Flowers",
+          "chamberId": 8,
+          "chamberItemCount": 67,
+          "chamberSide": "left",
+          "chamberPosition": 21
         },
         {
           "name": "Lily Pad",
@@ -2269,7 +2269,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 4
         },
@@ -2279,7 +2279,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 6
         },
@@ -2289,7 +2289,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 7
         },
@@ -2299,7 +2299,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 8
         },
@@ -2309,7 +2309,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 9
         },
@@ -2319,7 +2319,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 10
         },
@@ -2329,7 +2329,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 11
         },
@@ -2339,7 +2339,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 12
         },
@@ -2349,7 +2349,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 13
         },
@@ -2359,7 +2359,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 16
         },
@@ -2369,7 +2369,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 17
         },
@@ -2379,7 +2379,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 21
         },
@@ -2389,7 +2389,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 23
         },
@@ -2399,7 +2399,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 24
         },
@@ -2419,7 +2419,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 26
         },
@@ -2429,7 +2429,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 27
         },
@@ -2439,7 +2439,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 28
         },
@@ -2449,7 +2449,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 29
         },
@@ -2459,7 +2459,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 30
         },
@@ -2469,7 +2469,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 33
         },
@@ -2479,7 +2479,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 34
         },
@@ -2489,7 +2489,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 21
         },
@@ -2499,7 +2499,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 23
         },
@@ -2509,7 +2509,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 24
         },
@@ -2519,7 +2519,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 25
         },
@@ -2529,7 +2529,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 26
         },
@@ -2539,7 +2539,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 27
         },
@@ -2549,7 +2549,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 28
         },
@@ -2559,7 +2559,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 29
         },
@@ -2569,7 +2569,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 30
         },
@@ -2579,7 +2579,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 33
         },
@@ -2589,7 +2589,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 34
         },
@@ -2599,7 +2599,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 4
         },
@@ -2609,7 +2609,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 6
         },
@@ -2619,7 +2619,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 7
         },
@@ -2629,7 +2629,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 8
         },
@@ -2639,7 +2639,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 9
         },
@@ -2649,7 +2649,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 10
         },
@@ -2659,7 +2659,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 11
         },
@@ -2669,7 +2669,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 12
         },
@@ -2679,7 +2679,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 13
         },
@@ -2689,7 +2689,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 16
         },
@@ -2699,7 +2699,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 17
         },
@@ -5959,7 +5959,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 32
         },
@@ -5969,7 +5969,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 33
         },
@@ -5979,7 +5979,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 36
         },
@@ -5989,7 +5989,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 27
         },
@@ -5999,7 +5999,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 26
         },
@@ -6009,7 +6009,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 25
         },
@@ -6019,7 +6019,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 24
         },
@@ -6029,7 +6029,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 23
         },
@@ -6039,7 +6039,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 22
         },
@@ -7179,7 +7179,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 1
         },
@@ -7189,7 +7189,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 2
         },
@@ -7199,7 +7199,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 3
         },
@@ -7209,7 +7209,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 5
         },
@@ -7219,7 +7219,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 18
         },
@@ -7229,7 +7229,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 19
         },
@@ -7239,7 +7239,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 20
         },
@@ -7249,7 +7249,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 22
         },
@@ -7259,7 +7259,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 18
         },
@@ -7269,7 +7269,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 19
         },
@@ -7279,7 +7279,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 20
         },
@@ -7289,7 +7289,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 22
         },
@@ -7299,7 +7299,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 1
         },
@@ -7309,7 +7309,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 2
         },
@@ -7319,7 +7319,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 3
         },
@@ -7329,7 +7329,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 5
         },
@@ -7954,7 +7954,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 14
         },
@@ -7964,7 +7964,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 13
         },
@@ -7974,7 +7974,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 12
         },
@@ -7984,9 +7984,9 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
-          "chamberPosition": 34
+          "chamberPosition": 33
         },
         {
           "name": "Anvil",
@@ -8194,7 +8194,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 19
         },
@@ -8204,7 +8204,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 20
         },
@@ -8214,7 +8214,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 21
         },
@@ -8319,7 +8319,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 3
         },
@@ -8329,7 +8329,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 5
         },
@@ -8339,7 +8339,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 4
         },
@@ -8349,7 +8349,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 6
         },
@@ -8359,7 +8359,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 7
         },
@@ -8369,7 +8369,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 8
         },
@@ -8379,7 +8379,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 9
         },
@@ -8389,7 +8389,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 10
         },
@@ -8399,7 +8399,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 11
         },
@@ -8409,7 +8409,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 13
         },
@@ -8419,7 +8419,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 14
         },
@@ -8429,7 +8429,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 15
         },
@@ -8439,9 +8439,9 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
-          "chamberPosition": 26
+          "chamberPosition": 25
         },
         {
           "name": "Powered Rail",
@@ -8449,9 +8449,9 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
-          "chamberPosition": 27
+          "chamberPosition": 26
         },
         {
           "name": "Detector Rail",
@@ -8459,9 +8459,9 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
-          "chamberPosition": 28
+          "chamberPosition": 27
         },
         {
           "name": "Activator Rail",
@@ -8469,9 +8469,9 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
-          "chamberPosition": 29
+          "chamberPosition": 28
         },
         {
           "name": "Calibrated Sculk Sensor",
@@ -8479,7 +8479,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 6
         },
@@ -8489,7 +8489,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "left",
           "chamberPosition": 5
         },
@@ -8539,7 +8539,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 14
         },
@@ -8549,7 +8549,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 15
         },
@@ -8559,9 +8559,9 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
-          "chamberPosition": 25
+          "chamberPosition": 31
         },
         {
           "name": "Birch Pressure Plate",
@@ -8569,7 +8569,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "right",
           "chamberPosition": 32
         },
@@ -8579,7 +8579,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 31
         },
@@ -8589,7 +8589,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 32
         },
@@ -8599,7 +8599,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 14
         },
@@ -8609,7 +8609,7 @@
           "stackable": true,
           "chamber": "Softwood",
           "chamberId": 13,
-          "chamberItemCount": 68,
+          "chamberItemCount": 67,
           "chamberSide": "left",
           "chamberPosition": 15
         },
@@ -8804,7 +8804,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 19
         },
@@ -8814,7 +8814,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 20
         },
@@ -8902,11 +8902,11 @@
           "name": "Waxed Oxidized Copper Grate",
           "wiki_url": "https://minecraft.wiki/w/Waxed_Oxidized_Copper_Grate",
           "stackable": true,
-          "chamber": "Copper",
-          "chamberId": 5,
-          "chamberItemCount": 69,
-          "chamberSide": "left",
-          "chamberPosition": 33
+          "chamber": "Modded Copper & Lightning",
+          "chamberId": 19,
+          "chamberItemCount": 50,
+          "chamberSide": "right",
+          "chamberPosition": 9
         },
         {
           "name": "Waxed Oxidized Copper Door",
@@ -8982,11 +8982,11 @@
           "name": "Waxed Weathered Copper Grate",
           "wiki_url": "https://minecraft.wiki/w/Waxed_Weathered_Copper_Grate",
           "stackable": true,
-          "chamber": "Copper",
-          "chamberId": 5,
-          "chamberItemCount": 69,
-          "chamberSide": "left",
-          "chamberPosition": 25
+          "chamber": "Modded Copper & Lightning",
+          "chamberId": 19,
+          "chamberItemCount": 50,
+          "chamberSide": "right",
+          "chamberPosition": 8
         },
         {
           "name": "Waxed Weathered Copper Door",
@@ -9062,11 +9062,11 @@
           "name": "Waxed Exposed Copper Grate",
           "wiki_url": "https://minecraft.wiki/w/Waxed_Exposed_Copper_Grate",
           "stackable": true,
-          "chamber": "Copper",
-          "chamberId": 5,
-          "chamberItemCount": 69,
-          "chamberSide": "left",
-          "chamberPosition": 17
+          "chamber": "Modded Copper & Lightning",
+          "chamberId": 19,
+          "chamberItemCount": 50,
+          "chamberSide": "right",
+          "chamberPosition": 7
         },
         {
           "name": "Waxed Exposed Copper Door",
@@ -9142,11 +9142,11 @@
           "name": "Waxed Copper Grate",
           "wiki_url": "https://minecraft.wiki/w/Waxed_Copper_Grate",
           "stackable": true,
-          "chamber": "Copper",
-          "chamberId": 5,
-          "chamberItemCount": 69,
-          "chamberSide": "left",
-          "chamberPosition": 9
+          "chamber": "Modded Copper & Lightning",
+          "chamberId": 19,
+          "chamberItemCount": 50,
+          "chamberSide": "right",
+          "chamberPosition": 6
         },
         {
           "name": "Waxed Copper Door",
@@ -9429,7 +9429,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 17
         },
@@ -9439,7 +9439,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 18
         },
@@ -9449,7 +9449,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 21
         }
@@ -9754,9 +9754,9 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
-          "chamberPosition": 10
+          "chamberPosition": 9
         },
         {
           "name": "Rabbit's Foot",
@@ -9764,7 +9764,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 11
         }
@@ -9789,7 +9789,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 6
         },
@@ -9799,7 +9799,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 7
         },
@@ -9809,7 +9809,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 8
         },
@@ -9819,7 +9819,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 13
         },
@@ -9829,7 +9829,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 16
         },
@@ -9839,7 +9839,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 26
         },
@@ -9849,7 +9849,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 27
         },
@@ -9859,7 +9859,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 34
         },
@@ -9869,7 +9869,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 11
         },
@@ -9879,7 +9879,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 5
         },
@@ -10537,21 +10537,21 @@
           "name": "Chiseled Stone Bricks",
           "wiki_url": "https://minecraft.wiki/w/Chiseled_Stone_Bricks",
           "stackable": true,
-          "chamber": "Unassigned",
-          "chamberId": null,
-          "chamberItemCount": null,
-          "chamberSide": null,
-          "chamberPosition": null
+          "chamber": "Stone & Deepslate",
+          "chamberId": 11,
+          "chamberItemCount": 47,
+          "chamberSide": "right",
+          "chamberPosition": 12
         },
         {
           "name": "Cracked Stone Bricks",
           "wiki_url": "https://minecraft.wiki/w/Cracked_Stone_Bricks",
           "stackable": true,
-          "chamber": "Unassigned",
-          "chamberId": null,
-          "chamberItemCount": null,
-          "chamberSide": null,
-          "chamberPosition": null
+          "chamber": "Stone & Deepslate",
+          "chamberId": 11,
+          "chamberItemCount": 47,
+          "chamberSide": "right",
+          "chamberPosition": 13
         },
         {
           "name": "Mossy Stone Bricks",
@@ -11054,7 +11054,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 1
         },
@@ -11064,7 +11064,7 @@
           "stackable": true,
           "chamber": "Redstone",
           "chamberId": 4,
-          "chamberItemCount": 54,
+          "chamberItemCount": 53,
           "chamberSide": "right",
           "chamberPosition": 2
         },
@@ -11272,11 +11272,11 @@
           "name": "Chain",
           "wiki_url": "https://minecraft.wiki/images/Invicon_Chain.png",
           "stackable": true,
-          "chamber": "Unassigned",
-          "chamberId": null,
-          "chamberItemCount": null,
-          "chamberSide": null,
-          "chamberPosition": null
+          "chamber": "Lighting & Crafting",
+          "chamberId": 3,
+          "chamberItemCount": 61,
+          "chamberSide": "left",
+          "chamberPosition": 1
         },
         {
           "name": "End Portal Frame",
@@ -11294,7 +11294,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 17
         },
@@ -11574,7 +11574,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 22
         },
@@ -12214,7 +12214,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 3
         },
@@ -12234,7 +12234,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 4
         },
@@ -13644,7 +13644,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 2
         },
@@ -13684,7 +13684,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "right",
           "chamberPosition": 1
         },
@@ -13804,7 +13804,7 @@
           "stackable": true,
           "chamber": "Drops & Mob Loot",
           "chamberId": 2,
-          "chamberItemCount": 70,
+          "chamberItemCount": 65,
           "chamberSide": "left",
           "chamberPosition": 15
         },
@@ -14672,11 +14672,46 @@
           "name": "Ominous Bottle",
           "wiki_url": "https://minecraft.wiki/images/Invicon_Ominous_Bottle.png",
           "stackable": true,
-          "chamber": "Unassigned",
-          "chamberId": null,
-          "chamberItemCount": null,
-          "chamberSide": null,
-          "chamberPosition": null
+          "chamber": "Drops & Mob Loot",
+          "chamberId": 2,
+          "chamberItemCount": 65,
+          "chamberSide": "left",
+          "chamberPosition": 28
+        }
+      ]
+    },
+    {
+      "name": "Storage Only Items",
+      "items": [
+        {
+          "name": "Dried Ghast",
+          "wiki_url": "https://minecraft.wiki/w/Dried_Ghast",
+          "stackable": true,
+          "chamber": "Drops & Mob Loot",
+          "chamberId": 2,
+          "chamberItemCount": 65,
+          "chamberSide": "left",
+          "chamberPosition": 8
+        },
+        {
+          "name": "Bolt Armor Trim",
+          "wiki_url": "https://minecraft.wiki/w/Bolt_Armor_Trim",
+          "stackable": true,
+          "chamber": "Armor Trims",
+          "chamberId": 17,
+          "chamberItemCount": 19,
+          "chamberSide": "right",
+          "chamberPosition": 2
+        },
+        {
+          "name": "Netherite Upgrade Smithing Template",
+          "wiki_url": "https://minecraft.wiki/w/Netherite_Upgrade_Smithing_Template",
+          "stackable": true,
+          "chamber": "Armor Trims",
+          "chamberId": 17,
+          "chamberItemCount": 19,
+          "chamberSide": "right",
+          "chamberPosition": 1
         }
       ]
     }
