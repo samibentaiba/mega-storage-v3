@@ -209,6 +209,8 @@ export function SearchDashboard() {
             {Array.from({ length: 6 }).map((_, i) => (
               <div key={i} className="mc-tab-bottom" />
             ))}
+            <div className="mc-tab-bottom invisible" />
+            <div className="mc-tab-bottom" />
           </div>
 
         </div>
