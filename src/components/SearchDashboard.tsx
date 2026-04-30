@@ -239,7 +239,7 @@ export function SearchDashboard() {
       ? (scrollRow / maxScrollableRows) * (180 - 30 - 4)
       : 0;
 
-  if (mounted || loading) {
+  if (!mounted || loading) {
     return (
       <div className="flex flex-col items-center justify-center p-4 overflow-x-hidden w-full">
         <div className="relative flex flex-col items-center w-[392px] transform scale-[0.85] sm:scale-[1.25] md:scale-[1.5] lg:scale-[1.75] xl:scale-[2] origin-top mb-[-40px] sm:mb-[100px] md:mb-[200px] lg:mb-[300px] xl:mb-[400px]">
